@@ -38,7 +38,7 @@ const VERSION=JSON.parse(await readFile(resolve(root,'package.json'),'utf8')).ve
 // Arquivos de p2/ servidos em /assets/<caminho>. Só extensões da lista; segmentos começam por letra ou número (sem "..",
 // sem arquivo oculto). /assets/p2.css é o nome público de p2/style.css. Lidos uma vez: ETag para revalidar sem baixar
 // de novo e gzip para texto (o mapa tem ~480 KB, ~180 KB compactado).
-const ASSET_TYPES={css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8',svg:'image/svg+xml',png:'image/png',webp:'image/webp',avif:'image/avif',woff2:'font/woff2'};
+const ASSET_TYPES={css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8',svg:'image/svg+xml',png:'image/png',jpg:'image/jpeg',jpeg:'image/jpeg',webp:'image/webp',avif:'image/avif',woff2:'font/woff2'};
 const ASSET_ALIASES={'p2.css':'style.css'};
 const P2=resolve(root,'p2');
 const assets=new Map();

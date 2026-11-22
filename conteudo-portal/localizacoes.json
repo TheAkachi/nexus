@@ -1,105 +1,105 @@
 {
   "geradoEm": "2026-11-22",
-  "fontes": "Coordenadas demonstrativas do acervo Nexus no município do Rio de Janeiro, validadas contra a malha do IBGE.",
+  "fontes": "Coordenadas públicas reais dos 20 estabelecimentos e espaços culturais do Rio de Janeiro, validadas contra a malha do IBGE.",
   "empresas": {
-    "bistro-mare-alta": {
-      "lat": -22.9532,
-      "lng": -43.1846,
+    "confeitaria-colombo": {
+      "lat": -22.9052,
+      "lng": -43.1788,
       "precisao": "rua"
     },
-    "cafe-mirante-santa": {
-      "lat": -22.9219,
-      "lng": -43.1862,
+    "real-gabinete-portugues": {
+      "lat": -22.9054,
+      "lng": -43.1822,
       "precisao": "rua"
     },
-    "boteco-do-arco": {
-      "lat": -22.9114,
+    "ccbb-rio": {
+      "lat": -22.9011,
+      "lng": -43.1765,
+      "precisao": "rua"
+    },
+    "museu-do-amanha": {
+      "lat": -22.8939,
+      "lng": -43.1795,
+      "precisao": "rua"
+    },
+    "theatro-municipal-rio": {
+      "lat": -22.9092,
+      "lng": -43.1765,
+      "precisao": "rua"
+    },
+    "museu-de-arte-do-rio": {
+      "lat": -22.8962,
+      "lng": -43.1818,
+      "precisao": "rua"
+    },
+    "circo-voador": {
+      "lat": -22.9129,
+      "lng": -43.1802,
+      "precisao": "rua"
+    },
+    "rio-scenarium": {
+      "lat": -22.9094,
+      "lng": -43.1829,
+      "precisao": "rua"
+    },
+    "bar-do-mineiro": {
+      "lat": -22.921,
+      "lng": -43.1856,
+      "precisao": "rua"
+    },
+    "parque-das-ruinas": {
+      "lat": -22.9175,
       "lng": -43.1823,
       "precisao": "rua"
     },
-    "galeria-cais-aberto": {
-      "lat": -22.8982,
-      "lng": -43.1838,
-      "precisao": "rua"
-    },
-    "livraria-folha-e-fogo": {
-      "lat": -22.9334,
-      "lng": -43.1869,
-      "precisao": "rua"
-    },
-    "forno-carioca-pizzaria": {
-      "lat": -22.9742,
-      "lng": -43.1895,
-      "precisao": "rua"
-    },
-    "cine-estacao-carioca": {
-      "lat": -22.9511,
-      "lng": -43.1831,
-      "precisao": "rua"
-    },
-    "casa-choro-laranjeiras": {
-      "lat": -22.9362,
-      "lng": -43.1889,
-      "precisao": "rua"
-    },
-    "torrefacao-arpoador": {
-      "lat": -22.9866,
-      "lng": -43.1922,
-      "precisao": "rua"
-    },
-    "teatro-rua-nova": {
-      "lat": -22.9369,
-      "lng": -43.1764,
-      "precisao": "rua"
-    },
-    "emporio-vinhos-guanabara": {
-      "lat": -22.9331,
-      "lng": -43.1781,
-      "precisao": "rua"
-    },
-    "atelie-barro-vivo": {
-      "lat": -22.9204,
+    "museu-chacara-do-ceu": {
+      "lat": -22.9173,
       "lng": -43.1841,
       "precisao": "rua"
     },
-    "sabores-da-praca-tijuca": {
-      "lat": -22.9255,
-      "lng": -43.2358,
+    "museu-da-republica": {
+      "lat": -22.9259,
+      "lng": -43.1762,
       "precisao": "rua"
     },
-    "taberna-do-cais": {
-      "lat": -22.9029,
-      "lng": -43.1759,
+    "parque-lage": {
+      "lat": -22.9606,
+      "lng": -43.212,
       "precisao": "rua"
     },
-    "padaria-fermento-lento": {
-      "lat": -22.9766,
-      "lng": -43.2286,
+    "jardim-botanico-rio": {
+      "lat": -22.9675,
+      "lng": -43.2248,
       "precisao": "rua"
     },
-    "espaco-cultural-solar": {
-      "lat": -22.9036,
-      "lng": -43.1732,
+    "cine-odeon": {
+      "lat": -22.9107,
+      "lng": -43.1757,
       "precisao": "rua"
     },
-    "bar-da-laje-gavea": {
-      "lat": -22.9735,
-      "lng": -43.2267,
+    "casa-de-rui-barbosa": {
+      "lat": -22.9494,
+      "lng": -43.1867,
       "precisao": "rua"
     },
-    "sushi-brisa-ipanema": {
-      "lat": -22.9838,
-      "lng": -43.2066,
+    "forte-de-copacabana": {
+      "lat": -22.9868,
+      "lng": -43.1877,
       "precisao": "rua"
     },
-    "feira-criativa-do-largo": {
-      "lat": -22.9679,
-      "lng": -43.1872,
+    "garota-de-ipanema": {
+      "lat": -22.9852,
+      "lng": -43.2038,
       "precisao": "rua"
     },
-    "roteiros-rio-a-pe": {
-      "lat": -22.9178,
-      "lng": -43.2182,
+    "livraria-da-travessa-ipanema": {
+      "lat": -22.9839,
+      "lng": -43.2104,
+      "precisao": "rua"
+    },
+    "ims-rio": {
+      "lat": -22.9765,
+      "lng": -43.2317,
       "precisao": "rua"
     }
   },

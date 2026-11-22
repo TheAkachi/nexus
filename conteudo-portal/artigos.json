@@ -2,107 +2,11 @@
   "total": 6,
   "artigos": [
     {
-      "slug": "roteiro-cafes-especiais-santa-teresa-e-ipanema",
-      "url": "https://nexus.demo/artigos/roteiro-cafes-especiais-santa-teresa-e-ipanema",
+      "slug": "roteiro-historico-centro-colombo-gabinete-ccbb",
+      "url": "https://nexus.demo/artigos/roteiro-historico-centro-colombo-gabinete-ccbb",
       "status": 200,
-      "titulo": "Roteiro de cafés especiais: de Santa Teresa ao Arpoador",
+      "titulo": "Um dia no Centro Histórico: Confeitaria Colombo, Real Gabinete e CCBB",
       "publicadoEm": "2026-10-18T10:00:00-03:00",
-      "editoria": "Gastronomia",
-      "categorias": [
-        {
-          "nome": "Gastronomia",
-          "link": "/artigos?editoria=gastronomia"
-        }
-      ],
-      "autor": "Curadoria Nexus",
-      "resumo": "Conheça microtorrefações, métodos filtrados e padarias de fermentação natural que transformaram a cena cafeeira carioca.",
-      "imagem": {
-        "original": "/assets/fotos/artigo-roteiro-cafes-especiais-santa-teresa-e-ipanema.svg"
-      },
-      "galeria": [
-        "/assets/fotos/artigo-roteiro-cafes-especiais-santa-teresa-e-ipanema.svg"
-      ],
-      "html": "<p>A cena de cafés especiais no Rio de Janeiro vive um momento vibrante, com microtorrefações que valorizam produtores da Serra Fluminense, Caparaó e Sul de Minas.</p><h2>Comece pelo alto em Santa Teresa</h2><p>As manhãs em Santa Teresa pedem calma. Em sobrados cercados de verde, cafeterias como o <strong>Café Mirante Santa</strong> servem coados na V60 e bolos caseiros com vista para os telhados do bairro.</p><h2>Da Gávea ao pós-praia em Ipanema</h2><p>Descendo para a Zona Sul, vale combinar o pão de levain recém-saído do forno da <strong>Padaria Fermento Lento</strong> com os grãos torrados semanalmente na <strong>Torrefação Arpoador</strong>.</p><p><em>Dica Nexus:</em> consulte no mapa os estabelecimentos abertos agora e ative seus cupons antes da visita.</p>",
-      "texto": "A cena de cafés especiais no Rio de Janeiro vive um momento vibrante, com microtorrefações que valorizam produtores da Serra Fluminense, Caparaó e Sul de Minas. Comece pelo alto em Santa Teresa As manhãs em Santa Teresa pedem calma. Em sobrados cercados de verde, cafeterias como o Café Mirante Santa servem coados na V60 e bolos caseiros com vista para os telhados do bairro. Da Gávea ao pós-praia em Ipanema Descendo para a Zona Sul, vale combinar o pão de levain recém-saído do forno da Padaria Fermento Lento com os grãos torrados semanalmente na Torrefação Arpoador . Dica Nexus: consulte no mapa os estabelecimentos abertos agora e ative seus cupons antes da visita."
-    },
-    {
-      "slug": "onde-ouvir-choro-e-jazz-ao-vivo-no-rio",
-      "url": "https://nexus.demo/artigos/onde-ouvir-choro-e-jazz-ao-vivo-no-rio",
-      "status": 200,
-      "titulo": "Onde ouvir choro, samba de raiz e jazz ao vivo nesta semana",
-      "publicadoEm": "2026-10-25T14:00:00-03:00",
-      "editoria": "Música & Noite",
-      "categorias": [
-        {
-          "nome": "Música & Noite",
-          "link": "/artigos?editoria=música & noite"
-        }
-      ],
-      "autor": "Curadoria Nexus",
-      "resumo": "De rodas acústicas na Lapa e Laranjeiras a jam sessions intimistas na Gávea: um mapa sonoro para sair à noite.",
-      "imagem": {
-        "original": "/assets/fotos/artigo-onde-ouvir-choro-e-jazz-ao-vivo-no-rio.svg"
-      },
-      "galeria": [
-        "/assets/fotos/artigo-onde-ouvir-choro-e-jazz-ao-vivo-no-rio.svg"
-      ],
-      "html": "<p>A música ao vivo faz parte do cotidiano carioca, mas encontrar casas que cuidam da acústica e valorizam músicos autorais faz toda a diferença.</p><h2>Choro e samba sem pressa</h2><p>Em Laranjeiras, a <strong>Casa do Choro Laranjeiras</strong> mantém uma programação dedicada ao instrumental brasileiro. Já na Rua do Lavradio, o <strong>Boteco do Arco</strong> une petiscos de raiz e rodas de samba acústicas.</p><h2>Jazz intimista no Baixo Gávea</h2><p>Para quem prefere coquetelaria autoral e quartetos de jazz, o <strong>Terraço Jazz Gávea</strong> promove jam sessions abertas às quartas-feiras.</p>",
-      "texto": "A música ao vivo faz parte do cotidiano carioca, mas encontrar casas que cuidam da acústica e valorizam músicos autorais faz toda a diferença. Choro e samba sem pressa Em Laranjeiras, a Casa do Choro Laranjeiras mantém uma programação dedicada ao instrumental brasileiro. Já na Rua do Lavradio, o Boteco do Arco une petiscos de raiz e rodas de samba acústicas. Jazz intimista no Baixo Gávea Para quem prefere coquetelaria autoral e quartetos de jazz, o Terraço Jazz Gávea promove jam sessions abertas às quartas-feiras."
-    },
-    {
-      "slug": "guia-cinemas-de-rua-e-livrarias-independentes",
-      "url": "https://nexus.demo/artigos/guia-cinemas-de-rua-e-livrarias-independentes",
-      "status": 200,
-      "titulo": "Guia de cinemas de rua e livrarias independentes para o fim de semana",
-      "publicadoEm": "2026-11-02T09:30:00-03:00",
-      "editoria": "Arte & Cultura",
-      "categorias": [
-        {
-          "nome": "Arte & Cultura",
-          "link": "/artigos?editoria=arte & cultura"
-        }
-      ],
-      "autor": "Curadoria Nexus",
-      "resumo": "Espaços que resistem com curadoria afetiva, sessões comentadas, clubes de leitura e cafés no foyer.",
-      "imagem": {
-        "original": "/assets/fotos/artigo-guia-cinemas-de-rua-e-livrarias-independentes.svg"
-      },
-      "galeria": [
-        "/assets/fotos/artigo-guia-cinemas-de-rua-e-livrarias-independentes.svg"
-      ],
-      "html": "<p>Frequentar um cinema de rua ou uma livraria independente é também uma forma de viver o bairro em outro ritmo.</p><h2>Curadoria que surpreende</h2><p>Na <strong>Livraria Folha &amp; Fogo</strong>, em Laranjeiras, as estantes destacam editoras pequenas, poesia e quadrinhos nacionais, sempre acompanhados de boas indicações no balcão.</p><h2>Telona e debate em Botafogo</h2><p>O <strong>Cine Estação Carioca</strong> mantém três salas voltadas ao cinema autoral, com mostras temáticas e encontros com diretores após as sessões.</p>",
-      "texto": "Frequentar um cinema de rua ou uma livraria independente é também uma forma de viver o bairro em outro ritmo. Curadoria que surpreende Na Livraria Folha &amp; Fogo , em Laranjeiras, as estantes destacam editoras pequenas, poesia e quadrinhos nacionais, sempre acompanhados de boas indicações no balcão. Telona e debate em Botafogo O Cine Estação Carioca mantém três salas voltadas ao cinema autoral, com mostras temáticas e encontros com diretores após as sessões."
-    },
-    {
-      "slug": "mesa-carioca-peixes-frescos-e-vinhos-naturais",
-      "url": "https://nexus.demo/artigos/mesa-carioca-peixes-frescos-e-vinhos-naturais",
-      "status": 200,
-      "titulo": "A nova mesa carioca: peixes da costa e vinhos de pequenos produtores",
-      "publicadoEm": "2026-11-08T11:00:00-03:00",
-      "editoria": "Gastronomia",
-      "categorias": [
-        {
-          "nome": "Gastronomia",
-          "link": "/artigos?editoria=gastronomia"
-        }
-      ],
-      "autor": "Curadoria Nexus",
-      "resumo": "Cozinhas de Botafogo, Ipanema e Flamengo apostam em pesca sustentável, ingredientes locais e cartas descomplicadas.",
-      "imagem": {
-        "original": "/assets/fotos/artigo-mesa-carioca-peixes-frescos-e-vinhos-naturais.svg"
-      },
-      "galeria": [
-        "/assets/fotos/artigo-mesa-carioca-peixes-frescos-e-vinhos-naturais.svg"
-      ],
-      "html": "<p>Cozinheiros e sommeliers do Rio têm olhado cada vez mais para perto: pescados do litoral fluminense, queijos de pequenas fazendas e vinhos de mínima intervenção.</p><h2>Onde provar</h2><p>No <strong>Bistrô Maré Alta</strong>, o cardápio acompanha o que chega fresco no dia. Em Ipanema, o <strong>Sushi Brisa</strong> aplica técnica japonesa a peixes da nossa costa, enquanto o <strong>Empório &amp; Vinhos Guanabara</strong> facilita a descoberta de rótulos sul-americanos em taça.</p>",
-      "texto": "Cozinheiros e sommeliers do Rio têm olhado cada vez mais para perto: pescados do litoral fluminense, queijos de pequenas fazendas e vinhos de mínima intervenção. Onde provar No Bistrô Maré Alta , o cardápio acompanha o que chega fresco no dia. Em Ipanema, o Sushi Brisa aplica técnica japonesa a peixes da nossa costa, enquanto o Empório &amp; Vinhos Guanabara facilita a descoberta de rótulos sul-americanos em taça."
-    },
-    {
-      "slug": "sabado-cultural-centro-historico-e-zona-portuaria",
-      "url": "https://nexus.demo/artigos/sabado-cultural-centro-historico-e-zona-portuaria",
-      "status": 200,
-      "titulo": "Um sábado a pé pelo Centro Histórico e Zona Portuária",
-      "publicadoEm": "2026-11-12T10:00:00-03:00",
       "editoria": "Roteiros",
       "categorias": [
         {
@@ -111,39 +15,135 @@
         }
       ],
       "autor": "Curadoria Nexus",
-      "resumo": "Exposições gratuitas, arquitetura preservada e uma parada para cerveja artesanal no fim da tarde.",
+      "resumo": "Como percorrer a pé três ícones do século XIX e XX no Centro do Rio em um único passeio cheio de arquitetura, arte e café.",
       "imagem": {
-        "original": "/assets/fotos/artigo-sabado-cultural-centro-historico-e-zona-portuaria.svg"
+        "original": "/assets/fotos/confeitaria-colombo.jpg"
       },
       "galeria": [
-        "/assets/fotos/artigo-sabado-cultural-centro-historico-e-zona-portuaria.svg"
+        "/assets/fotos/confeitaria-colombo.jpg"
       ],
-      "html": "<p>O Centro do Rio aos sábados revela ruas mais silenciosas, galerias abertas e museus que convidam a caminhar sem pressa.</p><h2>Manhã de arte e memória</h2><p>Comece pela Praça XV no <strong>Espaço Cultural Solar</strong> e siga em direção à Zona Portuária para conhecer a programação gratuita da <strong>Galeria Cais Aberto</strong>.</p><h2>Brinde no fim do dia</h2><p>Para encerrar o roteiro, a <strong>Taberna do Cais</strong> na Rua do Ouvidor oferece 12 torneiras de cervejarias artesanais fluminenses.</p>",
-      "texto": "O Centro do Rio aos sábados revela ruas mais silenciosas, galerias abertas e museus que convidam a caminhar sem pressa. Manhã de arte e memória Comece pela Praça XV no Espaço Cultural Solar e siga em direção à Zona Portuária para conhecer a programação gratuita da Galeria Cais Aberto . Brinde no fim do dia Para encerrar o roteiro, a Taberna do Cais na Rua do Ouvidor oferece 12 torneiras de cervejarias artesanais fluminenses."
+      "html": "<p>O Centro do Rio de Janeiro guarda alguns dos interiores mais impressionantes do Brasil a poucos minutos de caminhada entre si.</p><h2>Manhã entre livros e espelhos</h2><p>Comece pelo <strong>Real Gabinete Português de Leitura</strong>, na Rua Luís de Camões, quando a luz da manhã atravessa a claraboia do salão. A duas quadras dali, a <strong>Confeitaria Colombo</strong> convida para um café e um pastel de nata sob os vitrais art nouveau.</p><h2>Tarde de arte no CCBB</h2><p>Siga pela Rua Primeiro de Março até o <strong>CCBB Rio</strong> para visitar as exposições gratuitas e encerrar o dia na Cinelândia, entre o <strong>Theatro Municipal</strong> e o <strong>Cine Odeon</strong>.</p>",
+      "texto": "O Centro do Rio de Janeiro guarda alguns dos interiores mais impressionantes do Brasil a poucos minutos de caminhada entre si. Manhã entre livros e espelhos Comece pelo Real Gabinete Português de Leitura , na Rua Luís de Camões, quando a luz da manhã atravessa a claraboia do salão. A duas quadras dali, a Confeitaria Colombo convida para um café e um pastel de nata sob os vitrais art nouveau. Tarde de arte no CCBB Siga pela Rua Primeiro de Março até o CCBB Rio para visitar as exposições gratuitas e encerrar o dia na Cinelândia, entre o Theatro Municipal e o Cine Odeon ."
     },
     {
-      "slug": "oficinas-criativas-e-feiras-ao-ar-livre-no-rio",
-      "url": "https://nexus.demo/artigos/oficinas-criativas-e-feiras-ao-ar-livre-no-rio",
+      "slug": "santa-teresa-a-pe-bar-do-mineiro-ruinas-chacara",
+      "url": "https://nexus.demo/artigos/santa-teresa-a-pe-bar-do-mineiro-ruinas-chacara",
       "status": 200,
-      "titulo": "Oficinas criativas e feiras de produtores para sair da rotina",
-      "publicadoEm": "2026-11-16T15:00:00-03:00",
-      "editoria": "Experiências",
+      "titulo": "Santa Teresa a pé: Bar do Mineiro, Parque das Ruínas e Chácara do Céu",
+      "publicadoEm": "2026-10-25T14:00:00-03:00",
+      "editoria": "Gastronomia & Cultura",
       "categorias": [
         {
-          "nome": "Experiências",
-          "link": "/artigos?editoria=experiências"
+          "nome": "Gastronomia & Cultura",
+          "link": "/artigos?editoria=gastronomia & cultura"
         }
       ],
       "autor": "Curadoria Nexus",
-      "resumo": "Cerâmica manual em Santa Teresa, caminhadas históricas pela Tijuca e feiras de economia criativa em Copacabana.",
+      "resumo": "Do mirante panorâmico sobre a Baía de Guanabara às obras de Portinari e à feijoada clássica no Largo dos Guimarães.",
       "imagem": {
-        "original": "/assets/fotos/artigo-oficinas-criativas-e-feiras-ao-ar-livre-no-rio.svg"
+        "original": "/assets/fotos/parque-das-ruinas.jpg"
       },
       "galeria": [
-        "/assets/fotos/artigo-oficinas-criativas-e-feiras-ao-ar-livre-no-rio.svg"
+        "/assets/fotos/parque-das-ruinas.jpg"
       ],
-      "html": "<p>Trocar o roteiro tradicional por uma experiência mão na massa é uma das melhores formas de redescobrir a cidade.</p><h2>Mão no barro e pés na rua</h2><p>O <strong>Ateliê Barro Vivo</strong> recebe iniciantes em oficinas de cerâmica de um dia, enquanto o <strong>Roteiros Rio a Pé</strong> conduz caminhadas com paradas gastronômicas. Nos fins de semana quinzenais, a <strong>Feira Criativa do Largo</strong> reúne artesãos e produtores no Bairro Peixoto.</p>",
-      "texto": "Trocar o roteiro tradicional por uma experiência mão na massa é uma das melhores formas de redescobrir a cidade. Mão no barro e pés na rua O Ateliê Barro Vivo recebe iniciantes em oficinas de cerâmica de um dia, enquanto o Roteiros Rio a Pé conduz caminhadas com paradas gastronômicas. Nos fins de semana quinzenais, a Feira Criativa do Largo reúne artesãos e produtores no Bairro Peixoto."
+      "html": "<p>Subir Santa Teresa é trocar o ritmo acelerado da cidade por ladeiras de paralelepípedo, ateliês abertos e vistas panorâmicas.</p><h2>Mirante e arte moderna</h2><p>Comece pelo <strong>Parque Glória Maria (Parque das Ruínas)</strong> para ver o Centro e a Baía do alto e caminhe dois minutos até o <strong>Museu da Chácara do Céu</strong>, que reúne obras de Portinari e Di Cavalcanti.</p><h2>Almoço clássico</h2><p>Desça até o Largo dos Guimarães para o pastel de feijão e a feijoada do tradicional <strong>Bar do Mineiro</strong>.</p>",
+      "texto": "Subir Santa Teresa é trocar o ritmo acelerado da cidade por ladeiras de paralelepípedo, ateliês abertos e vistas panorâmicas. Mirante e arte moderna Comece pelo Parque Glória Maria (Parque das Ruínas) para ver o Centro e a Baía do alto e caminhe dois minutos até o Museu da Chácara do Céu , que reúne obras de Portinari e Di Cavalcanti. Almoço clássico Desça até o Largo dos Guimarães para o pastel de feijão e a feijoada do tradicional Bar do Mineiro ."
+    },
+    {
+      "slug": "noite-na-lapa-circo-voador-e-rio-scenarium",
+      "url": "https://nexus.demo/artigos/noite-na-lapa-circo-voador-e-rio-scenarium",
+      "status": 200,
+      "titulo": "Noite na Lapa: música ao vivo entre o Circo Voador e o Rio Scenarium",
+      "publicadoEm": "2026-11-02T09:30:00-03:00",
+      "editoria": "Música & Noite",
+      "categorias": [
+        {
+          "nome": "Música & Noite",
+          "link": "/artigos?editoria=música & noite"
+        }
+      ],
+      "autor": "Curadoria Nexus",
+      "resumo": "Dois palcos icônicos que definem a vida noturna carioca, do samba e choro na Rua do Lavradio aos shows sob a lona dos Arcos.",
+      "imagem": {
+        "original": "/assets/fotos/circo-voador.jpg"
+      },
+      "galeria": [
+        "/assets/fotos/circo-voador.jpg"
+      ],
+      "html": "<p>A Lapa concentra algumas das casas musicais mais célebres do país, cada uma com identidade própria.</p><h2>Samba e antiquário na Rua do Lavradio</h2><p>No <strong>Rio Scenarium</strong>, três andares decorados com peças antigas recebem bandas de samba, choro e gafieira.</p><h2>A lona lendária</h2><p>A poucos passos dali, aos pés dos Arcos, o <strong>Circo Voador</strong> mantém desde 1982 a tradição de revelar e consagrar nomes da música brasileira.</p>",
+      "texto": "A Lapa concentra algumas das casas musicais mais célebres do país, cada uma com identidade própria. Samba e antiquário na Rua do Lavradio No Rio Scenarium , três andares decorados com peças antigas recebem bandas de samba, choro e gafieira. A lona lendária A poucos passos dali, aos pés dos Arcos, o Circo Voador mantém desde 1982 a tradição de revelar e consagrar nomes da música brasileira."
+    },
+    {
+      "slug": "jardins-e-modernismo-parque-lage-jardim-botanico-ims",
+      "url": "https://nexus.demo/artigos/jardins-e-modernismo-parque-lage-jardim-botanico-ims",
+      "status": 200,
+      "titulo": "Jardins e modernismo: Parque Lage, Jardim Botânico e IMS Rio",
+      "publicadoEm": "2026-11-08T11:00:00-03:00",
+      "editoria": "Arquitetura & Natureza",
+      "categorias": [
+        {
+          "nome": "Arquitetura & Natureza",
+          "link": "/artigos?editoria=arquitetura & natureza"
+        }
+      ],
+      "autor": "Curadoria Nexus",
+      "resumo": "Um corredor verde entre o Jardim Botânico e a Gávea que combina Mata Atlântica, paisagismo de Burle Marx, fotografia e cafés.",
+      "imagem": {
+        "original": "/assets/fotos/parque-lage.jpg"
+      },
+      "galeria": [
+        "/assets/fotos/parque-lage.jpg"
+      ],
+      "html": "<p>Ao pé do Maciço da Tijuca, três espaços públicos e culturais formam um dos passeios mais agradáveis do Rio de Janeiro.</p><h2>Manhã verde</h2><p>Caminhe pelas alamedas de palmeiras imperiais do <strong>Jardim Botânico</strong> e siga até o pátio do <strong>Parque Lage</strong> para um café com vista para o Corcovado.</p><h2>Tarde na Gávea</h2><p>Feche o roteiro no <strong>Instituto Moreira Salles (IMS Rio)</strong>, com jardins de Burle Marx, exposições gratuitas de fotografia e sala de cinema.</p>",
+      "texto": "Ao pé do Maciço da Tijuca, três espaços públicos e culturais formam um dos passeios mais agradáveis do Rio de Janeiro. Manhã verde Caminhe pelas alamedas de palmeiras imperiais do Jardim Botânico e siga até o pátio do Parque Lage para um café com vista para o Corcovado. Tarde na Gávea Feche o roteiro no Instituto Moreira Salles (IMS Rio) , com jardins de Burle Marx, exposições gratuitas de fotografia e sala de cinema."
+    },
+    {
+      "slug": "zona-portuaria-museu-do-amanha-e-mar",
+      "url": "https://nexus.demo/artigos/zona-portuaria-museu-do-amanha-e-mar",
+      "status": 200,
+      "titulo": "Praça Mauá cultural: combinando Museu do Amanhã e Museu de Arte do Rio",
+      "publicadoEm": "2026-11-12T10:00:00-03:00",
+      "editoria": "Arte & Cultura",
+      "categorias": [
+        {
+          "nome": "Arte & Cultura",
+          "link": "/artigos?editoria=arte & cultura"
+        }
+      ],
+      "autor": "Curadoria Nexus",
+      "resumo": "Dicas práticas de horários, dias gratuitos e como aproveitar os dois museus vizinhos na orla revitalizada da Praça Mauá.",
+      "imagem": {
+        "original": "/assets/fotos/museu-do-amanha.jpg"
+      },
+      "galeria": [
+        "/assets/fotos/museu-do-amanha.jpg"
+      ],
+      "html": "<p>Frente a frente na Praça Mauá, o <strong>Museu do Amanhã</strong> e o <strong>Museu de Arte do Rio (MAR)</strong> se complementam em arquitetura e proposta.</p><h2>Terça-feira gratuita</h2><p>Ambos oferecem entrada gratuita às terças-feiras, com fácil acesso pelo VLT (Parada dos Museus). Reserve o fim da tarde para o terraço panorâmico do MAR e a caminhada no píer.</p>",
+      "texto": "Frente a frente na Praça Mauá, o Museu do Amanhã e o Museu de Arte do Rio (MAR) se complementam em arquitetura e proposta. Terça-feira gratuita Ambos oferecem entrada gratuita às terças-feiras, com fácil acesso pelo VLT (Parada dos Museus). Reserve o fim da tarde para o terraço panorâmico do MAR e a caminhada no píer."
+    },
+    {
+      "slug": "orla-e-bossa-nova-forte-copacabana-garota-ipanema-travessa",
+      "url": "https://nexus.demo/artigos/orla-e-bossa-nova-forte-copacabana-garota-ipanema-travessa",
+      "status": 200,
+      "titulo": "Do Posto 6 a Ipanema: café no Forte, bossa nova e livraria de rua",
+      "publicadoEm": "2026-11-16T15:00:00-03:00",
+      "editoria": "Gastronomia",
+      "categorias": [
+        {
+          "nome": "Gastronomia",
+          "link": "/artigos?editoria=gastronomia"
+        }
+      ],
+      "autor": "Curadoria Nexus",
+      "resumo": "Um passeio pela Zona Sul unindo o café da manhã no Forte de Copacabana, o histórico Bar Garota de Ipanema e a Livraria da Travessa.",
+      "imagem": {
+        "original": "/assets/fotos/forte-de-copacabana.jpg"
+      },
+      "galeria": [
+        "/assets/fotos/forte-de-copacabana.jpg"
+      ],
+      "html": "<p>Entre Copacabana e Ipanema, história musical, literatura e gastronomia ficam a poucos quarteirões de distância.</p><h2>Comece no Posto 6</h2><p>Tome café olhando toda a curvatura da praia no <strong>Forte de Copacabana</strong>. Depois, atravesse para Ipanema, almoce no histórico <strong>Bar Garota de Ipanema</strong> e passe a tarde explorando as estantes da <strong>Livraria da Travessa</strong>.</p>",
+      "texto": "Entre Copacabana e Ipanema, história musical, literatura e gastronomia ficam a poucos quarteirões de distância. Comece no Posto 6 Tome café olhando toda a curvatura da praia no Forte de Copacabana . Depois, atravesse para Ipanema, almoce no histórico Bar Garota de Ipanema e passe a tarde explorando as estantes da Livraria da Travessa ."
     }
   ]
 }

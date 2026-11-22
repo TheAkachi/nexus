@@ -1,65 +1,65 @@
 {
-  "fonte": "Cupons demonstrativos ativos do Nexus.",
+  "fonte": "Cupons demonstrativos de portfólio.",
   "cupons": [
     {
-      "id": "cupom-mare-alta-sobremesa",
-      "business_id": "bistro-mare-alta",
-      "title": "Sobremesa cortesia no jantar",
-      "conditions": "Válido de terça a quinta no jantar, na compra de um prato principal. Apresente o código ao garçom.",
-      "code": "NEXUSMARE",
-      "starts_on": "2026-11-01",
-      "ends_on": "2027-03-31",
-      "quantity": 80
-    },
-    {
-      "id": "cupom-mirante-cafe-20",
-      "business_id": "cafe-mirante-santa",
-      "title": "20% OFF no combo filtrado + fatia de bolo",
-      "conditions": "Válido de segunda a sexta, das 9h às 17h, para consumo na varanda ou retirada.",
-      "code": "MIRANTE20",
-      "starts_on": "2026-11-01",
-      "ends_on": "2027-03-31",
-      "quantity": 120
-    },
-    {
-      "id": "cupom-cine-estacao-meia",
-      "business_id": "cine-estacao-carioca",
-      "title": "Ingresso com 50% de desconto às terças e quartas",
-      "conditions": "Válido na bilheteria física para qualquer sessão da mostra regular, sujeito à lotação da sala.",
-      "code": "CINENEXUS50",
-      "starts_on": "2026-11-01",
-      "ends_on": "2027-04-30",
-      "quantity": 200
-    },
-    {
-      "id": "cupom-boteco-arco-chope",
-      "business_id": "boteco-do-arco",
-      "title": "2º chope artesanal pela metade do preço",
-      "conditions": "Válido no happy hour (17h às 20h) de terça a sexta-feira. Uso individual.",
-      "code": "ARCOCHOPE",
+      "id": "cupom-colombo-cha",
+      "business_id": "confeitaria-colombo",
+      "title": "Cupom Demo · 15% OFF no Chá da Tarde",
+      "conditions": "Cupom demonstrativo de portfólio (sem validade comercial real) para testar a coleta e o painel do parceiro.",
+      "code": "NEXUSCOLOMBO",
       "starts_on": "2026-11-01",
       "ends_on": "2027-03-31",
       "quantity": 100
     },
     {
-      "id": "cupom-folha-fogo-15",
-      "business_id": "livraria-folha-e-fogo",
-      "title": "15% OFF em títulos de editoras independentes",
-      "conditions": "Válido para compras na loja física em Laranjeiras, não cumulativo com outras promoções.",
-      "code": "LEIANEXUS15",
-      "starts_on": "2026-11-01",
-      "ends_on": "2027-04-30",
-      "quantity": 60
-    },
-    {
-      "id": "cupom-forno-carioca-entrada",
-      "business_id": "forno-carioca-pizzaria",
-      "title": "Focaccia de alecrim cortesia na mesa",
-      "conditions": "Válido para mesas a partir de 2 pessoas no salão em Copacabana, de domingo a quinta.",
-      "code": "FORNONEXUS",
+      "id": "cupom-mineiro-pastel",
+      "business_id": "bar-do-mineiro",
+      "title": "Cupom Demo · Porção de pastel de feijão com desconto",
+      "conditions": "Cupom demonstrativo de portfólio para testar o fluxo de usuário em /cupons e /minha-conta.",
+      "code": "MINEIRONEXUS",
       "starts_on": "2026-11-01",
       "ends_on": "2027-03-31",
+      "quantity": 80
+    },
+    {
+      "id": "cupom-odeon-meia",
+      "business_id": "cine-odeon",
+      "title": "Cupom Demo · Benefício em sessões de quarta-feira",
+      "conditions": "Cupom demonstrativo de portfólio para teste do sistema de coleta com controle de estoque.",
+      "code": "ODEONNEXUS",
+      "starts_on": "2026-11-01",
+      "ends_on": "2027-04-30",
+      "quantity": 150
+    },
+    {
+      "id": "cupom-scenarium-entrada",
+      "business_id": "rio-scenarium",
+      "title": "Cupom Demo · Lista amiga para noite de samba",
+      "conditions": "Cupom demonstrativo de portfólio (sem validade comercial real).",
+      "code": "SCENARIUM26",
+      "starts_on": "2026-11-01",
+      "ends_on": "2027-03-31",
+      "quantity": 120
+    },
+    {
+      "id": "cupom-travessa-livros",
+      "business_id": "livraria-da-travessa-ipanema",
+      "title": "Cupom Demo · 10% OFF em literatura brasileira",
+      "conditions": "Cupom demonstrativo de portfólio para teste da plataforma Nexus.",
+      "code": "TRAVESSA10",
+      "starts_on": "2026-11-01",
+      "ends_on": "2027-04-30",
       "quantity": 90
+    },
+    {
+      "id": "cupom-garota-ipanema",
+      "business_id": "garota-de-ipanema",
+      "title": "Cupom Demo · Chope cortesia no almoço",
+      "conditions": "Cupom demonstrativo de portfólio (sem validade comercial real).",
+      "code": "BOSSAIPANEMA",
+      "starts_on": "2026-11-01",
+      "ends_on": "2027-03-31",
+      "quantity": 100
     }
   ]
 }

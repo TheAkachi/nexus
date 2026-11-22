@@ -2,39 +2,37 @@
   "fonte": "Coleções temáticas da página inicial do Nexus.",
   "colecoes": [
     {
-      "id": "cafe-sem-pressa",
-      "titulo": "Para um café sem pressa",
-      "subtitulo": "Cafeterias especiais, padarias de levain e varandas tranquilas.",
+      "id": "cafes-historicos",
+      "titulo": "Cafés históricos e paradas obrigatórias",
+      "subtitulo": "Da Confeitaria Colombo ao pátio do Parque Lage e o Forte de Copacabana.",
       "grupos": [
         "cafes-e-padarias"
       ]
     },
     {
-      "id": "noite-musica-boa-mesa",
-      "titulo": "Noite de música e boa mesa",
-      "subtitulo": "Bistrôs, choro, jazz, vinhos e botecos clássicos do Rio.",
+      "id": "museus-centros-culturais",
+      "titulo": "Museus, arquitetura e centros culturais",
+      "subtitulo": "CCBB, Museu do Amanhã, MAR, Real Gabinete, IMS Rio e Theatro Municipal.",
       "grupos": [
-        "restaurantes",
+        "arte-e-cultura"
+      ]
+    },
+    {
+      "id": "noite-lapa-botecos",
+      "titulo": "Samba, música ao vivo e botecos clássicos",
+      "subtitulo": "Circo Voador, Rio Scenarium, Bar do Mineiro e Garota de Ipanema.",
+      "grupos": [
         "bares-e-botecos",
         "musica-e-palcos"
       ]
     },
     {
-      "id": "arte-livros-cinema",
-      "titulo": "Arte, livros e cinema de rua",
-      "subtitulo": "Galerias gratuitas, teatros, livrarias independentes e telonas autorais.",
+      "id": "jardins-cinema-livros",
+      "titulo": "Jardins, cinema de rua e livrarias",
+      "subtitulo": "Jardim Botânico, Parque das Ruínas, Cine Odeon e Livraria da Travessa.",
       "grupos": [
-        "arte-e-cultura",
+        "parques-e-lazer",
         "livrarias-e-cinema"
-      ]
-    },
-    {
-      "id": "experiencias-ar-livre",
-      "titulo": "Experiências para sair da rotina",
-      "subtitulo": "Oficinas criativas, feiras de produtores e caminhadas guiadas.",
-      "grupos": [
-        "experiencias",
-        "parques-e-lazer"
       ]
     }
   ]

@@ -9,7 +9,7 @@ import { mapVM } from './mapa.mjs';
 import { rota, MARCA } from './rota.mjs';
 
 // Seleção editorial dos artigos da abertura (os destaques de lugar vêm de businesses.featured).
-const CURATED=['roteiro-cafes-especiais-santa-teresa-e-ipanema','onde-ouvir-choro-e-jazz-ao-vivo-no-rio','guia-cinemas-de-rua-e-livrarias-independentes'];
+const CURATED=['roteiro-historico-centro-colombo-gabinete-ccbb','santa-teresa-a-pe-bar-do-mineiro-ruinas-chacara','jardins-e-modernismo-parque-lage-jardim-botanico-ims'];
 
 // vm Colecao[]: coleções por necessidade publicadas, com até 6 empresas dos grupos (plano, destaque e nome).
 async function collectionsVM(db,ctx) {

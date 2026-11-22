@@ -1,6 +1,6 @@
 # Nexus · Guia Gastronômico & Cultural do Rio de Janeiro
 
-> **Projeto demonstrativo de portfólio Full Stack** desenvolvido por [Pedro Siqueira](https://www.linkedin.com/in/pedro-akachi) (com apoio de IA durante o desenvolvimento). Todos os estabelecimentos, cupons, eventos, roteiros, preços e contatos exibidos na aplicação são fictícios.
+> **Projeto demonstrativo de portfólio Full Stack** desenvolvido por [Pedro Siqueira](https://www.linkedin.com/in/pedro-akachi) (com apoio de IA durante o desenvolvimento). Os 20 espaços culturais e gastronômicos listados são locais públicos reais do Rio de Janeiro (endereços, sites oficiais e fotografias de licença aberta da Wikimedia Commons). Cupons, ofertas, classificados e contas de parceiro/admin são demonstrativos para avaliação da aplicação.
 
 O **Nexus** é uma aplicação web Full Stack renderizada no servidor (SSR) para descoberta hiperlocal de restaurantes, cafés especiais, bares, galerias, cinemas de rua, palcos e eventos no Rio de Janeiro.
 
@@ -20,7 +20,7 @@ Acesse `/entrar` e utilize os botões de **Acesso demonstrativo** (1 clique) ou 
 | Perfil | E-mail | Senha | Destino |
 | --- | --- | --- | --- |
 | Visitante | `visitante@nexus.demo` | `NexusDemo2026!` | `/cupons` e `/minha-conta` |
-| Parceiro | `parceiro@nexus.demo` | `NexusDemo2026!` | `/painel` (*Bistrô Maré Alta* e *Café Mirante Santa*) |
+| Parceiro | `parceiro@nexus.demo` | `NexusDemo2026!` | `/painel` (*Confeitaria Colombo* e *Bar do Mineiro*) |
 | Admin | `admin@nexus.demo` | `NexusDemo2026!` | `/admin` |
 
 ## Como executar localmente

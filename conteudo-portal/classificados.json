@@ -3,73 +3,71 @@
   "classificados": [
     {
       "id": "cl-01",
-      "slug": "vaga-barista-botafogo-santa-teresa",
-      "url": "https://nexus.demo/classificados/vaga-barista-botafogo-santa-teresa",
-      "categoria": "Oportunidades",
-      "titulo": "Vaga para Barista — Cafeteria Especial em Santa Teresa",
-      "endereco": "Rua Almirante Alexandrino, 512, Santa Teresa, Rio de Janeiro, RJ",
-      "telefone": "(21) 3000-1102",
-      "preco": "R$ 2.400,00",
-      "descricao": "Buscamos barista com interesse em cafés especiais e métodos filtrados para jornada de terça a domingo. Treinamento em torra e extração incluso (anúncio demonstrativo).",
-      "imagem": "/assets/fotos/classificado-vaga-barista-botafogo-santa-teresa.svg",
+      "slug": "visitas-mediadas-praca-maua",
+      "url": "https://nexus.demo/classificados/visitas-mediadas-praca-maua",
+      "categoria": "Visitas & Roteiros",
+      "titulo": "Roteiro guiado a pé: Praça Mauá, MAR e Museu do Amanhã",
+      "endereco": "Praça Mauá, Centro, Rio de Janeiro, RJ",
+      "telefone": "(21) 3031-2741",
+      "preco": "",
+      "descricao": "Caminhada cultural de demonstração pela Zona Portuária com foco em arquitetura contemporânea e história do Rio. Entrada gratuita às terças nos museus.",
+      "imagem": "/assets/fotos/museu-de-arte-do-rio.jpg",
       "linhas": [
-        "Oportunidades",
-        "Vaga para Barista — Cafeteria Especial em Santa Teresa",
-        "Buscamos barista com interesse em cafés especiais e métodos filtrados para jornada de terça a domingo. Treinamento em torra e extração incluso (anúncio demonstrativo).",
-        "R$ 2.400,00"
+        "Visitas & Roteiros",
+        "Roteiro guiado a pé: Praça Mauá, MAR e Museu do Amanhã",
+        "Caminhada cultural de demonstração pela Zona Portuária com foco em arquitetura contemporânea e história do Rio. Entrada gratuita às terças nos museus."
       ]
     },
     {
       "id": "cl-02",
-      "slug": "chamada-exposicao-coletiva-cais-aberto",
-      "url": "https://nexus.demo/classificados/chamada-exposicao-coletiva-cais-aberto",
-      "categoria": "Chamadas Culturais",
-      "titulo": "Chamada Aberta: Exposição Coletiva de Fotografia Urbana",
-      "endereco": "Rua Sacadura Cabral, 120, Centro, Rio de Janeiro, RJ",
-      "telefone": "(21) 3000-1104",
+      "slug": "oficinas-artes-visuais-parque-lage",
+      "url": "https://nexus.demo/classificados/oficinas-artes-visuais-parque-lage",
+      "categoria": "Cursos & Oficinas",
+      "titulo": "Oficinas abertas de desenho e pintura — EAV Parque Lage",
+      "endereco": "Rua Jardim Botânico, 414, Jardim Botânico, Rio de Janeiro, RJ",
+      "telefone": "(21) 3257-1800",
       "preco": "",
-      "descricao": "Artistas visuais e fotógrafos residentes no RJ podem enviar portfólio com até 5 obras sobre o cotidiano dos bairros cariocas. Inscrições gratuitas até 15/12/2026.",
-      "imagem": "/assets/fotos/classificado-chamada-exposicao-coletiva-cais-aberto.svg",
+      "descricao": "Consulte a programação de cursos livres, palestras e exposições gratuitas da Escola de Artes Visuais no site oficial da instituição.",
+      "imagem": "/assets/fotos/parque-lage.jpg",
       "linhas": [
-        "Chamadas Culturais",
-        "Chamada Aberta: Exposição Coletiva de Fotografia Urbana",
-        "Artistas visuais e fotógrafos residentes no RJ podem enviar portfólio com até 5 obras sobre o cotidiano dos bairros cariocas. Inscrições gratuitas até 15/12/2026."
+        "Cursos & Oficinas",
+        "Oficinas abertas de desenho e pintura — EAV Parque Lage",
+        "Consulte a programação de cursos livres, palestras e exposições gratuitas da Escola de Artes Visuais no site oficial da instituição."
       ]
     },
     {
       "id": "cl-03",
-      "slug": "sala-ensaios-acusticos-lapa",
-      "url": "https://nexus.demo/classificados/sala-ensaios-acusticos-lapa",
-      "categoria": "Espaços & Estúdios",
-      "titulo": "Locação de Sala Acústica para Ensaios de Choro e Jazz",
-      "endereco": "Rua General Glicério, 140, Laranjeiras, Rio de Janeiro, RJ",
-      "telefone": "(21) 3000-1108",
-      "preco": "R$ 90,00",
-      "descricao": "Sala tratada acusticamente com piano vertical afinado, microfones condensadores e ar-condicionado. Valor por hora em horário comercial.",
-      "imagem": "/assets/fotos/classificado-sala-ensaios-acusticos-lapa.svg",
+      "slug": "clube-leitura-ipanema-travessa",
+      "url": "https://nexus.demo/classificados/clube-leitura-ipanema-travessa",
+      "categoria": "Literatura",
+      "titulo": "Encontros e lançamentos literários em Ipanema",
+      "endereco": "Rua Visconde de Pirajá, 572, Ipanema, Rio de Janeiro, RJ",
+      "telefone": "(21) 3205-9002",
+      "preco": "",
+      "descricao": "Programação semanal de debates, lançamentos de livros e tardes de autógrafos com autores brasileiros e internacionais.",
+      "imagem": "/assets/fotos/livraria-da-travessa-ipanema.jpg",
       "linhas": [
-        "Espaços & Estúdios",
-        "Locação de Sala Acústica para Ensaios de Choro e Jazz",
-        "Sala tratada acusticamente com piano vertical afinado, microfones condensadores e ar-condicionado. Valor por hora em horário comercial.",
-        "R$ 90,00"
+        "Literatura",
+        "Encontros e lançamentos literários em Ipanema",
+        "Programação semanal de debates, lançamentos de livros e tardes de autógrafos com autores brasileiros e internacionais."
       ]
     },
     {
       "id": "cl-04",
-      "slug": "inscricoes-expositores-feira-criativa",
-      "url": "https://nexus.demo/classificados/inscricoes-expositores-feira-criativa",
-      "categoria": "Feiras & Produtores",
-      "titulo": "Inscrições para Expositores — Edição de Verão da Feira Criativa",
-      "endereco": "Praça Edmundo Bittencourt, Copacabana, Rio de Janeiro, RJ",
-      "telefone": "(21) 3000-1119",
-      "preco": "R$ 180,00",
-      "descricao": "Vagas abertas para marcas autorais de gastronomia artesanal, cerâmica, ilustrações e vinis para a edição de dezembro no Bairro Peixoto.",
-      "imagem": "/assets/fotos/classificado-inscricoes-expositores-feira-criativa.svg",
+      "slug": "visita-guiada-theatro-municipal",
+      "url": "https://nexus.demo/classificados/visita-guiada-theatro-municipal",
+      "categoria": "Patrimônio",
+      "titulo": "Visita guiada pelo salão nobre e foyer do Theatro Municipal",
+      "endereco": "Praça Floriano, s/n, Cinelândia, Rio de Janeiro, RJ",
+      "telefone": "(21) 2332-9191",
+      "preco": "R$ 20,00",
+      "descricao": "Percurso educativo pela história e arquitetura de 1909 do Theatro Municipal do Rio de Janeiro (valores de referência sujeitos a confirmação na bilheteria).",
+      "imagem": "/assets/fotos/theatro-municipal-rio.jpg",
       "linhas": [
-        "Feiras & Produtores",
-        "Inscrições para Expositores — Edição de Verão da Feira Criativa",
-        "Vagas abertas para marcas autorais de gastronomia artesanal, cerâmica, ilustrações e vinis para a edição de dezembro no Bairro Peixoto.",
-        "R$ 180,00"
+        "Patrimônio",
+        "Visita guiada pelo salão nobre e foyer do Theatro Municipal",
+        "Percurso educativo pela história e arquitetura de 1909 do Theatro Municipal do Rio de Janeiro (valores de referência sujeitos a confirmação na bilheteria).",
+        "R$ 20,00"
       ]
     }
   ]

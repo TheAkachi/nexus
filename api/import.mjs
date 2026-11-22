@@ -219,7 +219,7 @@ export async function importSnapshot(db) {
     }
     const parceiro=(await tx.query("SELECT id FROM users WHERE email='parceiro@nexus.demo'")).rows[0];
     if(parceiro) {
-      for(const slug of ['bistro-mare-alta','cafe-mirante-santa']) {
+      for(const slug of ['confeitaria-colombo','bar-do-mineiro']) {
         await tx.query(`INSERT INTO memberships(user_id,business_id,role,active) VALUES($1,$2,'dono',true) ON CONFLICT(user_id,business_id) DO NOTHING`,[parceiro.id,slug]);
       }
     }

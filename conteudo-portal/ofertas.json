@@ -1,53 +1,53 @@
 {
-  "fonte": "Ofertas demonstrativas vigentes do Nexus.",
+  "fonte": "Ofertas demonstrativas de portfólio.",
   "ofertas": [
     {
-      "id": "of-mare-executivo",
-      "business_id": "bistro-mare-alta",
+      "id": "of-colombo-cha",
+      "business_id": "confeitaria-colombo",
       "kind": "offer",
-      "name": "Menu Executivo de Maré (Entrada + Principal)",
-      "description": "Salada de folhas orgânicas com cítricos + peixe fresco do dia grelhado com purê de baroa.",
-      "conditions": "De segunda a sexta, das 12h às 15h30, no salão em Botafogo.",
+      "name": "Experiência Chá da Tarde no Salão Histórico (Demo)",
+      "description": "Seleção de doces portugueses, sanduíches clássicos, chá ou café filtrado no salão art nouveau.",
+      "conditions": "Oferta demonstrativa para exibição do módulo de ofertas em /ofertas.",
       "valid_until": "2027-03-31",
-      "price_mode": "fixed",
-      "price_cents": 6800,
-      "image_url": "/assets/fotos/bistro-mare-alta.svg"
+      "price_mode": "from",
+      "price_cents": 9800,
+      "image_url": "/assets/fotos/confeitaria-colombo.jpg"
     },
     {
-      "id": "of-arpoador-brunch",
-      "business_id": "torrefacao-arpoador",
+      "id": "of-forte-cafe",
+      "business_id": "forte-de-copacabana",
       "kind": "offer",
-      "name": "Combo Brunch Pós-Praia para Dois",
-      "description": "2 cafés filtrados ou espressos, 2 croissants artesanais, ovos mexidos e cesta de pães de levain.",
-      "conditions": "Todos os dias até 13h, mediante disponibilidade.",
+      "name": "Café da Manhã com Vista para a Orla no Posto 6 (Demo)",
+      "description": "Café completo ao ar livre com vista panorâmica para toda a Praia de Copacabana.",
+      "conditions": "Oferta demonstrativa para teste do catálogo do Nexus.",
       "valid_until": "2027-03-31",
-      "price_mode": "fixed",
-      "price_cents": 8400,
-      "image_url": "/assets/fotos/torrefacao-arpoador.svg"
+      "price_mode": "from",
+      "price_cents": 7600,
+      "image_url": "/assets/fotos/forte-de-copacabana.jpg"
     },
     {
-      "id": "of-barro-oficina",
-      "business_id": "atelie-barro-vivo",
+      "id": "of-mineiro-feijoada",
+      "business_id": "bar-do-mineiro",
       "kind": "offer",
-      "name": "Oficina Avulsa de Cerâmica (1 dia)",
-      "description": "Aula prática de 3 horas com argila, ferramentas, queima e esmaltação de até 2 peças incluídas.",
-      "conditions": "Aos sábados, com agendamento prévio pelo perfil.",
+      "name": "Feijoada Completa para Dois em Santa Teresa (Demo)",
+      "description": "Acompanha arroz, couve mineira, farofa, laranja e porção de pastel de feijão.",
+      "conditions": "Oferta demonstrativa de portfólio.",
       "valid_until": "2027-04-30",
       "price_mode": "fixed",
-      "price_cents": 19500,
-      "image_url": "/assets/fotos/atelie-barro-vivo.svg"
+      "price_cents": 13800,
+      "image_url": "/assets/fotos/bar-do-mineiro.jpg"
     },
     {
-      "id": "of-guanabara-voo",
-      "business_id": "emporio-vinhos-guanabara",
+      "id": "of-theatro-visita",
+      "business_id": "theatro-municipal-rio",
       "kind": "offer",
-      "name": "Voo de 3 Taças Sul-Americanas + Tábua de Queijos",
-      "description": "Seleção semanal de 3 rótulos (branco, laranja e tinto) acompanhados de 3 queijos artesanais.",
-      "conditions": "De terça a quinta, das 18h às 21h.",
-      "valid_until": "2027-03-31",
+      "name": "Visita Guiada Histórica pelo Theatro Municipal (Demo)",
+      "description": "Tour guiado pelo foyer, escadaria monumental, salão nobre e sala de espetáculos.",
+      "conditions": "Valores e horários oficiais devem ser confirmados na bilheteria.",
+      "valid_until": "2027-04-30",
       "price_mode": "fixed",
-      "price_cents": 11000,
-      "image_url": "/assets/fotos/emporio-vinhos-guanabara.svg"
+      "price_cents": 2000,
+      "image_url": "/assets/fotos/theatro-municipal-rio.jpg"
     }
   ]
 }

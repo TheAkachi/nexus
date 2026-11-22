@@ -14,65 +14,65 @@
     }
   ],
   "empresas": {
-    "bistro-mare-alta": {
+    "confeitaria-colombo": {
       "plano": "plano-destaque"
     },
-    "cafe-mirante-santa": {
+    "real-gabinete-portugues": {
       "plano": "plano-destaque"
     },
-    "boteco-do-arco": {
+    "ccbb-rio": {
       "plano": "plano-destaque"
     },
-    "galeria-cais-aberto": {
+    "museu-do-amanha": {
       "plano": "plano-destaque"
     },
-    "livraria-folha-e-fogo": {
+    "theatro-municipal-rio": {
       "plano": "plano-destaque"
     },
-    "forno-carioca-pizzaria": {
+    "museu-de-arte-do-rio": {
       "plano": "plano-destaque"
     },
-    "cine-estacao-carioca": {
+    "circo-voador": {
       "plano": "plano-destaque"
     },
-    "casa-choro-laranjeiras": {
+    "rio-scenarium": {
       "plano": "plano-destaque"
     },
-    "torrefacao-arpoador": {
+    "bar-do-mineiro": {
+      "plano": "plano-destaque"
+    },
+    "parque-das-ruinas": {
       "plano": "plano-avancado"
     },
-    "teatro-rua-nova": {
+    "museu-chacara-do-ceu": {
       "plano": "plano-avancado"
     },
-    "emporio-vinhos-guanabara": {
+    "museu-da-republica": {
       "plano": "plano-avancado"
     },
-    "atelie-barro-vivo": {
+    "parque-lage": {
+      "plano": "plano-destaque"
+    },
+    "jardim-botanico-rio": {
+      "plano": "plano-destaque"
+    },
+    "cine-odeon": {
+      "plano": "plano-destaque"
+    },
+    "casa-de-rui-barbosa": {
       "plano": "plano-avancado"
     },
-    "sabores-da-praca-tijuca": {
+    "forte-de-copacabana": {
+      "plano": "plano-destaque"
+    },
+    "garota-de-ipanema": {
       "plano": "plano-avancado"
     },
-    "taberna-do-cais": {
+    "livraria-da-travessa-ipanema": {
       "plano": "plano-avancado"
     },
-    "padaria-fermento-lento": {
-      "plano": "plano-avancado"
-    },
-    "espaco-cultural-solar": {
-      "plano": "plano-avancado"
-    },
-    "bar-da-laje-gavea": {
-      "plano": "plano-avancado"
-    },
-    "sushi-brisa-ipanema": {
-      "plano": "plano-avancado"
-    },
-    "feira-criativa-do-largo": {
-      "plano": "plano-avancado"
-    },
-    "roteiros-rio-a-pe": {
-      "plano": "plano-avancado"
+    "ims-rio": {
+      "plano": "plano-destaque"
     }
   }
 }
