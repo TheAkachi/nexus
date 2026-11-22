@@ -11,6 +11,8 @@ export const COOKIE='nexus_sessao';
 export const INATIVIDADE_MS=60*60000,DURACAO_MS=12*3600000;
 export const VALIDADE={convite:7*86400000,recuperacao:3600000};
 export const SEM_SENHA='!sem-senha';
+export const isDemoEmail=email=>typeof email==='string'&&/@nexus\.demo$/i.test(email.trim());
+export const DEMO_PROTECTED_MSG='Esta conta é protegida no ambiente de demonstração e não pode ser alterada ou removida.';
 export const validEmail=v=>typeof v==='string'&&v.length<=254&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim());
 export const validPassword=v=>typeof v==='string'&&v.length>=12&&v.length<=128;
 
@@ -114,6 +116,7 @@ export async function cadastrar(db,{nome,email,senha,aceite,ip,userAgent,now=new
 
 // Excluir a própria conta (14.4): só a de usuário, com a senha. Apaga a conta e as coletas (sessões e coletas saem em cascata).
 export async function excluirConta(db,{session,senha,ip,now=new Date()}) {
+  if(isDemoEmail(session.email))throw fail(DEMO_PROTECTED_MSG,403);
   if(session.tipo!=='usuario')throw fail('Para encerrar uma conta de afiliado ou da equipe, fale com o Nexus.',403);
   await limit(db,`excluir:${session.user_id}`,5,15*60000,now);
   const user=(await db.query('SELECT password_hash FROM users WHERE id=$1',[session.user_id])).rows[0];
@@ -142,6 +145,10 @@ export const hasPassword=user=>Boolean(parseHash(user.password_hash));
 // Link de uso único: convite (empresa e papel) ou recuperação. Um novo link de recuperação invalida os anteriores.
 // validadeMs: prazo próprio (o convite da equipe vale 7 dias, como o de associado).
 export async function issueToken(db,{kind,userId,businessId=null,role=null,createdBy=null,now=new Date(),validadeMs}) {
+  if(kind==='recuperacao') {
+    const target=(await db.query('SELECT email FROM users WHERE id=$1',[userId])).rows[0];
+    if(isDemoEmail(target?.email))throw fail(DEMO_PROTECTED_MSG,403);
+  }
   const value=token(),expires=new Date(now.getTime()+(validadeMs||VALIDADE[kind]));
   if(kind==='recuperacao')await db.query("UPDATE access_tokens SET used_at=$2 WHERE user_id=$1 AND kind='recuperacao' AND used_at IS NULL",[userId,now.toISOString()]);
   await db.query('INSERT INTO access_tokens(token_hash,kind,user_id,business_id,role,created_by,created_at,expires_at) VALUES($1,$2,$3,$4,$5,$6,$7,$8)',
@@ -163,6 +170,8 @@ export async function useToken(db,{value,senha,ip,now=new Date()}) {
     const row=(await tx.query(`UPDATE access_tokens SET used_at=$2 WHERE token_hash=$1 AND used_at IS NULL AND expires_at>$2
       AND user_id IN (SELECT id FROM users WHERE disabled=false) RETURNING kind,user_id,business_id,role`,[digest(value),now.toISOString()])).rows[0];
     if(!row)throw fail('Este link não vale mais. Peça um novo.',422,'token');
+    const target=(await tx.query('SELECT email FROM users WHERE id=$1',[row.user_id])).rows[0];
+    if(isDemoEmail(target?.email))throw fail(DEMO_PROTECTED_MSG,403);
     await tx.query('UPDATE users SET password_hash=$1 WHERE id=$2',[hash,row.user_id]);
     await tx.query('DELETE FROM sessions WHERE user_id=$1',[row.user_id]);
     if(row.kind==='convite') {

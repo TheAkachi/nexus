@@ -4,7 +4,7 @@ import { fail } from './lib/erros.mjs';
 import { audit } from './lib/auditoria.mjs';
 import { textoConvite, textoConviteWhatsapp, textoRecuperacao } from './lib/email.mjs';
 import { MAX_BYTES, LARGURAS } from './lib/imagens.mjs';
-import { login, cadastrar, excluirConta, sessionCookie, endSessions, issueToken, ensureUser, hasPassword, useToken, limit, sameSecret, validEmail, digest } from './auth.mjs';
+import { login, cadastrar, excluirConta, sessionCookie, endSessions, issueToken, ensureUser, hasPassword, useToken, limit, sameSecret, validEmail, digest, isDemoEmail, DEMO_PROTECTED_MSG } from './auth.mjs';
 import { acessoA, exigir, PAPEIS } from './permissoes.mjs';
 import * as P from './data/painel.mjs';
 import { avaliar } from './data/avaliacoes.mjs';
@@ -28,6 +28,7 @@ export async function contaAPI(ctx) {
     await limit(db,`reset-ip:${ip}`,5,15*60000,now);
     const mail=typeof p.email==='string'?p.email.trim().toLowerCase():'';
     if(!validEmail(mail))throw fail('Informe um e-mail válido.',422,'email');
+    if(isDemoEmail(mail))throw fail(DEMO_PROTECTED_MSG,403);
     const user=(await db.query('SELECT id,email FROM users WHERE email=$1 AND disabled=false',[mail])).rows[0];
     let enviado=false;
     if(user&&mailer) {
@@ -63,6 +64,7 @@ export async function contaAPI(ctx) {
     const p=await ctx.body();rejectExtra(p,['nome']);
     const nome=typeof p.nome==='string'?p.nome.trim().replace(/\s+/g,' '):'';
     if(nome.length<2||nome.length>80)throw fail('Informe o seu nome (de 2 a 80 caracteres).',422,'nome');
+    if(isDemoEmail(session.email))throw fail(DEMO_PROTECTED_MSG,403);
     await db.query('UPDATE users SET name=$2,version=version+1 WHERE id=$1',[session.user_id,nome]);
     await audit(db,{actor:session.user_id,action:'nome_alterado',resource:session.user_id,before:{nome:session.name},after:{nome},ip});
     return send(200,{usuario:{id:session.user_id,email:session.email,nome,tipo:session.tipo}}),true;
@@ -212,6 +214,7 @@ async function mudarPapel(db,{id,usuario,p,session,ip}) {
   return db.transaction(async tx=>{
     const atual=(await tx.query('SELECT m.role,u.email,u.name FROM memberships m JOIN users u ON u.id=m.user_id WHERE m.user_id=$1 AND m.business_id=$2 AND m.active=true FOR UPDATE',[usuario,id])).rows[0];
     if(!atual)throw fail('Pessoa não encontrada nesta empresa.',404);
+    if(isDemoEmail(atual.email))throw fail(DEMO_PROTECTED_MSG,403);
     if(atual.role==='dono'&&p.papel!=='dono'&&(await donosAtivos(tx,id)).length<2)throw fail('A empresa precisa de pelo menos um dono.',422,'papel');
     await tx.query('UPDATE memberships SET role=$3 WHERE user_id=$1 AND business_id=$2',[usuario,id,p.papel]);
     await audit(tx,{actor:session.user_id,business:id,action:'papel_alterado',resource:usuario,before:{papel:atual.role},after:{papel:p.papel},ip});
@@ -224,6 +227,7 @@ export async function revogar(db,{id,usuario,session,ip}) {
   return db.transaction(async tx=>{
     const atual=(await tx.query('SELECT role FROM memberships WHERE user_id=$1 AND business_id=$2 AND active=true FOR UPDATE',[usuario,id])).rows[0];
     if(!atual)throw fail('Pessoa não encontrada nesta empresa.',404);
+    if(isDemoEmail(atual.email))throw fail(DEMO_PROTECTED_MSG,403);
     if(atual.role==='dono'&&(await donosAtivos(tx,id)).length<2)throw fail('A empresa precisa de pelo menos um dono.',422,'usuario');
     await tx.query('UPDATE memberships SET active=false WHERE user_id=$1 AND business_id=$2',[usuario,id]);
     await tx.query("UPDATE access_tokens SET used_at=now() WHERE user_id=$1 AND business_id=$2 AND kind='convite' AND used_at IS NULL",[usuario,id]);

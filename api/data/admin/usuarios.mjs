@@ -1,7 +1,7 @@
 import { fail } from '../../lib/erros.mjs';
 import { audit } from '../../lib/auditoria.mjs';
 import { oneLine } from '../../lib/saneamento.mjs';
-import { ensureUser, hasPassword, issueToken, endSessions, validEmail } from '../../auth.mjs';
+import { ensureUser, hasPassword, issueToken, endSessions, validEmail, isDemoEmail, DEMO_PROTECTED_MSG } from '../../auth.mjs';
 import { convidar, revogar } from '../../painel-api.mjs';
 import { solicitacaoEmpresa, responderSolicitacao } from '../painel.mjs';
 import { textoRecuperacao } from '../../lib/email.mjs';
@@ -38,6 +38,7 @@ export async function definirEquipe(db,{p,session,ip,now=new Date(),mailer,origi
   if(!validEmail(p.email))throw fail('Informe um e-mail válido.',422,'email');
   const u=await ensureUser(db,p.email,{kind:'equipe'});
   if(u.id===session.user_id)throw fail('Você não pode mudar o próprio papel.',403);
+  if(isDemoEmail(u.email))throw fail(DEMO_PROTECTED_MSG,403);
   const antes=(await db.query('SELECT staff_role FROM users WHERE id=$1',[u.id])).rows[0].staff_role;
   await db.query("UPDATE users SET staff_role=$2,kind='equipe',disabled=false,version=version+1 WHERE id=$1",[u.id,p.papel]);
   await audit(db,{actor:session.user_id,action:'equipe_definida',resource:u.id,before:{equipe:antes},after:{email:u.email,equipe:p.papel},ip});
@@ -55,6 +56,7 @@ export async function editarUsuario(db,{id,p,session,ip}) {
   const nome=texto(p.nome,'nome',120);
   return db.transaction(async tx=>{
     const u=await usuario(tx,id,{lock:true});if(u.version!==version)throw conflito();
+    if(isDemoEmail(u.email))throw fail(DEMO_PROTECTED_MSG,403);
     const equipe=p.equipe!==undefined?p.equipe:u.staff_role,desativado=p.desativado??u.disabled;
     await tx.query('UPDATE users SET staff_role=$2,kind=$3,disabled=$4,name=$5,version=version+1 WHERE id=$1',
       [id,equipe,equipe?'equipe':(u.kind==='equipe'?'associado':u.kind),desativado,nome!==undefined?oneLine(nome):u.name]);
@@ -65,6 +67,7 @@ export async function editarUsuario(db,{id,p,session,ip}) {
 }
 export async function linkSenha(db,{id,session,ip,now=new Date(),mailer,origin}) {
   const u=await usuario(db,id);if(u.disabled)throw fail('Esta conta está desativada.',422,'id');
+  if(isDemoEmail(u.email))throw fail(DEMO_PROTECTED_MSG,403);
   const {value,expires}=await issueToken(db,{kind:'recuperacao',userId:id,createdBy:session.user_id,now});
   const link=`${origin}/entrar/definir-senha?token=${value}`;
   const enviado=mailer?await mailer({to:u.email,subject:'Sua nova senha no Nexus',text:textoRecuperacao({link})}):false;
