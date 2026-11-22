@@ -21,7 +21,7 @@ const FILTROS=['q','status','page','tipo','aba','editoria','espaco','anunciante'
 const comPadrao=(url,padroes)=>{const u=new URL(url);for(const [k,v] of Object.entries(padroes))if(!u.searchParams.get(k))u.searchParams.set(k,v);return u;};
 
 async function lista(db,modulo,url,now,equipe) {
-  const tipo=url.searchParams.get('tipo')||'artigo',aba=url.searchParams.get('aba');
+  const tipo=url.searchParams.get('tipo')||'evento',aba=url.searchParams.get('aba');
   if(modulo==='acessos')return A.listarAcessos(db,url,{equipe,now});
   if(modulo==='resumo')return R.resumoAdmin(db,now,url);
   if(modulo==='empresas')return aba==='redes'?E.listarRedes(db):aba==='planos'?E.listarPlanos(db):E.listarEmpresas(db,url);
@@ -37,7 +37,7 @@ async function lista(db,modulo,url,now,equipe) {
   if(modulo==='solicitacoes')return U.listarSolicitacoes(db,url);
 }
 async function registro(db,modulo,id,url) {
-  const tipo=url.searchParams.get('tipo')||'artigo',aba=url.searchParams.get('aba');
+  const tipo=url.searchParams.get('tipo')||'evento',aba=url.searchParams.get('aba');
   if(modulo==='empresas')return aba==='planos'?(await E.listarPlanos(db)).itens.find(p=>p.id===id)||null:aba==='redes'?null:E.obterEmpresa(db,id);
   if(modulo==='conteudo')return ({evento:C.obterEvento,oferta:C.obterOferta,colecao:C.obterColecao}[tipo]||C.obterConteudo)(db,id);
   if(modulo==='banners')return B.obterBanner(db,id);

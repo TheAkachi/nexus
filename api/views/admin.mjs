@@ -15,23 +15,21 @@ const DESENHOS={...ICONES,empresas:ICONES.perfil,relatorios:ICONES.resultados,us
   midia:'M3 4.5h14v11H3zM3 12.8l4-3.8 3.2 3 2.3-2.1 4.5 3.9M13.2 7.6h.01',acessos:'M9.5 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM9.5 10H17M14.4 10v2.6M17 10v2.6',pessoas:'M7.5 9.2a2.7 2.7 0 1 0 0-5.4 2.7 2.7 0 0 0 0 5.4zM2.8 16.2c.5-2.9 2.4-4.5 4.7-4.5s4.2 1.6 4.7 4.5M13.4 9a2.2 2.2 0 1 0 0-4.4M14.6 11.9c1.4.5 2.4 1.9 2.7 4.3',auditoria:'M3.6 7.4A7 7 0 1 1 3 10M3 4.4v3h3M10 6.2v4l2.8 1.7'};
 const icone=(nome,cls)=>svg(DESENHOS[nome]||'',cls);
 
-const GRUPOS=[['Trabalho',[['resumo','Resumo'],['fila','Fila de aprovação'],['solicitacoes','Solicitações']]],['Guia',[['empresas','Empresas'],['conteudo','Conteúdo'],['banners','Banners'],['cupons','Cupons'],['midia','Mídia'],['pessoas','Pessoas']]],
-  ['Equipe e números',[['relatorios','Relatórios'],['usuarios','Usuários'],['acessos','Acessos ao painel'],['auditoria','Auditoria']]]];
+const GRUPOS=[['Gestão do Guia',[['resumo','Resumo'],['empresas','Lugares'],['fila','Fila de aprovação'],['cupons','Cupons'],['conteudo','Eventos e ofertas'],['usuarios','Usuários']]]];
 const TITULOS={
-  resumo:['Resumo','O que espera a equipe e como está o guia hoje.'],
-  fila:['Fila de aprovação','Textos, fotos, produtos e ofertas enviados pelos associados. Ao recusar, diga o que mudar: o associado lê o comentário no painel.'],
-  solicitacoes:['Solicitações','Pedidos de ajuda, de alteração e de criação enviados pelos associados.'],
-  empresas:['Empresas','O cadastro das empresas do guia, das redes e dos planos.'],
-  conteudo:['Conteúdo','Artigos, classificados, eventos, ofertas e as coleções da página inicial.'],
-  banners:['Banners','Agende banners nos espaços do guia e veja quais dias estão vendidos, livres ou com o anúncio do Nexus.'],
-  cupons:['Cupons','Os cupons de todas as empresas do guia. Suspenda o que estiver errado: a empresa lê o motivo no painel.'],
-  midia:['Mídia','As imagens de artigos, banners e empresas. Toda imagem leva uma descrição para quem usa leitor de tela.'],
-  pessoas:['Pessoas','Quem aparece no Sobre nós, com foto, nome e função. Só aparece no site quem tem foto enviada.'],
-
-  relatorios:['Relatórios','O que os moradores buscam e não acham, as empresas mais vistas, os cliques e os banners.'],
-  usuarios:['Usuários','Contas da equipe e dos associados: papéis, acessos e links de senha.'],
-  acessos:['Acessos ao painel','Quem de cada empresa já entra no painel do anunciante, e o convite para quem ainda não entra.'],
-  auditoria:['Auditoria','Quem mudou o quê, e quando.']
+  resumo:['Resumo','Visão geral do guia Nexus e atalhos rápidos.'],
+  fila:['Fila de aprovação','Alterações e avaliações enviadas pelos parceiros e visitantes aguardando decisão.'],
+  solicitacoes:['Solicitações','Pedidos enviados pelos parceiros.'],
+  empresas:['Lugares','Cadastro dos espaços gastronômicos e culturais do guia.'],
+  conteudo:['Eventos e ofertas','Agenda cultural, ofertas vigentes e coleções da página inicial.'],
+  banners:['Banners','Espaços de destaque do guia.'],
+  cupons:['Cupons','Cupons publicados no guia, com controle de validade e suspensão.'],
+  midia:['Mídia','Biblioteca de imagens do guia.'],
+  pessoas:['Pessoas','Curadoria exibida na página Sobre.'],
+  relatorios:['Relatórios','Métricas gerais do guia.'],
+  usuarios:['Usuários','Contas da equipe e dos parceiros (controle de papéis e acessos).'],
+  acessos:['Acessos ao painel','Vínculos de acesso ao painel do parceiro.'],
+  auditoria:['Auditoria','Registro de alterações administrativas.']
 };
 const EQUIPE={admin:'Administração',editor:'Edição',operador:'Operação'};
 const SITUACAO={rascunho:'Rascunho',publicado:'Publicado',pausado:'Fora do ar',validacao:'Em aprovação'};
@@ -46,7 +44,7 @@ const TIPO_SOL={suporte:'Ajuda',criacao:'Criação pelo Nexus',alteracao:'Altera
 const PAPEIS={dono:'Dono',editor:'Editor',financeiro:'Financeiro',leitura:'Leitura'};
 const TIPO_ITEM={produto:'Produto',servico:'Serviço',oferta:'Oferta'};
 const PRECO=[['fixo','Preço fixo'],['a-partir','A partir de'],['consulta','Sob consulta']];
-const TIPOS=[['artigo','Artigos','Novo artigo'],['classificado','Classificados','Novo classificado'],['evento','Eventos','Novo evento'],['oferta','Ofertas','Nova oferta'],['colecao','Coleções','Nova coleção']];
+const TIPOS=[['evento','Eventos','Novo evento'],['oferta','Ofertas','Nova oferta'],['colecao','Coleções','Nova coleção']];
 const PUBLICO={artigo:'/artigos/',classificado:'/classificados/'};
 // Página de cada espaço (EspacoOpcao.pagina, os nomes das views).
 const PAGINA_ESPACO={home:'Página inicial',busca:'Busca',conteudos:'Artigos e classificados',conteudo:'Leitura',empresa:'Perfil de empresa',ofertas:'Ofertas',eventos:'Eventos'};
@@ -160,20 +158,17 @@ const biblioteca=()=>`<dialog class="media-picker" data-biblioteca aria-labelled
 function resumo(vm) {
   const r=vm.dados||{},pode=vm.pode||{},o=vm.opcoes||{};
   const linha=(ico,href,n,um,varios,nada)=>`<li>${icone(ico)}<a href="${href}">${n?`<span><strong>${numero(n)}</strong> ${n===1?um:varios}</span>`:`<span>${nada}</span>`}<span aria-hidden="true">→</span></a></li>`;
-  const espera=`<section class="panel-block block-depende${r.fila||r.solicitacoes?' has-items':''}" aria-labelledby="r-espera"><h2 id="r-espera">Esperando a equipe</h2><ul class="todo-list">${linha('fila','/admin/fila',r.fila,'envio na fila de aprovação','envios na fila de aprovação','A fila de aprovação está vazia')}${linha('solicitacoes','/admin/solicitacoes?status=aberta',r.solicitacoes,'solicitação para responder','solicitações para responder','Nenhuma solicitação esperando resposta')}</ul></section>`;
+  const espera=`<section class="panel-block block-depende${r.fila?' has-items':''}" aria-labelledby="r-espera"><h2 id="r-espera">Esperando aprovação</h2><ul class="todo-list">${linha('fila','/admin/fila',r.fila,'envio na fila de aprovação','envios na fila de aprovação','A fila de aprovação está vazia')}</ul></section>`;
   const atalho=(ok,href,rotulo,classe='button secondary')=>ok?`<a class="${classe}" href="${href}">${rotulo}</a>`:'';
-  const fazer=[atalho(pode.conteudo,'/admin/conteudo/novo?tipo=artigo',`${icone('mais')}Publicar um artigo`,'button'),atalho(pode.banners,'/admin/banners/novo',`${icone('mais')}Agendar um banner`),atalho(pode.midia,'/admin/midia#enviar','Enviar uma imagem'),atalho(pode.empresas,'/admin/empresas/novo','Cadastrar uma empresa')].filter(Boolean).join('');
-  const atalhos=fazer?`<section class="panel-block" aria-labelledby="r-fazer"><h2 id="r-fazer">Fazer agora</h2><div class="admin-shortcuts">${fazer}</div></section>`:'';
+  const fazer=[atalho(pode.empresas,'/admin/empresas/novo',`${icone('mais')}Cadastrar lugar`,'button'),atalho(pode.conteudo,'/admin/conteudo/novo?tipo=evento',`${icone('mais')}Novo evento`),atalho(pode.conteudo,'/admin/conteudo/novo?tipo=oferta',`${icone('mais')}Nova oferta`)].filter(Boolean).join('');
+  const atalhos=fazer?`<section class="panel-block" aria-labelledby="r-fazer"><h2 id="r-fazer">Ações rápidas</h2><div class="admin-shortcuts">${fazer}</div></section>`:'';
   const cartao=(href,rotulo,valor,nota='')=>`<a class="stat-card" href="${href}"><span class="stat-label">${rotulo}</span><strong>${valor}</strong>${nota?`<small>${nota}</small>`:''}</a>`;
-  // Bairro e categoria (referência Faitec, 13.9 item 13): o filtro recorta o próprio resumo (empresas, fila, solicitações e
-  // cupons); banners e espaços livres são sempre do guia todo. Do recorte, as empresas e os relatórios do mesmo bairro e categoria.
   const em=r.empresas||{},cu=r.cupons,f=vm.filtros||{},recorte=r.recorte||null;
   const nomeCategoria=slug=>{for(const g of o.categorias||[]){if(g.slug===slug)return g.label;const s=(g.subcategorias||[]).find(x=>x.slug===slug);if(s)return s.label;}return slug;};
   const fatia=recorte?[recorte.bairro,recorte.categoria&&nomeCategoria(recorte.categoria)].filter(Boolean).map(e).join(' · '):'';
   const doRecorte={bairro:recorte?.bairro,categoria:recorte?.categoria};
-  const regiao=`<section class="panel-block admin-slice${recorte?' is-sliced':''}" aria-labelledby="r-regiao"><h2 id="r-regiao">${recorte?`Recorte: ${fatia}`:'Por bairro e categoria'}</h2><form class="admin-filters is-compact" method="get" action="/admin" role="search" aria-labelledby="r-regiao"><div class="form-field"><label for="r-bairro">Bairro</label><select id="r-bairro" name="bairro"><option value="">Todos os bairros</option>${opcoes((o.bairros||[]).map(b=>[b,b]),f.bairro||'')}</select></div><div class="form-field"><label for="r-categoria">Categoria</label><select id="r-categoria" name="categoria"><option value="">Todas as categorias</option>${opcoesCategoria(o.categorias||[],f.categoria||'')}</select></div><div class="filter-actions"><button type="submit" class="button secondary">Filtrar o resumo</button>${recorte?'<a class="link-button text-button" href="/admin">Ver o guia todo</a>':''}</div></form>${recorte?`<p class="panel-links"><a href="${e(rota('empresas',doRecorte))}">Empresas deste recorte <span aria-hidden="true">→</span></a><a href="${e(rota('relatorios',doRecorte))}">Relatórios deste recorte <span aria-hidden="true">→</span></a></p>`:''}</section>`;
-  const todo=recorte?' · no guia todo':'';
-  const numeros=`<section class="admin-stats" aria-labelledby="r-guia"><h2 id="r-guia" class="sr-only">${recorte?`O recorte ${fatia}`:'O guia hoje'}</h2>${cartao(e(rota('empresas',{status:'publicado',...doRecorte})),'Empresas no guia',numero(em.publicadas),em.pausadas?`${plural(em.pausadas,'fora do guia','fora do guia')}`:'')}${cu?cartao('/admin/cupons?status=ativo','Cupons no ar',numero(cu.ativos),`${plural(cu.coletas30,'coleta','coletas')} em 30 dias`):''}${cartao('/admin/banners?aba=ocupacao','Banners no ar',numero(r.bannersNoAr),`${r.espacosLivres?plural(r.espacosLivres,'espaço livre hoje','espaços livres hoje'):'Nenhum espaço livre hoje'}${todo}`)}</section>`;
+  const regiao=`<section class="panel-block admin-slice${recorte?' is-sliced':''}" aria-labelledby="r-regiao"><h2 id="r-regiao">${recorte?`Recorte: ${fatia}`:'Filtrar por bairro e categoria'}</h2><form class="admin-filters is-compact" method="get" action="/admin" role="search" aria-labelledby="r-regiao"><div class="form-field"><label for="r-bairro">Bairro</label><select id="r-bairro" name="bairro"><option value="">Todos os bairros</option>${opcoes((o.bairros||[]).map(b=>[b,b]),f.bairro||'')}</select></div><div class="form-field"><label for="r-categoria">Categoria</label><select id="r-categoria" name="categoria"><option value="">Todas as categorias</option>${opcoesCategoria(o.categorias||[],f.categoria||'')}</select></div><div class="filter-actions"><button type="submit" class="button secondary">Filtrar</button>${recorte?'<a class="link-button text-button" href="/admin">Ver tudo</a>':''}</div></form>${recorte?`<p class="panel-links"><a href="${e(rota('empresas',doRecorte))}">Ver lugares deste recorte <span aria-hidden="true">→</span></a></p>`:''}</section>`;
+  const numeros=`<section class="admin-stats" aria-labelledby="r-guia"><h2 id="r-guia" class="sr-only">${recorte?`O recorte ${fatia}`:'O guia hoje'}</h2>${cartao(e(rota('empresas',{status:'publicado',...doRecorte})),'Lugares no guia',numero(em.publicadas),em.pausadas?`${plural(em.pausadas,'pausado','pausados')}`:'')}${cu?cartao('/admin/cupons?status=ativo','Cupons ativos',numero(cu.ativos),`${plural(cu.coletas30,'coleta','coletas')} em 30 dias`):''}</section>`;
   return `${regiao}${numeros}<div class="summary-grid">${espera}${atalhos}</div>`;
 }
 
@@ -239,17 +234,12 @@ function fila(vm) {
 // Empresas, redes e planos ----------------------------------------------------------------------------------------------
 
 function empresasLista(vm) {
-  const f=vm.filtros||{},aba=['redes','planos'].includes(f.aba)?f.aba:'empresas',o=vm.opcoes||{},d=vm.dados||{},itens=d.itens||[];
-  const tabs=abas('Cadastro',[['empresas','Empresas'],['redes','Redes'],['planos','Planos']],aba,v=>rota('empresas',v==='empresas'?{}:{aba:v}));
-  if(aba==='redes')return tabs+redes(vm);
-  if(aba==='planos')return tabs+planos(vm);
-  // A linha traz o plano como {id, nome} (13.4); com planoGerido, a coluna diz que ele vem da gestão comercial (19.5).
-  const plano=x=>{const nome=nomePlano(vm,x.plano);return nome?`${e(nome)}${x.planoGerido?` ${GESTAO}`:''}`:`<span class="muted">Sem plano</span>${x.planoGerido?` ${GESTAO}`:''}`;};
-  const filtro=filtros(vm,[{nome:'status',rotulo:'Situação',lista:[['publicado','Publicada'],['pausado','Fora do guia'],['rascunho','Rascunho']],todos:'Todas'},{nome:'bairro',rotulo:'Bairro',lista:(o.bairros||[]).map(b=>[b,b])},
-    {nome:'categoria',rotulo:'Categoria',html:opcoesCategoria(o.categorias||[],f.categoria),todos:'Todas'},{nome:'plano',rotulo:'Plano',lista:(o.planos||[]).map(p=>[p.id,p.nome])}],{busca:'Nome, bairro ou endereço no guia'});
-  const linha=x=>`<tr><th scope="row"><a href="${e(ficha('empresas',x.id))}">${e(x.nome)}</a>${x.destaque?' <span class="type-tag">Destaque</span>':''}</th><td data-rotulo="Bairro">${e(x.bairro||'—')}</td><td data-rotulo="Categorias">${e((x.categorias||[]).join(', ')||'—')}</td><td data-rotulo="Plano">${plano(x)}</td><td data-rotulo="Situação">${situacao(x.status,SITUACAO_EMPRESA)}</td><td data-rotulo="Atualizada">${data(x.atualizada)}</td></tr>`;
-  const lista=itens.length?tabela([['Empresa'],['Bairro'],['Categorias'],['Plano'],['Situação'],['Atualizada']],itens.map(linha).join('')):semResultado(vm,'Nenhuma empresa com esses filtros.','Nenhuma empresa cadastrada ainda.');
-  return `${tabs}${filtro}${contagem(d,'empresa','empresas')}${lista}${paginacao(vm)}`;
+  const f=vm.filtros||{},o=vm.opcoes||{},d=vm.dados||{},itens=d.itens||[];
+  const filtro=filtros(vm,[{nome:'status',rotulo:'Situação',lista:[['publicado','Publicado'],['pausado','Pausado'],['rascunho','Rascunho']],todos:'Todos'},{nome:'bairro',rotulo:'Bairro',lista:(o.bairros||[]).map(b=>[b,b])},
+    {nome:'categoria',rotulo:'Categoria',html:opcoesCategoria(o.categorias||[],f.categoria),todos:'Todas'}],{busca:'Nome, bairro ou endereço'});
+  const linha=x=>`<tr><th scope="row"><a href="${e(ficha('empresas',x.id))}">${e(x.nome)}</a>${x.destaque?' <span class="type-tag">Destaque</span>':''}</th><td data-rotulo="Bairro">${e(x.bairro||'—')}</td><td data-rotulo="Categorias">${e((x.categorias||[]).join(', ')||'—')}</td><td data-rotulo="Situação">${situacao(x.status,SITUACAO_EMPRESA)}</td><td data-rotulo="Atualizada">${data(x.atualizada)}</td></tr>`;
+  const lista=itens.length?tabela([['Lugar'],['Bairro'],['Categorias'],['Situação'],['Atualizado']],itens.map(linha).join('')):semResultado(vm,'Nenhum lugar com esses filtros.','Nenhum lugar cadastrado ainda.');
+  return `${filtro}${contagem(d,'lugar','lugares')}${lista}${paginacao(vm)}`;
 }
 function redes(vm) {
   const itens=vm.dados?.itens||[],pode=vm.pode?.empresas;
@@ -300,7 +290,7 @@ function empresaRegistro(vm) {
 // Conteúdo: artigos, classificados, eventos, ofertas e coleções (as notícias saíram do site em 2026-10-15) ---------
 
 // O tipo vai sempre na URL: a aba padrão é Artigos, qualquer que seja o padrão do servidor.
-const tipoDe=vm=>TIPOS.some(([t])=>t===vm.filtros?.tipo)?vm.filtros.tipo:'artigo';
+const tipoDe=vm=>TIPOS.some(([t])=>t===vm.filtros?.tipo)?vm.filtros.tipo:'evento';
 const comTipo=t=>({tipo:t});
 // Pessoas do Sobre nós (v0.17.0, contrato 18.7): foto da biblioteca (id), nome, função e ordem (a menor primeiro). Quem não tem
 // foto fica guardado, mas não aparece no site. A permissão é a do conteúdo (admin e edição).
