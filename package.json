@@ -1,0 +1,25 @@
+{
+  "name": "nexus-guia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Nexus — Guia Gastronômico & Cultural do Rio de Janeiro (aplicação Full Stack SSR em Node.js + PostgreSQL/PGlite)",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node api/server.mjs",
+    "db:migrate": "node api/cli.mjs migrate",
+    "db:seed": "node api/cli.mjs seed",
+    "backup": "node api/cli.mjs backup",
+    "test": "node --test --test-concurrency=1 \"tests/**/*.test.mjs\"",
+    "check": "node scripts/syntax-check.mjs && node --test --test-concurrency=1 \"tests/**/*.test.mjs\""
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.3.14",
+    "linkedom": "^0.18.13",
+    "pg": "^8.16.3",
+    "sharp": "^0.34.5"
+  },
+  "packageManager": "pnpm@11.25.0"
+}

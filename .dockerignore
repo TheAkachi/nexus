@@ -1,0 +1,7 @@
+.git
+.runtime
+backups
+node_modules
+.env
+.env.*
+test-results

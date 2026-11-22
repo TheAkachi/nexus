@@ -1,0 +1,2059 @@
+[
+  {
+    "slug": "bistro-mare-alta",
+    "slugPortal": "bistro-mare-alta",
+    "nome": "Bistrô Maré Alta",
+    "iniciais": "BM",
+    "plano": "Destaque",
+    "destaque": true,
+    "temPaginaPropria": true,
+    "categorias": [
+      {
+        "nome": "Bistrôs",
+        "slug": "bistros"
+      },
+      {
+        "nome": "Frutos do Mar",
+        "slug": "frutos-do-mar"
+      }
+    ],
+    "bairro": "Botafogo",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Arnaldo Quintela, 64",
+    "cep": "22280-070",
+    "endereco": "Rua Arnaldo Quintela, 64, Botafogo, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1101",
+    "telefoneDigitos": "2130001101",
+    "whatsapp": "5521990001101",
+    "email": "contato@bistromarealta.demo",
+    "site": "",
+    "resumo": "Cozinha carioca contemporânea com peixes frescos da costa, carta de vinhos naturais e mesas na calçada em Botafogo.",
+    "descricao": [
+      "O Bistrô Maré Alta combina ingredientes sazonais de produtores fluminenses com técnicas contemporâneas em um casarão restaurado em Botafogo.",
+      "O cardápio muda a cada estação e oferece menu executivo no almoço, pratos para compartilhar à noite e harmonização com vinhos brasileiros de pequenos produtores."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "12:00 - 22:00"
+        ]
+      },
+      {
+        "dia": "SEG",
+        "horas": [
+          "12:00 - 22:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "12:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "12:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "12:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "12:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "12:00 - 23:59"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Mesas ao ar livre",
+      "Carta de vinhos naturais",
+      "Opções vegetarianas",
+      "Acessível para cadeirantes"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/bistromarealta"
+      }
+    ],
+    "imagem": "/assets/fotos/bistro-mare-alta.svg",
+    "imagemGrande": "/assets/fotos/bistro-mare-alta.svg",
+    "fotos": [
+      "/assets/fotos/bistro-mare-alta.svg"
+    ],
+    "geo": {
+      "lat": -22.9532,
+      "lng": -43.1846
+    },
+    "avaliacoes": {
+      "itens": [
+        {
+          "autor": "Camila Duarte",
+          "data": "12 de outubro, 2026",
+          "estrelas": 5,
+          "titulo": "Peixe do dia impecável",
+          "texto": "Ambiente acolhedor, atendimento muito atento e o arroz de polvo estava excelente."
+        },
+        {
+          "autor": "Rafael Menezes",
+          "data": "28 de setembro, 2026",
+          "estrelas": 5,
+          "titulo": "Ótimo para jantar em Botafogo",
+          "texto": "Menu bem pensado e boa seleção de vinhos em taça."
+        }
+      ]
+    },
+    "classificados": []
+  },
+  {
+    "slug": "cafe-mirante-santa",
+    "slugPortal": "cafe-mirante-santa",
+    "nome": "Café Mirante Santa",
+    "iniciais": "CM",
+    "plano": "Destaque",
+    "destaque": true,
+    "temPaginaPropria": true,
+    "categorias": [
+      {
+        "nome": "Cafeterias Especiais",
+        "slug": "cafeterias-especiais"
+      },
+      {
+        "nome": "Confeitarias",
+        "slug": "confeitarias"
+      }
+    ],
+    "bairro": "Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Almirante Alexandrino, 512",
+    "cep": "20241-260",
+    "endereco": "Rua Almirante Alexandrino, 512, Santa Teresa, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1102",
+    "telefoneDigitos": "2130001102",
+    "whatsapp": "5521990001102",
+    "email": "ola@cafemirantesanta.demo",
+    "site": "",
+    "resumo": "Cafés especiais de torra própria, métodos filtrados e bolos artesanais em uma varanda com vista para o casario de Santa Teresa.",
+    "descricao": [
+      "Instalado em um sobrado histórico próximo ao trajeto do bonde, o Café Mirante Santa trabalha com microlotes da Serra Fluminense e do Sul de Minas.",
+      "Ideal para trabalhar com calma pela manhã ou fazer uma pausa à tarde com pão de queijo na chapa, bolo de fubá cremoso e cold brew da casa."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "09:00 - 18:00"
+        ]
+      },
+      {
+        "dia": "SEG",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "08:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "09:00 - 20:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Torra própria",
+      "Wi-Fi rápido",
+      "Varanda arborizada",
+      "Pet friendly"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/cafemirantesanta"
+      }
+    ],
+    "imagem": "/assets/fotos/cafe-mirante-santa.svg",
+    "imagemGrande": "/assets/fotos/cafe-mirante-santa.svg",
+    "fotos": [
+      "/assets/fotos/cafe-mirante-santa.svg"
+    ],
+    "geo": {
+      "lat": -22.9219,
+      "lng": -43.1862
+    },
+    "avaliacoes": {
+      "itens": [
+        {
+          "autor": "Juliana Costa",
+          "data": "04 de novembro, 2026",
+          "estrelas": 5,
+          "titulo": "Melhor filtrado de Santa Teresa",
+          "texto": "A varanda é linda e o barista explica direitinho cada grão do dia."
+        }
+      ]
+    },
+    "classificados": [
+      "vaga-barista-botafogo-santa-teresa"
+    ]
+  },
+  {
+    "slug": "boteco-do-arco",
+    "slugPortal": "boteco-do-arco",
+    "nome": "Boteco do Arco",
+    "iniciais": "BA",
+    "plano": "Destaque",
+    "destaque": true,
+    "temPaginaPropria": true,
+    "categorias": [
+      {
+        "nome": "Botecos Tradicionais",
+        "slug": "botecos-tradicionais"
+      },
+      {
+        "nome": "Casas de Samba e Choro",
+        "slug": "casas-de-samba-e-choro"
+      }
+    ],
+    "bairro": "Lapa",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua do Lavradio, 148",
+    "cep": "20230-070",
+    "endereco": "Rua do Lavradio, 148, Lapa, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1103",
+    "telefoneDigitos": "2130001103",
+    "whatsapp": "5521990001103",
+    "email": "reservas@botecodoarco.demo",
+    "site": "",
+    "resumo": "Petiscos clássicos de botequim, chope tirado na pressão certa e roda de samba acústica às quintas e sábados na Lapa.",
+    "descricao": [
+      "Na Rua do Lavradio, o Boteco do Arco preserva o clima dos antigos botequins cariocas com bolinho de feijoada, carne-seca acebolada e cachaças artesanais do interior do Rio.",
+      "A programação musical privilegia samba de raiz e choro instrumental sem cobrança de consumação mínima."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "16:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "15:00 - 23:59"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Música ao vivo",
+      "Chope artesanal",
+      "Petiscos clássicos",
+      "Mesas na calçada"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/botecodoarco"
+      }
+    ],
+    "imagem": "/assets/fotos/boteco-do-arco.svg",
+    "imagemGrande": "/assets/fotos/boteco-do-arco.svg",
+    "fotos": [
+      "/assets/fotos/boteco-do-arco.svg"
+    ],
+    "geo": {
+      "lat": -22.9114,
+      "lng": -43.1823
+    },
+    "avaliacoes": {
+      "itens": [
+        {
+          "autor": "Thiago Nogueira",
+          "data": "19 de outubro, 2026",
+          "estrelas": 5,
+          "titulo": "Roda de samba autêntica",
+          "texto": "Bolinho crocante, chope gelado e som na altura perfeita para conversar."
+        }
+      ]
+    },
+    "classificados": []
+  },
+  {
+    "slug": "galeria-cais-aberto",
+    "slugPortal": "galeria-cais-aberto",
+    "nome": "Galeria Cais Aberto",
+    "iniciais": "GC",
+    "plano": "Destaque",
+    "destaque": true,
+    "temPaginaPropria": true,
+    "categorias": [
+      {
+        "nome": "Galerias de Arte",
+        "slug": "galerias-de-arte"
+      },
+      {
+        "nome": "Centros Culturais",
+        "slug": "centros-culturais"
+      }
+    ],
+    "bairro": "Centro",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Sacadura Cabral, 120",
+    "cep": "20081-262",
+    "endereco": "Rua Sacadura Cabral, 120, Centro, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1104",
+    "telefoneDigitos": "2130001104",
+    "whatsapp": "5521990001104",
+    "email": "curadoria@galeriacaisaberto.demo",
+    "site": "",
+    "resumo": "Espaço de arte contemporânea na zona portuária com exposições gratuitas, fotografia urbana e encontros com artistas.",
+    "descricao": [
+      "Ocupando um antigo armazém revitalizado perto do Cais do Valongo, a Galeria Cais Aberto recebe mostras rotativas de pintura, fotografia e instalações sonoras.",
+      "Aos sábados, oferece visitas mediadas gratuitas e oficinas abertas para jovens artistas e estudantes."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "10:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "10:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "10:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Entrada gratuita",
+      "Visitas mediadas",
+      "Loja de gravuras",
+      "Acessível para cadeirantes"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/galeriacaisaberto"
+      }
+    ],
+    "imagem": "/assets/fotos/galeria-cais-aberto.svg",
+    "imagemGrande": "/assets/fotos/galeria-cais-aberto.svg",
+    "fotos": [
+      "/assets/fotos/galeria-cais-aberto.svg"
+    ],
+    "geo": {
+      "lat": -22.8982,
+      "lng": -43.1838
+    },
+    "avaliacoes": {
+      "itens": [
+        {
+          "autor": "Beatriz Almeida",
+          "data": "01 de novembro, 2026",
+          "estrelas": 5,
+          "titulo": "Curadoria inspiradora",
+          "texto": "Espaço amplo, bem iluminado e sempre com artistas locais incríveis."
+        }
+      ]
+    },
+    "classificados": [
+      "chamada-exposicao-coletiva-cais-aberto"
+    ]
+  },
+  {
+    "slug": "livraria-folha-e-fogo",
+    "slugPortal": "livraria-folha-e-fogo",
+    "nome": "Livraria Folha & Fogo",
+    "iniciais": "LF",
+    "plano": "Destaque",
+    "destaque": true,
+    "temPaginaPropria": true,
+    "categorias": [
+      {
+        "nome": "Livrarias Independentes",
+        "slug": "livrarias-independentes"
+      },
+      {
+        "nome": "Cafeterias Especiais",
+        "slug": "cafeterias-especiais"
+      }
+    ],
+    "bairro": "Laranjeiras",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua das Laranjeiras, 210",
+    "cep": "22240-003",
+    "endereco": "Rua das Laranjeiras, 210, Laranjeiras, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1105",
+    "telefoneDigitos": "2130001105",
+    "whatsapp": "5521990001105",
+    "email": "livros@folhaefogo.demo",
+    "site": "",
+    "resumo": "Livraria de rua com curadoria de editoras independentes, clube de leitura semanal e pequeno balcão de espresso.",
+    "descricao": [
+      "A Folha & Fogo reúne literatura brasileira contemporânea, poesia, quadrinhos autorais e livros de arte em um ambiente tranquilo em Laranjeiras.",
+      "Toda quarta-feira à noite promove lançamentos e rodas de conversa com escritores e tradutores."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "09:00 - 18:00"
+        ]
+      },
+      {
+        "dia": "SEG",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "08:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "09:00 - 20:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Editoras independentes",
+      "Clube do livro",
+      "Café no local",
+      "Encomenda de títulos"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/livrariafolhaefogo"
+      }
+    ],
+    "imagem": "/assets/fotos/livraria-folha-e-fogo.svg",
+    "imagemGrande": "/assets/fotos/livraria-folha-e-fogo.svg",
+    "fotos": [
+      "/assets/fotos/livraria-folha-e-fogo.svg"
+    ],
+    "geo": {
+      "lat": -22.9334,
+      "lng": -43.1869
+    },
+    "avaliacoes": {
+      "itens": [
+        {
+          "autor": "Mariana Lopes",
+          "data": "15 de outubro, 2026",
+          "estrelas": 5,
+          "titulo": "Curadoria feita com carinho",
+          "texto": "Sempre saio com alguma descoberta que não encontraria em grandes redes."
+        }
+      ]
+    },
+    "classificados": []
+  },
+  {
+    "slug": "forno-carioca-pizzaria",
+    "slugPortal": "forno-carioca-pizzaria",
+    "nome": "Forno Carioca Pizzaria",
+    "iniciais": "FC",
+    "plano": "Destaque",
+    "destaque": true,
+    "temPaginaPropria": true,
+    "categorias": [
+      {
+        "nome": "Pizzarias",
+        "slug": "pizzarias"
+      },
+      {
+        "nome": "Bistrôs",
+        "slug": "bistros"
+      }
+    ],
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Bolívar, 88",
+    "cep": "22061-020",
+    "endereco": "Rua Bolívar, 88, Copacabana, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1106",
+    "telefoneDigitos": "2130001106",
+    "whatsapp": "5521990001106",
+    "email": "pedidos@fornocarioca.demo",
+    "site": "",
+    "resumo": "Pizzas de longa fermentação natural (48h) assadas em forno a lenha, com queijos artesanais da Serra da Canastra.",
+    "descricao": [
+      "A Forno Carioca une a tradição da massa napolitana de fermentação lenta a ingredientes brasileiros selecionados, como queijo coalho tostado, manjericão orgânico e mel silvestre.",
+      "Salão climatizado a duas quadras da praia de Copacabana e opções veganas preparadas na hora."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "16:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "15:00 - 23:59"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Forno a lenha",
+      "Fermentação natural 48h",
+      "Opções veganas",
+      "Retirada no balcão"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/fornocariocapizzaria"
+      }
+    ],
+    "imagem": "/assets/fotos/forno-carioca-pizzaria.svg",
+    "imagemGrande": "/assets/fotos/forno-carioca-pizzaria.svg",
+    "fotos": [
+      "/assets/fotos/forno-carioca-pizzaria.svg"
+    ],
+    "geo": {
+      "lat": -22.9742,
+      "lng": -43.1895
+    },
+    "avaliacoes": {
+      "itens": [
+        {
+          "autor": "Lucas Ferreira",
+          "data": "22 de outubro, 2026",
+          "estrelas": 5,
+          "titulo": "Massa levíssima",
+          "texto": "Borda aerada, molho fresco e atendimento rápido mesmo na sexta à noite."
+        }
+      ]
+    },
+    "classificados": []
+  },
+  {
+    "slug": "cine-estacao-carioca",
+    "slugPortal": "cine-estacao-carioca",
+    "nome": "Cine Estação Carioca",
+    "iniciais": "CE",
+    "plano": "Destaque",
+    "destaque": true,
+    "temPaginaPropria": true,
+    "categorias": [
+      {
+        "nome": "Cinemas de Rua",
+        "slug": "cinemas-de-rua"
+      },
+      {
+        "nome": "Centros Culturais",
+        "slug": "centros-culturais"
+      }
+    ],
+    "bairro": "Botafogo",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Voluntários da Pátria, 95",
+    "cep": "22270-000",
+    "endereco": "Rua Voluntários da Pátria, 95, Botafogo, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1107",
+    "telefoneDigitos": "2130001107",
+    "whatsapp": "5521990001107",
+    "email": "bilheteria@cineestacaocarioca.demo",
+    "site": "",
+    "resumo": "Cinema de rua com 3 salas de projeção digital, mostras de cinema nacional, sessões comentadas e café no foyer.",
+    "descricao": [
+      "Ponto de encontro dos cinéfilos da Zona Sul, o Cine Estação Carioca exibe lançamentos autorais, clássicos restaurados e festivais temáticos durante todo o ano.",
+      "O foyer conta com livraria de cinema e área de convivência antes e depois das sessões."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "10:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "10:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "10:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Cinema de rua",
+      "Sessões comentadas",
+      "Meia-entrada às quartas",
+      "Café no foyer"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/cineestacaocarioca"
+      }
+    ],
+    "imagem": "/assets/fotos/cine-estacao-carioca.svg",
+    "imagemGrande": "/assets/fotos/cine-estacao-carioca.svg",
+    "fotos": [
+      "/assets/fotos/cine-estacao-carioca.svg"
+    ],
+    "geo": {
+      "lat": -22.9511,
+      "lng": -43.1831
+    },
+    "avaliacoes": {
+      "itens": [
+        {
+          "autor": "André Souza",
+          "data": "03 de novembro, 2026",
+          "estrelas": 5,
+          "titulo": "Programação imperdível",
+          "texto": "Excelente som, poltronas confortáveis e filmes que não entram no circuito comercial."
+        }
+      ]
+    },
+    "classificados": []
+  },
+  {
+    "slug": "casa-choro-laranjeiras",
+    "slugPortal": "casa-choro-laranjeiras",
+    "nome": "Casa do Choro Laranjeiras",
+    "iniciais": "CC",
+    "plano": "Destaque",
+    "destaque": true,
+    "temPaginaPropria": true,
+    "categorias": [
+      {
+        "nome": "Rodas de Samba",
+        "slug": "rodas-de-samba"
+      },
+      {
+        "nome": "Jazz e Instrumental",
+        "slug": "jazz-e-instrumental"
+      }
+    ],
+    "bairro": "Laranjeiras",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua General Glicério, 140",
+    "cep": "22245-120",
+    "endereco": "Rua General Glicério, 140, Laranjeiras, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1108",
+    "telefoneDigitos": "2130001108",
+    "whatsapp": "5521990001108",
+    "email": "agenda@casachorolaranjeiras.demo",
+    "site": "",
+    "resumo": "Palco dedicado ao choro, jazz brasileiro e música instrumental, com oficinas de violão 7 cordas e pandeiro.",
+    "descricao": [
+      "Localizada perto da tradicional Praça General Glicério, a Casa do Choro Laranjeiras promove apresentações intimistas de quarta a domingo e preserva partituras históricas.",
+      "O bar interno serve caldinhos, empadinhas artesanais e drinks com frutas brasileiras."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "16:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "15:00 - 23:59"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Acústica tratada",
+      "Oficinas musicais",
+      "Bar de petiscos",
+      "Programação semanal"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/casachorolaranjeiras"
+      }
+    ],
+    "imagem": "/assets/fotos/casa-choro-laranjeiras.svg",
+    "imagemGrande": "/assets/fotos/casa-choro-laranjeiras.svg",
+    "fotos": [
+      "/assets/fotos/casa-choro-laranjeiras.svg"
+    ],
+    "geo": {
+      "lat": -22.9362,
+      "lng": -43.1889
+    },
+    "avaliacoes": {
+      "itens": [
+        {
+          "autor": "Fernanda Prado",
+          "data": "27 de outubro, 2026",
+          "estrelas": 5,
+          "titulo": "Noite mágica",
+          "texto": "Músicos de altíssimo nível e clima super respeitoso com quem está ouvindo."
+        }
+      ]
+    },
+    "classificados": [
+      "sala-ensaios-acusticos-lapa"
+    ]
+  },
+  {
+    "slug": "torrefacao-arpoador",
+    "slugPortal": "torrefacao-arpoador",
+    "nome": "Torrefação Arpoador",
+    "iniciais": "TA",
+    "plano": "Avançado",
+    "destaque": true,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Cafeterias Especiais",
+        "slug": "cafeterias-especiais"
+      },
+      {
+        "nome": "Padarias Artesanais",
+        "slug": "padarias-artesanais"
+      }
+    ],
+    "bairro": "Ipanema",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Francisco Otaviano, 72",
+    "cep": "22080-040",
+    "endereco": "Rua Francisco Otaviano, 72, Ipanema, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1109",
+    "telefoneDigitos": "2130001109",
+    "whatsapp": "5521990001109",
+    "email": "oi@torrefacaoarpoador.demo",
+    "site": "",
+    "resumo": "Microtorrefação e brunch pós-praia em Ipanema com pães de fermentação natural, tostadas e grãos para levar.",
+    "descricao": [
+      "A poucos passos do Arpoador, a casa torra grãos frescos toda terça-feira e serve brunch diário com ovos caipiras, avocado toast e croissants laminados na manteiga.",
+      "Também realiza degustações guiadas de métodos de extração aos sábados pela manhã."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "09:00 - 18:00"
+        ]
+      },
+      {
+        "dia": "SEG",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "08:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "09:00 - 20:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Brunch diário",
+      "Grãos em pacote",
+      "Bicicletário",
+      "Pet friendly"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/torrefacaoarpoador"
+      }
+    ],
+    "imagem": "/assets/fotos/torrefacao-arpoador.svg",
+    "imagemGrande": "/assets/fotos/torrefacao-arpoador.svg",
+    "fotos": [
+      "/assets/fotos/torrefacao-arpoador.svg"
+    ],
+    "geo": {
+      "lat": -22.9866,
+      "lng": -43.1922
+    },
+    "avaliacoes": {
+      "itens": [
+        {
+          "autor": "Pedro Henrique",
+          "data": "09 de novembro, 2026",
+          "estrelas": 5,
+          "titulo": "Pós-praia perfeito",
+          "texto": "Croissant crocante e espresso muito bem tirado."
+        }
+      ]
+    },
+    "classificados": []
+  },
+  {
+    "slug": "teatro-rua-nova",
+    "slugPortal": "teatro-rua-nova",
+    "nome": "Teatro Rua Nova",
+    "iniciais": "TR",
+    "plano": "Avançado",
+    "destaque": true,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Teatros",
+        "slug": "teatros"
+      },
+      {
+        "nome": "Centros Culturais",
+        "slug": "centros-culturais"
+      }
+    ],
+    "bairro": "Flamengo",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Marquês de Abrantes, 118",
+    "cep": "22230-061",
+    "endereco": "Rua Marquês de Abrantes, 118, Flamengo, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1110",
+    "telefoneDigitos": "2130001110",
+    "whatsapp": "5521990001110",
+    "email": "producao@teatroruanova.demo",
+    "site": "",
+    "resumo": "Teatro independente no Flamengo com dramaturgia contemporânea, espetáculos infantis aos fins de semana e saraus.",
+    "descricao": [
+      "Com 180 lugares em arena flexível, o Teatro Rua Nova fomenta companhias independentes do Rio de Janeiro, oferecendo ingressos a preços populares às quintas-feiras.",
+      "O pátio interno recebe feiras de zines e conversas com elencos após as sessões."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "10:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "10:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "10:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Ingressos populares às quintas",
+      "Programação infantil",
+      "Ar-condicionado",
+      "Próximo ao metrô"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/teatroruanova"
+      }
+    ],
+    "imagem": "/assets/fotos/teatro-rua-nova.svg",
+    "imagemGrande": "/assets/fotos/teatro-rua-nova.svg",
+    "fotos": [
+      "/assets/fotos/teatro-rua-nova.svg"
+    ],
+    "geo": {
+      "lat": -22.9369,
+      "lng": -43.1764
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": []
+  },
+  {
+    "slug": "emporio-vinhos-guanabara",
+    "slugPortal": "emporio-vinhos-guanabara",
+    "nome": "Empório & Vinhos Guanabara",
+    "iniciais": "EV",
+    "plano": "Avançado",
+    "destaque": true,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Wine Bars",
+        "slug": "wine-bars"
+      },
+      {
+        "nome": "Degustações",
+        "slug": "degustacoes"
+      }
+    ],
+    "bairro": "Flamengo",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Paissandu, 165",
+    "cep": "22210-080",
+    "endereco": "Rua Paissandu, 165, Flamengo, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1111",
+    "telefoneDigitos": "2130001111",
+    "whatsapp": "5521990001111",
+    "email": "adega@vinhosguanabara.demo",
+    "site": "",
+    "resumo": "Wine bar e empório de queijos artesanais com mais de 120 rótulos sul-americanos e degustações harmonizadas.",
+    "descricao": [
+      "Sob as palmeiras imperiais da Rua Paissandu, o Empório & Vinhos Guanabara oferece tábuas de queijos de leite cru, charcutaria artesanal e vinhos em taça com atendimento descomplicado.",
+      "Todas as sextas realiza degustações temáticas comentadas por sommeliers convidados."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "16:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "15:00 - 23:59"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Vinhos em taça",
+      "Queijos artesanais",
+      "Degustações às sextas",
+      "Mesas externas"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/emporiovinhosguanabara"
+      }
+    ],
+    "imagem": "/assets/fotos/emporio-vinhos-guanabara.svg",
+    "imagemGrande": "/assets/fotos/emporio-vinhos-guanabara.svg",
+    "fotos": [
+      "/assets/fotos/emporio-vinhos-guanabara.svg"
+    ],
+    "geo": {
+      "lat": -22.9331,
+      "lng": -43.1781
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": []
+  },
+  {
+    "slug": "atelie-barro-vivo",
+    "slugPortal": "atelie-barro-vivo",
+    "nome": "Ateliê Barro Vivo",
+    "iniciais": "AB",
+    "plano": "Avançado",
+    "destaque": true,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Oficinas Criativas",
+        "slug": "oficinas-criativas"
+      },
+      {
+        "nome": "Galerias de Arte",
+        "slug": "galerias-de-arte"
+      }
+    ],
+    "bairro": "Santa Teresa",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Paschoal Carlos Magno, 84",
+    "cep": "20240-290",
+    "endereco": "Rua Paschoal Carlos Magno, 84, Santa Teresa, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1112",
+    "telefoneDigitos": "2130001112",
+    "whatsapp": "5521990001112",
+    "email": "oficinas@barrovivo.demo",
+    "site": "",
+    "resumo": "Estúdio de cerâmica autoral em Santa Teresa com oficinas de torno e modelagem manual para iniciantes e loja de peças.",
+    "descricao": [
+      "No coração do Largo dos Guimarães, o Ateliê Barro Vivo abre suas bancadas para oficinas avulsas de fim de semana e cursos mensais de cerâmica em alta temperatura.",
+      "A loja anexa reúne louças feitas à mão usadas por restaurantes parceiros da cidade."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "09:00 - 18:00"
+        ]
+      },
+      {
+        "dia": "SEG",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "08:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "09:00 - 20:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Oficinas para iniciantes",
+      "Material incluso",
+      "Loja de cerâmica autoral",
+      "Grupos pequenos"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/ateliebarrovivo"
+      }
+    ],
+    "imagem": "/assets/fotos/atelie-barro-vivo.svg",
+    "imagemGrande": "/assets/fotos/atelie-barro-vivo.svg",
+    "fotos": [
+      "/assets/fotos/atelie-barro-vivo.svg"
+    ],
+    "geo": {
+      "lat": -22.9204,
+      "lng": -43.1841
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": []
+  },
+  {
+    "slug": "sabores-da-praca-tijuca",
+    "slugPortal": "sabores-da-praca-tijuca",
+    "nome": "Sabores da Praça Tijuca",
+    "iniciais": "SP",
+    "plano": "Avançado",
+    "destaque": false,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Cozinha Brasileira",
+        "slug": "cozinha-brasileira"
+      },
+      {
+        "nome": "Comida Vegetariana",
+        "slug": "comida-vegetariana"
+      }
+    ],
+    "bairro": "Tijuca",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Conde de Bonfim, 410",
+    "cep": "20520-054",
+    "endereco": "Rua Conde de Bonfim, 410, Tijuca, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1113",
+    "telefoneDigitos": "2130001113",
+    "whatsapp": "5521990001113",
+    "email": "cozinha@saboresdapraca.demo",
+    "site": "",
+    "resumo": "Restaurante de cozinha afetiva brasileira na Tijuca com pratos do dia, moqueca de banana-da-terra e sucos frescos.",
+    "descricao": [
+      "Perto da Praça Saens Peña, o Sabores da Praça valoriza receitas caseiras com ingredientes frescos de feiras livres, oferecendo pratos fartos no almoço e opções vegetarianas criativas.",
+      "Ambiente familiar, rápido no horário comercial e tranquilo nos fins de semana."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "12:00 - 22:00"
+        ]
+      },
+      {
+        "dia": "SEG",
+        "horas": [
+          "12:00 - 22:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "12:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "12:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "12:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "12:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "12:00 - 23:59"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Prato do dia",
+      "Opções vegetarianas",
+      "Sucos naturais",
+      "Próximo ao metrô"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/saboresdapracatijuca"
+      }
+    ],
+    "imagem": "/assets/fotos/sabores-da-praca-tijuca.svg",
+    "imagemGrande": "/assets/fotos/sabores-da-praca-tijuca.svg",
+    "fotos": [
+      "/assets/fotos/sabores-da-praca-tijuca.svg"
+    ],
+    "geo": {
+      "lat": -22.9255,
+      "lng": -43.2358
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": []
+  },
+  {
+    "slug": "taberna-do-cais",
+    "slugPortal": "taberna-do-cais",
+    "nome": "Taberna do Cais",
+    "iniciais": "TC",
+    "plano": "Avançado",
+    "destaque": false,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Cervejarias Artesanais",
+        "slug": "cervejarias-artesanais"
+      },
+      {
+        "nome": "Botecos Tradicionais",
+        "slug": "botecos-tradicionais"
+      }
+    ],
+    "bairro": "Centro",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua do Ouvidor, 38",
+    "cep": "20010-150",
+    "endereco": "Rua do Ouvidor, 38, Centro, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1114",
+    "telefoneDigitos": "2130001114",
+    "whatsapp": "5521990001114",
+    "email": "taproom@tabernadocais.demo",
+    "site": "",
+    "resumo": "Taproom com 12 torneiras rotativas de cervejarias independentes fluminenses e happy hour animado no Centro Histórico.",
+    "descricao": [
+      "A Taberna do Cais celebra a cena cervejeira do Estado do Rio com IPAs frescas, pilsens leves e sours de frutas tropicais, acompanhadas de sanduíches no pão brioche.",
+      "Às sextas-feiras o happy hour toma a rua de pedestres com jazz e samba."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "16:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "15:00 - 23:59"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "12 torneiras artesanais",
+      "Growler station",
+      "Happy hour no Centro",
+      "Rua de pedestres"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/tabernadocais"
+      }
+    ],
+    "imagem": "/assets/fotos/taberna-do-cais.svg",
+    "imagemGrande": "/assets/fotos/taberna-do-cais.svg",
+    "fotos": [
+      "/assets/fotos/taberna-do-cais.svg"
+    ],
+    "geo": {
+      "lat": -22.9029,
+      "lng": -43.1759
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": []
+  },
+  {
+    "slug": "padaria-fermento-lento",
+    "slugPortal": "padaria-fermento-lento",
+    "nome": "Padaria Fermento Lento",
+    "iniciais": "PF",
+    "plano": "Avançado",
+    "destaque": false,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Padarias Artesanais",
+        "slug": "padarias-artesanais"
+      },
+      {
+        "nome": "Confeitarias",
+        "slug": "confeitarias"
+      }
+    ],
+    "bairro": "Gávea",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Marquês de São Vicente, 78",
+    "cep": "22451-040",
+    "endereco": "Rua Marquês de São Vicente, 78, Gávea, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1115",
+    "telefoneDigitos": "2130001115",
+    "whatsapp": "5521990001115",
+    "email": "fornada@fermentolento.demo",
+    "site": "",
+    "resumo": "Padaria artesanal na Gávea com pães de levain, focaccias de alecrim, folhados franceses e café coado na hora.",
+    "descricao": [
+      "Com fornadas saindo ao longo da manhã, a Fermento Lento produz pães rústicos de fermentação natural com farinhas orgânicas, além de brioches, tortas de frutas e sanduíches quentes.",
+      "As mesinhas na calçada arborizada fazem do endereço um clássico matinal da Gávea."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "09:00 - 18:00"
+        ]
+      },
+      {
+        "dia": "SEG",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "08:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "09:00 - 20:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Fornadas diárias",
+      "Farinhas orgânicas",
+      "Mesas na calçada",
+      "Encomendas"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/padariafermentolento"
+      }
+    ],
+    "imagem": "/assets/fotos/padaria-fermento-lento.svg",
+    "imagemGrande": "/assets/fotos/padaria-fermento-lento.svg",
+    "fotos": [
+      "/assets/fotos/padaria-fermento-lento.svg"
+    ],
+    "geo": {
+      "lat": -22.9766,
+      "lng": -43.2286
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": []
+  },
+  {
+    "slug": "espaco-cultural-solar",
+    "slugPortal": "espaco-cultural-solar",
+    "nome": "Espaço Cultural Solar",
+    "iniciais": "ES",
+    "plano": "Avançado",
+    "destaque": false,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Museus",
+        "slug": "museus"
+      },
+      {
+        "nome": "Centros Culturais",
+        "slug": "centros-culturais"
+      }
+    ],
+    "bairro": "Centro",
+    "cidade": "Rio de Janeiro",
+    "rua": "Praça XV de Novembro, 42",
+    "cep": "20010-010",
+    "endereco": "Praça XV de Novembro, 42, Centro, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1116",
+    "telefoneDigitos": "2130001116",
+    "whatsapp": "5521990001116",
+    "email": "visitas@espacosolar.demo",
+    "site": "",
+    "resumo": "Centro cultural dedicado à memória arquitetônica do Rio, com acervo fotográfico, biblioteca aberta e café no pátio.",
+    "descricao": [
+      "Situado em um edifício histórico na Praça XV, o Espaço Cultural Solar reúne exposições permanentes sobre a evolução urbana do Rio e mostras temporárias de design e arquitetura.",
+      "A biblioteca de artes visuais é aberta para consulta pública e pesquisa."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "10:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "10:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "10:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "10:00 - 21:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Acervo fotográfico",
+      "Biblioteca aberta",
+      "Café no pátio",
+      "Entrada acessível"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/espacoculturalsolar"
+      }
+    ],
+    "imagem": "/assets/fotos/espaco-cultural-solar.svg",
+    "imagemGrande": "/assets/fotos/espaco-cultural-solar.svg",
+    "fotos": [
+      "/assets/fotos/espaco-cultural-solar.svg"
+    ],
+    "geo": {
+      "lat": -22.9036,
+      "lng": -43.1732
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": []
+  },
+  {
+    "slug": "bar-da-laje-gavea",
+    "slugPortal": "bar-da-laje-gavea",
+    "nome": "Terraço Jazz Gávea",
+    "iniciais": "TJ",
+    "plano": "Avançado",
+    "destaque": false,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Jazz e Instrumental",
+        "slug": "jazz-e-instrumental"
+      },
+      {
+        "nome": "Casas de Show",
+        "slug": "casas-de-show"
+      }
+    ],
+    "bairro": "Gávea",
+    "cidade": "Rio de Janeiro",
+    "rua": "Praça Santos Dumont, 114",
+    "cep": "22470-060",
+    "endereco": "Praça Santos Dumont, 114, Gávea, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1117",
+    "telefoneDigitos": "2130001117",
+    "whatsapp": "5521990001117",
+    "email": "palco@terracojazzgavea.demo",
+    "site": "",
+    "resumo": "Clube de jazz e música brasileira no Baixo Gávea com coquetelaria autoral e jam sessions às quartas-feiras.",
+    "descricao": [
+      "No segundo andar de um sobrado na Praça Santos Dumont, o Terraço Jazz Gávea recebe quartetos de jazz, bossa nova e soul brasileiro em clima intimista.",
+      "A carta de drinks autorais usa ingredientes botânicos e xaropes feitos na casa."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "16:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "17:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "15:00 - 23:59"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Jam sessions às quartas",
+      "Coquetelaria autoral",
+      "Reservas antecipadas",
+      "Climatizado"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/bardalajegavea"
+      }
+    ],
+    "imagem": "/assets/fotos/bar-da-laje-gavea.svg",
+    "imagemGrande": "/assets/fotos/bar-da-laje-gavea.svg",
+    "fotos": [
+      "/assets/fotos/bar-da-laje-gavea.svg"
+    ],
+    "geo": {
+      "lat": -22.9735,
+      "lng": -43.2267
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": []
+  },
+  {
+    "slug": "sushi-brisa-ipanema",
+    "slugPortal": "sushi-brisa-ipanema",
+    "nome": "Sushi Brisa Ipanema",
+    "iniciais": "SB",
+    "plano": "Avançado",
+    "destaque": false,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Culinária Japonesa",
+        "slug": "culinaria-japonesa"
+      },
+      {
+        "nome": "Frutos do Mar",
+        "slug": "frutos-do-mar"
+      }
+    ],
+    "bairro": "Ipanema",
+    "cidade": "Rio de Janeiro",
+    "rua": "Rua Maria Quitéria, 102",
+    "cep": "22410-040",
+    "endereco": "Rua Maria Quitéria, 102, Ipanema, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1118",
+    "telefoneDigitos": "2130001118",
+    "whatsapp": "5521990001118",
+    "email": "balcao@sushibrisa.demo",
+    "site": "",
+    "resumo": "Balcão japonês autoral em Ipanema com omakase de peixes da costa brasileira, sakes artesanais e pratos quentes.",
+    "descricao": [
+      "O Sushi Brisa une cortes precisos da culinária japonesa a pescados frescos do litoral fluminense, como olho-de-boi, pargo e cavala.",
+      "Além do omakase no balcão para 12 pessoas, o salão oferece combinados, lámen artesanal e sobremesas de matchá."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "12:00 - 22:00"
+        ]
+      },
+      {
+        "dia": "SEG",
+        "horas": [
+          "12:00 - 22:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "12:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "12:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "12:00 - 23:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "12:00 - 23:59"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "12:00 - 23:59"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Balcão omakase",
+      "Peixes da costa",
+      "Carta de sakes",
+      "Reservas recomendadas"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/sushibrisaipanema"
+      }
+    ],
+    "imagem": "/assets/fotos/sushi-brisa-ipanema.svg",
+    "imagemGrande": "/assets/fotos/sushi-brisa-ipanema.svg",
+    "fotos": [
+      "/assets/fotos/sushi-brisa-ipanema.svg"
+    ],
+    "geo": {
+      "lat": -22.9838,
+      "lng": -43.2066
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": []
+  },
+  {
+    "slug": "feira-criativa-do-largo",
+    "slugPortal": "feira-criativa-do-largo",
+    "nome": "Feira Criativa do Largo",
+    "iniciais": "FL",
+    "plano": "Avançado",
+    "destaque": false,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Feiras ao Ar Livre",
+        "slug": "feiras-ao-ar-livre"
+      },
+      {
+        "nome": "Mirantes e Praças",
+        "slug": "mirantes-e-pracas"
+      }
+    ],
+    "bairro": "Copacabana",
+    "cidade": "Rio de Janeiro",
+    "rua": "Praça Edmundo Bittencourt, s/n",
+    "cep": "22040-030",
+    "endereco": "Praça Edmundo Bittencourt, s/n, Copacabana, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1119",
+    "telefoneDigitos": "2130001119",
+    "whatsapp": "5521990001119",
+    "email": "contato@feiracriativadolargo.demo",
+    "site": "",
+    "resumo": "Feira quinzenal ao ar livre reunindo produtores gastronômicos, vinis, cerâmica, moda autoral e música acústica.",
+    "descricao": [
+      "Realizada na Praça Edmundo Bittencourt, no Bairro Peixoto em Copacabana, a Feira Criativa do Largo reúne mais de 40 expositores locais em um ambiente arborizado e familiar.",
+      "Conta com barracas de comidas artesanais, espaço infantil e pocket shows gratuitos."
+    ],
+    "horarios": [
+      {
+        "dia": "SAB",
+        "horas": [
+          "10:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "DOM",
+        "horas": [
+          "10:00 - 18:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Ao ar livre",
+      "Entrada gratuita",
+      "Pet friendly",
+      "Produtores locais"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/feiracriativadolargo"
+      }
+    ],
+    "imagem": "/assets/fotos/feira-criativa-do-largo.svg",
+    "imagemGrande": "/assets/fotos/feira-criativa-do-largo.svg",
+    "fotos": [
+      "/assets/fotos/feira-criativa-do-largo.svg"
+    ],
+    "geo": {
+      "lat": -22.9679,
+      "lng": -43.1872
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": [
+      "inscricoes-expositores-feira-criativa"
+    ]
+  },
+  {
+    "slug": "roteiros-rio-a-pe",
+    "slugPortal": "roteiros-rio-a-pe",
+    "nome": "Roteiros Rio a Pé",
+    "iniciais": "RP",
+    "plano": "Avançado",
+    "destaque": false,
+    "temPaginaPropria": false,
+    "categorias": [
+      {
+        "nome": "Tours Gastronômicos",
+        "slug": "tours-gastronomicos"
+      },
+      {
+        "nome": "Jardins e Parques",
+        "slug": "jardins-e-parques"
+      }
+    ],
+    "bairro": "Tijuca",
+    "cidade": "Rio de Janeiro",
+    "rua": "Praça Afonso Pena, 50",
+    "cep": "20270-244",
+    "endereco": "Praça Afonso Pena, 50, Tijuca, Rio de Janeiro, RJ",
+    "telefone": "(21) 3000-1120",
+    "telefoneDigitos": "2130001120",
+    "whatsapp": "5521990001120",
+    "email": "passeios@rioape.demo",
+    "site": "",
+    "resumo": "Caminhadas guiadas de história, arquitetura e sabores por bairros tradicionais do Rio, com paradas em cafés e botecos.",
+    "descricao": [
+      "Criado por guias historiadores cariocas, o Roteiros Rio a Pé promove percursos temáticos pela Tijuca, Centro Histórico, Santa Teresa e Pequena África.",
+      "Os grupos são reduzidos (até 15 pessoas) e incluem degustações em estabelecimentos parceiros do bairro."
+    ],
+    "horarios": [
+      {
+        "dia": "DOM",
+        "horas": [
+          "09:00 - 18:00"
+        ]
+      },
+      {
+        "dia": "SEG",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "TER",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUA",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "QUI",
+        "horas": [
+          "08:00 - 19:00"
+        ]
+      },
+      {
+        "dia": "SEX",
+        "horas": [
+          "08:00 - 20:00"
+        ]
+      },
+      {
+        "dia": "SAB",
+        "horas": [
+          "09:00 - 20:00"
+        ]
+      }
+    ],
+    "caracteristicas": [
+      "Guias credenciados",
+      "Grupos reduzidos",
+      "Paradas gastronômicas",
+      "Roteiros temáticos"
+    ],
+    "redes": [
+      {
+        "rede": "Instagram",
+        "url": "https://instagram.com/roteirosrioape"
+      }
+    ],
+    "imagem": "/assets/fotos/roteiros-rio-a-pe.svg",
+    "imagemGrande": "/assets/fotos/roteiros-rio-a-pe.svg",
+    "fotos": [
+      "/assets/fotos/roteiros-rio-a-pe.svg"
+    ],
+    "geo": {
+      "lat": -22.9178,
+      "lng": -43.2182
+    },
+    "avaliacoes": {
+      "itens": []
+    },
+    "classificados": []
+  }
+]

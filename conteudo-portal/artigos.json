@@ -1,0 +1,149 @@
+{
+  "total": 6,
+  "artigos": [
+    {
+      "slug": "roteiro-cafes-especiais-santa-teresa-e-ipanema",
+      "url": "https://nexus.demo/artigos/roteiro-cafes-especiais-santa-teresa-e-ipanema",
+      "status": 200,
+      "titulo": "Roteiro de cafés especiais: de Santa Teresa ao Arpoador",
+      "publicadoEm": "2026-10-18T10:00:00-03:00",
+      "editoria": "Gastronomia",
+      "categorias": [
+        {
+          "nome": "Gastronomia",
+          "link": "/artigos?editoria=gastronomia"
+        }
+      ],
+      "autor": "Curadoria Nexus",
+      "resumo": "Conheça microtorrefações, métodos filtrados e padarias de fermentação natural que transformaram a cena cafeeira carioca.",
+      "imagem": {
+        "original": "/assets/fotos/artigo-roteiro-cafes-especiais-santa-teresa-e-ipanema.svg"
+      },
+      "galeria": [
+        "/assets/fotos/artigo-roteiro-cafes-especiais-santa-teresa-e-ipanema.svg"
+      ],
+      "html": "<p>A cena de cafés especiais no Rio de Janeiro vive um momento vibrante, com microtorrefações que valorizam produtores da Serra Fluminense, Caparaó e Sul de Minas.</p><h2>Comece pelo alto em Santa Teresa</h2><p>As manhãs em Santa Teresa pedem calma. Em sobrados cercados de verde, cafeterias como o <strong>Café Mirante Santa</strong> servem coados na V60 e bolos caseiros com vista para os telhados do bairro.</p><h2>Da Gávea ao pós-praia em Ipanema</h2><p>Descendo para a Zona Sul, vale combinar o pão de levain recém-saído do forno da <strong>Padaria Fermento Lento</strong> com os grãos torrados semanalmente na <strong>Torrefação Arpoador</strong>.</p><p><em>Dica Nexus:</em> consulte no mapa os estabelecimentos abertos agora e ative seus cupons antes da visita.</p>",
+      "texto": "A cena de cafés especiais no Rio de Janeiro vive um momento vibrante, com microtorrefações que valorizam produtores da Serra Fluminense, Caparaó e Sul de Minas. Comece pelo alto em Santa Teresa As manhãs em Santa Teresa pedem calma. Em sobrados cercados de verde, cafeterias como o Café Mirante Santa servem coados na V60 e bolos caseiros com vista para os telhados do bairro. Da Gávea ao pós-praia em Ipanema Descendo para a Zona Sul, vale combinar o pão de levain recém-saído do forno da Padaria Fermento Lento com os grãos torrados semanalmente na Torrefação Arpoador . Dica Nexus: consulte no mapa os estabelecimentos abertos agora e ative seus cupons antes da visita."
+    },
+    {
+      "slug": "onde-ouvir-choro-e-jazz-ao-vivo-no-rio",
+      "url": "https://nexus.demo/artigos/onde-ouvir-choro-e-jazz-ao-vivo-no-rio",
+      "status": 200,
+      "titulo": "Onde ouvir choro, samba de raiz e jazz ao vivo nesta semana",
+      "publicadoEm": "2026-10-25T14:00:00-03:00",
+      "editoria": "Música & Noite",
+      "categorias": [
+        {
+          "nome": "Música & Noite",
+          "link": "/artigos?editoria=música & noite"
+        }
+      ],
+      "autor": "Curadoria Nexus",
+      "resumo": "De rodas acústicas na Lapa e Laranjeiras a jam sessions intimistas na Gávea: um mapa sonoro para sair à noite.",
+      "imagem": {
+        "original": "/assets/fotos/artigo-onde-ouvir-choro-e-jazz-ao-vivo-no-rio.svg"
+      },
+      "galeria": [
+        "/assets/fotos/artigo-onde-ouvir-choro-e-jazz-ao-vivo-no-rio.svg"
+      ],
+      "html": "<p>A música ao vivo faz parte do cotidiano carioca, mas encontrar casas que cuidam da acústica e valorizam músicos autorais faz toda a diferença.</p><h2>Choro e samba sem pressa</h2><p>Em Laranjeiras, a <strong>Casa do Choro Laranjeiras</strong> mantém uma programação dedicada ao instrumental brasileiro. Já na Rua do Lavradio, o <strong>Boteco do Arco</strong> une petiscos de raiz e rodas de samba acústicas.</p><h2>Jazz intimista no Baixo Gávea</h2><p>Para quem prefere coquetelaria autoral e quartetos de jazz, o <strong>Terraço Jazz Gávea</strong> promove jam sessions abertas às quartas-feiras.</p>",
+      "texto": "A música ao vivo faz parte do cotidiano carioca, mas encontrar casas que cuidam da acústica e valorizam músicos autorais faz toda a diferença. Choro e samba sem pressa Em Laranjeiras, a Casa do Choro Laranjeiras mantém uma programação dedicada ao instrumental brasileiro. Já na Rua do Lavradio, o Boteco do Arco une petiscos de raiz e rodas de samba acústicas. Jazz intimista no Baixo Gávea Para quem prefere coquetelaria autoral e quartetos de jazz, o Terraço Jazz Gávea promove jam sessions abertas às quartas-feiras."
+    },
+    {
+      "slug": "guia-cinemas-de-rua-e-livrarias-independentes",
+      "url": "https://nexus.demo/artigos/guia-cinemas-de-rua-e-livrarias-independentes",
+      "status": 200,
+      "titulo": "Guia de cinemas de rua e livrarias independentes para o fim de semana",
+      "publicadoEm": "2026-11-02T09:30:00-03:00",
+      "editoria": "Arte & Cultura",
+      "categorias": [
+        {
+          "nome": "Arte & Cultura",
+          "link": "/artigos?editoria=arte & cultura"
+        }
+      ],
+      "autor": "Curadoria Nexus",
+      "resumo": "Espaços que resistem com curadoria afetiva, sessões comentadas, clubes de leitura e cafés no foyer.",
+      "imagem": {
+        "original": "/assets/fotos/artigo-guia-cinemas-de-rua-e-livrarias-independentes.svg"
+      },
+      "galeria": [
+        "/assets/fotos/artigo-guia-cinemas-de-rua-e-livrarias-independentes.svg"
+      ],
+      "html": "<p>Frequentar um cinema de rua ou uma livraria independente é também uma forma de viver o bairro em outro ritmo.</p><h2>Curadoria que surpreende</h2><p>Na <strong>Livraria Folha &amp; Fogo</strong>, em Laranjeiras, as estantes destacam editoras pequenas, poesia e quadrinhos nacionais, sempre acompanhados de boas indicações no balcão.</p><h2>Telona e debate em Botafogo</h2><p>O <strong>Cine Estação Carioca</strong> mantém três salas voltadas ao cinema autoral, com mostras temáticas e encontros com diretores após as sessões.</p>",
+      "texto": "Frequentar um cinema de rua ou uma livraria independente é também uma forma de viver o bairro em outro ritmo. Curadoria que surpreende Na Livraria Folha &amp; Fogo , em Laranjeiras, as estantes destacam editoras pequenas, poesia e quadrinhos nacionais, sempre acompanhados de boas indicações no balcão. Telona e debate em Botafogo O Cine Estação Carioca mantém três salas voltadas ao cinema autoral, com mostras temáticas e encontros com diretores após as sessões."
+    },
+    {
+      "slug": "mesa-carioca-peixes-frescos-e-vinhos-naturais",
+      "url": "https://nexus.demo/artigos/mesa-carioca-peixes-frescos-e-vinhos-naturais",
+      "status": 200,
+      "titulo": "A nova mesa carioca: peixes da costa e vinhos de pequenos produtores",
+      "publicadoEm": "2026-11-08T11:00:00-03:00",
+      "editoria": "Gastronomia",
+      "categorias": [
+        {
+          "nome": "Gastronomia",
+          "link": "/artigos?editoria=gastronomia"
+        }
+      ],
+      "autor": "Curadoria Nexus",
+      "resumo": "Cozinhas de Botafogo, Ipanema e Flamengo apostam em pesca sustentável, ingredientes locais e cartas descomplicadas.",
+      "imagem": {
+        "original": "/assets/fotos/artigo-mesa-carioca-peixes-frescos-e-vinhos-naturais.svg"
+      },
+      "galeria": [
+        "/assets/fotos/artigo-mesa-carioca-peixes-frescos-e-vinhos-naturais.svg"
+      ],
+      "html": "<p>Cozinheiros e sommeliers do Rio têm olhado cada vez mais para perto: pescados do litoral fluminense, queijos de pequenas fazendas e vinhos de mínima intervenção.</p><h2>Onde provar</h2><p>No <strong>Bistrô Maré Alta</strong>, o cardápio acompanha o que chega fresco no dia. Em Ipanema, o <strong>Sushi Brisa</strong> aplica técnica japonesa a peixes da nossa costa, enquanto o <strong>Empório &amp; Vinhos Guanabara</strong> facilita a descoberta de rótulos sul-americanos em taça.</p>",
+      "texto": "Cozinheiros e sommeliers do Rio têm olhado cada vez mais para perto: pescados do litoral fluminense, queijos de pequenas fazendas e vinhos de mínima intervenção. Onde provar No Bistrô Maré Alta , o cardápio acompanha o que chega fresco no dia. Em Ipanema, o Sushi Brisa aplica técnica japonesa a peixes da nossa costa, enquanto o Empório &amp; Vinhos Guanabara facilita a descoberta de rótulos sul-americanos em taça."
+    },
+    {
+      "slug": "sabado-cultural-centro-historico-e-zona-portuaria",
+      "url": "https://nexus.demo/artigos/sabado-cultural-centro-historico-e-zona-portuaria",
+      "status": 200,
+      "titulo": "Um sábado a pé pelo Centro Histórico e Zona Portuária",
+      "publicadoEm": "2026-11-12T10:00:00-03:00",
+      "editoria": "Roteiros",
+      "categorias": [
+        {
+          "nome": "Roteiros",
+          "link": "/artigos?editoria=roteiros"
+        }
+      ],
+      "autor": "Curadoria Nexus",
+      "resumo": "Exposições gratuitas, arquitetura preservada e uma parada para cerveja artesanal no fim da tarde.",
+      "imagem": {
+        "original": "/assets/fotos/artigo-sabado-cultural-centro-historico-e-zona-portuaria.svg"
+      },
+      "galeria": [
+        "/assets/fotos/artigo-sabado-cultural-centro-historico-e-zona-portuaria.svg"
+      ],
+      "html": "<p>O Centro do Rio aos sábados revela ruas mais silenciosas, galerias abertas e museus que convidam a caminhar sem pressa.</p><h2>Manhã de arte e memória</h2><p>Comece pela Praça XV no <strong>Espaço Cultural Solar</strong> e siga em direção à Zona Portuária para conhecer a programação gratuita da <strong>Galeria Cais Aberto</strong>.</p><h2>Brinde no fim do dia</h2><p>Para encerrar o roteiro, a <strong>Taberna do Cais</strong> na Rua do Ouvidor oferece 12 torneiras de cervejarias artesanais fluminenses.</p>",
+      "texto": "O Centro do Rio aos sábados revela ruas mais silenciosas, galerias abertas e museus que convidam a caminhar sem pressa. Manhã de arte e memória Comece pela Praça XV no Espaço Cultural Solar e siga em direção à Zona Portuária para conhecer a programação gratuita da Galeria Cais Aberto . Brinde no fim do dia Para encerrar o roteiro, a Taberna do Cais na Rua do Ouvidor oferece 12 torneiras de cervejarias artesanais fluminenses."
+    },
+    {
+      "slug": "oficinas-criativas-e-feiras-ao-ar-livre-no-rio",
+      "url": "https://nexus.demo/artigos/oficinas-criativas-e-feiras-ao-ar-livre-no-rio",
+      "status": 200,
+      "titulo": "Oficinas criativas e feiras de produtores para sair da rotina",
+      "publicadoEm": "2026-11-16T15:00:00-03:00",
+      "editoria": "Experiências",
+      "categorias": [
+        {
+          "nome": "Experiências",
+          "link": "/artigos?editoria=experiências"
+        }
+      ],
+      "autor": "Curadoria Nexus",
+      "resumo": "Cerâmica manual em Santa Teresa, caminhadas históricas pela Tijuca e feiras de economia criativa em Copacabana.",
+      "imagem": {
+        "original": "/assets/fotos/artigo-oficinas-criativas-e-feiras-ao-ar-livre-no-rio.svg"
+      },
+      "galeria": [
+        "/assets/fotos/artigo-oficinas-criativas-e-feiras-ao-ar-livre-no-rio.svg"
+      ],
+      "html": "<p>Trocar o roteiro tradicional por uma experiência mão na massa é uma das melhores formas de redescobrir a cidade.</p><h2>Mão no barro e pés na rua</h2><p>O <strong>Ateliê Barro Vivo</strong> recebe iniciantes em oficinas de cerâmica de um dia, enquanto o <strong>Roteiros Rio a Pé</strong> conduz caminhadas com paradas gastronômicas. Nos fins de semana quinzenais, a <strong>Feira Criativa do Largo</strong> reúne artesãos e produtores no Bairro Peixoto.</p>",
+      "texto": "Trocar o roteiro tradicional por uma experiência mão na massa é uma das melhores formas de redescobrir a cidade. Mão no barro e pés na rua O Ateliê Barro Vivo recebe iniciantes em oficinas de cerâmica de um dia, enquanto o Roteiros Rio a Pé conduz caminhadas com paradas gastronômicas. Nos fins de semana quinzenais, a Feira Criativa do Largo reúne artesãos e produtores no Bairro Peixoto."
+    }
+  ]
+}

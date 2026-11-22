@@ -1,0 +1,107 @@
+{
+  "geradoEm": "2026-11-22",
+  "fontes": "Coordenadas demonstrativas do acervo Nexus no município do Rio de Janeiro, validadas contra a malha do IBGE.",
+  "empresas": {
+    "bistro-mare-alta": {
+      "lat": -22.9532,
+      "lng": -43.1846,
+      "precisao": "rua"
+    },
+    "cafe-mirante-santa": {
+      "lat": -22.9219,
+      "lng": -43.1862,
+      "precisao": "rua"
+    },
+    "boteco-do-arco": {
+      "lat": -22.9114,
+      "lng": -43.1823,
+      "precisao": "rua"
+    },
+    "galeria-cais-aberto": {
+      "lat": -22.8982,
+      "lng": -43.1838,
+      "precisao": "rua"
+    },
+    "livraria-folha-e-fogo": {
+      "lat": -22.9334,
+      "lng": -43.1869,
+      "precisao": "rua"
+    },
+    "forno-carioca-pizzaria": {
+      "lat": -22.9742,
+      "lng": -43.1895,
+      "precisao": "rua"
+    },
+    "cine-estacao-carioca": {
+      "lat": -22.9511,
+      "lng": -43.1831,
+      "precisao": "rua"
+    },
+    "casa-choro-laranjeiras": {
+      "lat": -22.9362,
+      "lng": -43.1889,
+      "precisao": "rua"
+    },
+    "torrefacao-arpoador": {
+      "lat": -22.9866,
+      "lng": -43.1922,
+      "precisao": "rua"
+    },
+    "teatro-rua-nova": {
+      "lat": -22.9369,
+      "lng": -43.1764,
+      "precisao": "rua"
+    },
+    "emporio-vinhos-guanabara": {
+      "lat": -22.9331,
+      "lng": -43.1781,
+      "precisao": "rua"
+    },
+    "atelie-barro-vivo": {
+      "lat": -22.9204,
+      "lng": -43.1841,
+      "precisao": "rua"
+    },
+    "sabores-da-praca-tijuca": {
+      "lat": -22.9255,
+      "lng": -43.2358,
+      "precisao": "rua"
+    },
+    "taberna-do-cais": {
+      "lat": -22.9029,
+      "lng": -43.1759,
+      "precisao": "rua"
+    },
+    "padaria-fermento-lento": {
+      "lat": -22.9766,
+      "lng": -43.2286,
+      "precisao": "rua"
+    },
+    "espaco-cultural-solar": {
+      "lat": -22.9036,
+      "lng": -43.1732,
+      "precisao": "rua"
+    },
+    "bar-da-laje-gavea": {
+      "lat": -22.9735,
+      "lng": -43.2267,
+      "precisao": "rua"
+    },
+    "sushi-brisa-ipanema": {
+      "lat": -22.9838,
+      "lng": -43.2066,
+      "precisao": "rua"
+    },
+    "feira-criativa-do-largo": {
+      "lat": -22.9679,
+      "lng": -43.1872,
+      "precisao": "rua"
+    },
+    "roteiros-rio-a-pe": {
+      "lat": -22.9178,
+      "lng": -43.2182,
+      "precisao": "rua"
+    }
+  },
+  "semLocal": []
+}

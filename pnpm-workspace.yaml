@@ -1,0 +1,3 @@
+allowBuilds:
+  # sharp usa binarios prontos (libvips); o script de instalacao dele nao e necessario.
+  sharp: false

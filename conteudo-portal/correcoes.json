@@ -1,0 +1,78 @@
+{
+  "planos": [
+    {
+      "id": "plano-destaque",
+      "nome": "Destaque",
+      "ordem": 1,
+      "patrocinado": true
+    },
+    {
+      "id": "plano-avancado",
+      "nome": "Presença",
+      "ordem": 2,
+      "patrocinado": false
+    }
+  ],
+  "empresas": {
+    "bistro-mare-alta": {
+      "plano": "plano-destaque"
+    },
+    "cafe-mirante-santa": {
+      "plano": "plano-destaque"
+    },
+    "boteco-do-arco": {
+      "plano": "plano-destaque"
+    },
+    "galeria-cais-aberto": {
+      "plano": "plano-destaque"
+    },
+    "livraria-folha-e-fogo": {
+      "plano": "plano-destaque"
+    },
+    "forno-carioca-pizzaria": {
+      "plano": "plano-destaque"
+    },
+    "cine-estacao-carioca": {
+      "plano": "plano-destaque"
+    },
+    "casa-choro-laranjeiras": {
+      "plano": "plano-destaque"
+    },
+    "torrefacao-arpoador": {
+      "plano": "plano-avancado"
+    },
+    "teatro-rua-nova": {
+      "plano": "plano-avancado"
+    },
+    "emporio-vinhos-guanabara": {
+      "plano": "plano-avancado"
+    },
+    "atelie-barro-vivo": {
+      "plano": "plano-avancado"
+    },
+    "sabores-da-praca-tijuca": {
+      "plano": "plano-avancado"
+    },
+    "taberna-do-cais": {
+      "plano": "plano-avancado"
+    },
+    "padaria-fermento-lento": {
+      "plano": "plano-avancado"
+    },
+    "espaco-cultural-solar": {
+      "plano": "plano-avancado"
+    },
+    "bar-da-laje-gavea": {
+      "plano": "plano-avancado"
+    },
+    "sushi-brisa-ipanema": {
+      "plano": "plano-avancado"
+    },
+    "feira-criativa-do-largo": {
+      "plano": "plano-avancado"
+    },
+    "roteiros-rio-a-pe": {
+      "plano": "plano-avancado"
+    }
+  }
+}

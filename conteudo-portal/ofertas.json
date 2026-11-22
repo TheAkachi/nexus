@@ -1,0 +1,53 @@
+{
+  "fonte": "Ofertas demonstrativas vigentes do Nexus.",
+  "ofertas": [
+    {
+      "id": "of-mare-executivo",
+      "business_id": "bistro-mare-alta",
+      "kind": "offer",
+      "name": "Menu Executivo de Maré (Entrada + Principal)",
+      "description": "Salada de folhas orgânicas com cítricos + peixe fresco do dia grelhado com purê de baroa.",
+      "conditions": "De segunda a sexta, das 12h às 15h30, no salão em Botafogo.",
+      "valid_until": "2027-03-31",
+      "price_mode": "fixed",
+      "price_cents": 6800,
+      "image_url": "/assets/fotos/bistro-mare-alta.svg"
+    },
+    {
+      "id": "of-arpoador-brunch",
+      "business_id": "torrefacao-arpoador",
+      "kind": "offer",
+      "name": "Combo Brunch Pós-Praia para Dois",
+      "description": "2 cafés filtrados ou espressos, 2 croissants artesanais, ovos mexidos e cesta de pães de levain.",
+      "conditions": "Todos os dias até 13h, mediante disponibilidade.",
+      "valid_until": "2027-03-31",
+      "price_mode": "fixed",
+      "price_cents": 8400,
+      "image_url": "/assets/fotos/torrefacao-arpoador.svg"
+    },
+    {
+      "id": "of-barro-oficina",
+      "business_id": "atelie-barro-vivo",
+      "kind": "offer",
+      "name": "Oficina Avulsa de Cerâmica (1 dia)",
+      "description": "Aula prática de 3 horas com argila, ferramentas, queima e esmaltação de até 2 peças incluídas.",
+      "conditions": "Aos sábados, com agendamento prévio pelo perfil.",
+      "valid_until": "2027-04-30",
+      "price_mode": "fixed",
+      "price_cents": 19500,
+      "image_url": "/assets/fotos/atelie-barro-vivo.svg"
+    },
+    {
+      "id": "of-guanabara-voo",
+      "business_id": "emporio-vinhos-guanabara",
+      "kind": "offer",
+      "name": "Voo de 3 Taças Sul-Americanas + Tábua de Queijos",
+      "description": "Seleção semanal de 3 rótulos (branco, laranja e tinto) acompanhados de 3 queijos artesanais.",
+      "conditions": "De terça a quinta, das 18h às 21h.",
+      "valid_until": "2027-03-31",
+      "price_mode": "fixed",
+      "price_cents": 11000,
+      "image_url": "/assets/fotos/emporio-vinhos-guanabara.svg"
+    }
+  ]
+}

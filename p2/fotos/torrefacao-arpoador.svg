@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B2820"/>
+      <stop offset="100%" stop-color="#7C4D33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5CBA7" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#F5CBA7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="673" cy="137" r="220" fill="url(#glow)"/>
+  <circle cx="159" cy="401" r="180" fill="url(#glow)"/>
+  <g opacity="0.14" stroke="#FFFFFF" stroke-width="1.2">
+    <path d="M0 100H800M0 200H800M0 300H800M0 400H800"/>
+    <path d="M160 0V500M320 0V500M480 0V500M640 0V500"/>
+  </g>
+  <g opacity="0.24" stroke="#F5CBA7" stroke-width="2">
+    <circle cx="673" cy="137" r="54"/>
+    <circle cx="673" cy="137" r="96" stroke-dasharray="6 8"/>
+    <path d="M577 137 L159 401" stroke-dasharray="4 6"/>
+    <circle cx="159" cy="401" r="10" fill="#F5CBA7"/>
+  </g>
+  <rect x="48" y="48" width="228" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.14"/>
+  <text x="66" y="70" fill="#FFFFFF" font-family="Plus Jakarta Sans, Segoe UI, system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="0.1em">CAFETERIAS ESPECIAIS</text>
+  <text x="48" y="352" fill="#FFFFFF" font-family="Plus Jakarta Sans, Segoe UI, system-ui, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.02em">Torrefação Arpoador</text>
+  
+  <text x="48" y="424" fill="#E2E8F0" font-family="Plus Jakarta Sans, Segoe UI, system-ui, sans-serif" font-size="20" font-weight="500">Ipanema · Cafeterias Especiais</text>
+  <text x="48" y="464" fill="#F5CBA7" font-family="Plus Jakarta Sans, Segoe UI, system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="0.14em">NEXUS · RIO DE JANEIRO</text>
+</svg>

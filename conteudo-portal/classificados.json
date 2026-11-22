@@ -1,0 +1,76 @@
+{
+  "total": 4,
+  "classificados": [
+    {
+      "id": "cl-01",
+      "slug": "vaga-barista-botafogo-santa-teresa",
+      "url": "https://nexus.demo/classificados/vaga-barista-botafogo-santa-teresa",
+      "categoria": "Oportunidades",
+      "titulo": "Vaga para Barista — Cafeteria Especial em Santa Teresa",
+      "endereco": "Rua Almirante Alexandrino, 512, Santa Teresa, Rio de Janeiro, RJ",
+      "telefone": "(21) 3000-1102",
+      "preco": "R$ 2.400,00",
+      "descricao": "Buscamos barista com interesse em cafés especiais e métodos filtrados para jornada de terça a domingo. Treinamento em torra e extração incluso (anúncio demonstrativo).",
+      "imagem": "/assets/fotos/classificado-vaga-barista-botafogo-santa-teresa.svg",
+      "linhas": [
+        "Oportunidades",
+        "Vaga para Barista — Cafeteria Especial em Santa Teresa",
+        "Buscamos barista com interesse em cafés especiais e métodos filtrados para jornada de terça a domingo. Treinamento em torra e extração incluso (anúncio demonstrativo).",
+        "R$ 2.400,00"
+      ]
+    },
+    {
+      "id": "cl-02",
+      "slug": "chamada-exposicao-coletiva-cais-aberto",
+      "url": "https://nexus.demo/classificados/chamada-exposicao-coletiva-cais-aberto",
+      "categoria": "Chamadas Culturais",
+      "titulo": "Chamada Aberta: Exposição Coletiva de Fotografia Urbana",
+      "endereco": "Rua Sacadura Cabral, 120, Centro, Rio de Janeiro, RJ",
+      "telefone": "(21) 3000-1104",
+      "preco": "",
+      "descricao": "Artistas visuais e fotógrafos residentes no RJ podem enviar portfólio com até 5 obras sobre o cotidiano dos bairros cariocas. Inscrições gratuitas até 15/12/2026.",
+      "imagem": "/assets/fotos/classificado-chamada-exposicao-coletiva-cais-aberto.svg",
+      "linhas": [
+        "Chamadas Culturais",
+        "Chamada Aberta: Exposição Coletiva de Fotografia Urbana",
+        "Artistas visuais e fotógrafos residentes no RJ podem enviar portfólio com até 5 obras sobre o cotidiano dos bairros cariocas. Inscrições gratuitas até 15/12/2026."
+      ]
+    },
+    {
+      "id": "cl-03",
+      "slug": "sala-ensaios-acusticos-lapa",
+      "url": "https://nexus.demo/classificados/sala-ensaios-acusticos-lapa",
+      "categoria": "Espaços & Estúdios",
+      "titulo": "Locação de Sala Acústica para Ensaios de Choro e Jazz",
+      "endereco": "Rua General Glicério, 140, Laranjeiras, Rio de Janeiro, RJ",
+      "telefone": "(21) 3000-1108",
+      "preco": "R$ 90,00",
+      "descricao": "Sala tratada acusticamente com piano vertical afinado, microfones condensadores e ar-condicionado. Valor por hora em horário comercial.",
+      "imagem": "/assets/fotos/classificado-sala-ensaios-acusticos-lapa.svg",
+      "linhas": [
+        "Espaços & Estúdios",
+        "Locação de Sala Acústica para Ensaios de Choro e Jazz",
+        "Sala tratada acusticamente com piano vertical afinado, microfones condensadores e ar-condicionado. Valor por hora em horário comercial.",
+        "R$ 90,00"
+      ]
+    },
+    {
+      "id": "cl-04",
+      "slug": "inscricoes-expositores-feira-criativa",
+      "url": "https://nexus.demo/classificados/inscricoes-expositores-feira-criativa",
+      "categoria": "Feiras & Produtores",
+      "titulo": "Inscrições para Expositores — Edição de Verão da Feira Criativa",
+      "endereco": "Praça Edmundo Bittencourt, Copacabana, Rio de Janeiro, RJ",
+      "telefone": "(21) 3000-1119",
+      "preco": "R$ 180,00",
+      "descricao": "Vagas abertas para marcas autorais de gastronomia artesanal, cerâmica, ilustrações e vinis para a edição de dezembro no Bairro Peixoto.",
+      "imagem": "/assets/fotos/classificado-inscricoes-expositores-feira-criativa.svg",
+      "linhas": [
+        "Feiras & Produtores",
+        "Inscrições para Expositores — Edição de Verão da Feira Criativa",
+        "Vagas abertas para marcas autorais de gastronomia artesanal, cerâmica, ilustrações e vinis para a edição de dezembro no Bairro Peixoto.",
+        "R$ 180,00"
+      ]
+    }
+  ]
+}

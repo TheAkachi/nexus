@@ -1,0 +1,71 @@
+{
+  "fonte": "Agenda cultural e gastronômica demonstrativa do Nexus.",
+  "eventos": [
+    {
+      "id": "ev-noite-jazz-terraco",
+      "titulo": "Noite de Jazz Brasileiro & Jam Session",
+      "descricao": "<p>Quarteto convidado abre a noite com repertório de bossa e jazz contemporâneo, seguido de jam session aberta para instrumentistas.</p>",
+      "inicio": "2026-12-04T20:00",
+      "fim": "2026-12-04T23:30",
+      "local": "Terraço Jazz Gávea",
+      "endereco": "Praça Santos Dumont, 114, Gávea",
+      "imagem": "/assets/fotos/bar-da-laje-gavea.svg",
+      "empresa": "bar-da-laje-gavea"
+    },
+    {
+      "id": "ev-feira-vinhos-naturais",
+      "titulo": "Degustação de Vinhos Naturais da Serra",
+      "descricao": "<p>Cinco rótulos de pequenos produtores brasileiros harmonizados com queijos artesanais e pães de fermentação natural.</p>",
+      "inicio": "2026-12-11T19:00",
+      "fim": "2026-12-11T22:00",
+      "local": "Empório & Vinhos Guanabara",
+      "endereco": "Rua Paissandu, 165, Flamengo",
+      "imagem": "/assets/fotos/emporio-vinhos-guanabara.svg",
+      "empresa": "emporio-vinhos-guanabara"
+    },
+    {
+      "id": "ev-mostra-cinema-independente",
+      "titulo": "Mostra Rio de Cinema Independente",
+      "descricao": "<p>Três dias de sessões comentadas com curtas e longas dirigidos por realizadores fluminenses, com debate no foyer após os filmes.</p>",
+      "inicio": "2026-12-18T18:30",
+      "fim": "2026-12-20T22:00",
+      "local": "Cine Estação Carioca",
+      "endereco": "Rua Voluntários da Pátria, 95, Botafogo",
+      "imagem": "/assets/fotos/cine-estacao-carioca.svg",
+      "empresa": "cine-estacao-carioca"
+    },
+    {
+      "id": "ev-roda-choro-verao",
+      "titulo": "Roda de Choro de Verão em Laranjeiras",
+      "descricao": "<p>Encontro especial de fim de tarde celebrando Pixinguinha e Jacob do Bandolim com convidados especiais.</p>",
+      "inicio": "2026-12-19T17:00",
+      "fim": "2026-12-19T21:00",
+      "local": "Casa do Choro Laranjeiras",
+      "endereco": "Rua General Glicério, 140, Laranjeiras",
+      "imagem": "/assets/fotos/casa-choro-laranjeiras.svg",
+      "empresa": "casa-choro-laranjeiras"
+    },
+    {
+      "id": "ev-oficina-ceramica-cafe",
+      "titulo": "Oficina de Cerâmica & Café Filtrado",
+      "descricao": "<p>Modele sua própria xícara em argila enquanto degusta microlotes coados na hora. Inclui queima e esmaltação das peças.</p>",
+      "inicio": "2027-01-09T10:00",
+      "fim": "2027-01-09T13:30",
+      "local": "Ateliê Barro Vivo",
+      "endereco": "Rua Paschoal Carlos Magno, 84, Santa Teresa",
+      "imagem": "/assets/fotos/atelie-barro-vivo.svg",
+      "empresa": "atelie-barro-vivo"
+    },
+    {
+      "id": "ev-feira-criativa-verao",
+      "titulo": "Feira Criativa do Largo — Edição de Verão",
+      "descricao": "<p>Mais de 40 expositores de gastronomia artesanal, cerâmica, livros, vinis e apresentações musicais gratuitas na praça.</p>",
+      "inicio": "2027-01-16T10:00",
+      "fim": "2027-01-17T19:00",
+      "local": "Praça Edmundo Bittencourt",
+      "endereco": "Bairro Peixoto, Copacabana",
+      "imagem": "/assets/fotos/feira-criativa-do-largo.svg",
+      "empresa": "feira-criativa-do-largo"
+    }
+  ]
+}

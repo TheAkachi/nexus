@@ -1,0 +1,41 @@
+{
+  "fonte": "Coleções temáticas da página inicial do Nexus.",
+  "colecoes": [
+    {
+      "id": "cafe-sem-pressa",
+      "titulo": "Para um café sem pressa",
+      "subtitulo": "Cafeterias especiais, padarias de levain e varandas tranquilas.",
+      "grupos": [
+        "cafes-e-padarias"
+      ]
+    },
+    {
+      "id": "noite-musica-boa-mesa",
+      "titulo": "Noite de música e boa mesa",
+      "subtitulo": "Bistrôs, choro, jazz, vinhos e botecos clássicos do Rio.",
+      "grupos": [
+        "restaurantes",
+        "bares-e-botecos",
+        "musica-e-palcos"
+      ]
+    },
+    {
+      "id": "arte-livros-cinema",
+      "titulo": "Arte, livros e cinema de rua",
+      "subtitulo": "Galerias gratuitas, teatros, livrarias independentes e telonas autorais.",
+      "grupos": [
+        "arte-e-cultura",
+        "livrarias-e-cinema"
+      ]
+    },
+    {
+      "id": "experiencias-ar-livre",
+      "titulo": "Experiências para sair da rotina",
+      "subtitulo": "Oficinas criativas, feiras de produtores e caminhadas guiadas.",
+      "grupos": [
+        "experiencias",
+        "parques-e-lazer"
+      ]
+    }
+  ]
+}
