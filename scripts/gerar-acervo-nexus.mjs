@@ -604,6 +604,586 @@ const LOCAIS = [
     avaliacoes: [
       { autor: 'Fernanda Prado', data: '27 de outubro, 2026', estrelas: 5, titulo: 'Arquitetura, arte e café perfeitos', texto: 'Um dos lugares mais bonitos do Rio para passar uma tarde inteira entre exposições e o jardim.' }
     ]
+  },
+  {
+    slug: 'museu-nacional-belas-artes',
+    nome: 'Museu Nacional de Belas Artes (MNBA)',
+    iniciais: 'MB',
+    plano: 'Destaque',
+    destaque: false,
+    categorias: ['Museus', 'Galerias de Arte'],
+    bairro: 'Centro',
+    rua: 'Avenida Rio Branco, 199',
+    cep: '20040-008',
+    lat: -22.9089, lng: -43.1759,
+    telefone: '(21) 3299-0600',
+    site: 'https://www.gov.br/museus/pt-br/museus-ibram/mnba',
+    resumo: 'Principal museu de arte acadêmica e moderna do Brasil, instalado em edifício eclético na Cinelândia com acervo de Victor Meirelles, Pedro Américo e Portinari.',
+    descricao: [
+      'Fundado oficialmente em 1937 na sede projetada por Adolfo Morales de los Ríos, o Museu Nacional de Belas Artes reúne a maior coleção de arte brasileira do século XIX e obras-primas da pintura e escultura.',
+      'Localizado em frente ao Theatro Municipal, integra o principal corredor museológico da Cinelândia.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['12:00 - 17:00'] },
+      { dia: 'TER', horas: ['10:00 - 18:00'] },
+      { dia: 'QUA', horas: ['10:00 - 18:00'] },
+      { dia: 'QUI', horas: ['10:00 - 18:00'] },
+      { dia: 'SEX', horas: ['10:00 - 18:00'] },
+      { dia: 'SAB', horas: ['12:00 - 17:00'] }
+    ],
+    caracteristicas: ['Acervo do século XIX', 'Metrô Cinelândia', 'Patrimônio histórico', 'Visitas educativas'],
+    avaliacoes: []
+  },
+  {
+    slug: 'biblioteca-nacional',
+    nome: 'Biblioteca Nacional do Brasil',
+    iniciais: 'BN',
+    plano: 'Destaque',
+    destaque: false,
+    categorias: ['Centros Culturais', 'Livrarias Independentes'],
+    bairro: 'Centro',
+    rua: 'Avenida Rio Branco, 219',
+    cep: '20040-008',
+    lat: -22.9098, lng: -43.1755,
+    telefone: '(21) 3095-3879',
+    site: 'https://www.gov.br/bn',
+    resumo: 'Maior biblioteca da América Latina e uma das maiores do mundo, com visitas guiadas gratuitas pelo edifício neoclássico da Cinelândia e exposições raras.',
+    descricao: [
+      'Originada da Real Biblioteca trazida pela família real portuguesa em 1808, a Biblioteca Nacional guarda milhões de itens entre livros raros, mapas, gravuras e partituras.',
+      'Oferece visitas guiadas gratuitas pelos salões monumentais e exposições temporárias no espaço cultural.'
+    ],
+    horarios: [
+      { dia: 'SEG', horas: ['09:00 - 19:00'] },
+      { dia: 'TER', horas: ['09:00 - 19:00'] },
+      { dia: 'QUA', horas: ['09:00 - 19:00'] },
+      { dia: 'QUI', horas: ['09:00 - 19:00'] },
+      { dia: 'SEX', horas: ['09:00 - 19:00'] },
+      { dia: 'SAB', horas: ['10:30 - 15:00'] }
+    ],
+    caracteristicas: ['Maior da América Latina', 'Visitas guiadas gratuitas', 'Obras raras', 'Metrô Cinelândia'],
+    avaliacoes: []
+  },
+  {
+    slug: 'museu-historico-nacional',
+    nome: 'Museu Histórico Nacional',
+    iniciais: 'MH',
+    plano: 'Avançado',
+    destaque: false,
+    categorias: ['Museus', 'Centros Culturais'],
+    bairro: 'Centro',
+    rua: 'Praça Marechal Âncora, s/n',
+    cep: '20021-200',
+    lat: -22.9056, lng: -43.1695,
+    telefone: '(21) 3299-0324',
+    site: 'https://mhn.museus.gov.br',
+    resumo: 'Complexo arquitetônico histórico na Ponta do Calabouço com pátios coloniais, carruagens imperiais e um dos maiores acervos sobre a história do Brasil.',
+    descricao: [
+      'Criado em 1922 em edificações que remontam ao Forte de Santiago (1603), o Museu Histórico Nacional percorre a formação do país com galerias temáticas, numismática e pátios internos.',
+      'A entrada é gratuita e o acesso é facilitado pelo VLT e pela Praça XV.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['13:00 - 17:00'] },
+      { dia: 'QUA', horas: ['10:00 - 17:00'] },
+      { dia: 'QUI', horas: ['10:00 - 17:00'] },
+      { dia: 'SEX', horas: ['10:00 - 17:00'] },
+      { dia: 'SAB', horas: ['13:00 - 17:00'] }
+    ],
+    caracteristicas: ['Entrada gratuita', 'Pátio dos Canhões', 'Complexo colonial', 'Praça XV'],
+    avaliacoes: []
+  },
+  {
+    slug: 'paco-imperial',
+    nome: 'Paço Imperial',
+    iniciais: 'PI',
+    plano: 'Avançado',
+    destaque: false,
+    categorias: ['Centros Culturais', 'Galerias de Arte', 'Cafeterias Especiais'],
+    bairro: 'Centro',
+    rua: 'Praça XV de Novembro, 48',
+    cep: '20010-010',
+    lat: -22.9036, lng: -43.1743,
+    telefone: '(21) 2215-2093',
+    site: 'https://amigosdopacoimperial.org.br',
+    resumo: 'Palácio colonial do século XVIII na Praça XV, hoje centro cultural gratuito com exposições de arte contemporânea, livraria e bistrô no pátio interno.',
+    descricao: [
+      'Palco de episódios decisivos da história brasileira como o Dia do Fico e a assinatura da Lei Áurea, o Paço Imperial funciona hoje como centro cultural voltado às artes visuais e à música.',
+      'O pátio interno abriga livraria especializada em arte e o tradicional Bistrô do Paço.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['12:00 - 18:00'] },
+      { dia: 'TER', horas: ['12:00 - 18:00'] },
+      { dia: 'QUA', horas: ['12:00 - 18:00'] },
+      { dia: 'QUI', horas: ['12:00 - 18:00'] },
+      { dia: 'SEX', horas: ['12:00 - 18:00'] },
+      { dia: 'SAB', horas: ['12:00 - 18:00'] }
+    ],
+    caracteristicas: ['Entrada gratuita', 'Bistrô e livraria', 'Arquitetura colonial', 'Praça XV'],
+    avaliacoes: []
+  },
+  {
+    slug: 'mosteiro-de-sao-bento',
+    nome: 'Mosteiro de São Bento',
+    iniciais: 'SB',
+    plano: 'Avançado',
+    destaque: false,
+    categorias: ['Museus', 'Centros Culturais'],
+    bairro: 'Centro',
+    rua: 'Rua Dom Gerardo, 68',
+    cep: '20090-030',
+    lat: -22.8968, lng: -43.1779,
+    telefone: '(21) 2206-8100',
+    site: 'https://www.osb.org.br',
+    resumo: 'Obra-prima do barroco brasileiro no Morro de São Bento, famoso pelos altares revestidos em ouro, missas com canto gregoriano aos domingos e vista da Praça Mauá.',
+    descricao: [
+      'Fundado em 1590 por monges beneditinos, o Mosteiro de São Bento preserva um dos interiores barrocos mais ricos do país, com talha dourada dos séculos XVII e XVIII.',
+      'Aos domingos às 10h, a missa acompanhada de órgão e canto gregoriano atrai moradores e visitantes de todo o mundo.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['07:00 - 18:00'] },
+      { dia: 'SEG', horas: ['07:00 - 18:00'] },
+      { dia: 'TER', horas: ['07:00 - 18:00'] },
+      { dia: 'QUA', horas: ['07:00 - 18:00'] },
+      { dia: 'QUI', horas: ['07:00 - 18:00'] },
+      { dia: 'SEX', horas: ['07:00 - 18:00'] },
+      { dia: 'SAB', horas: ['07:00 - 18:00'] }
+    ],
+    caracteristicas: ['Entrada gratuita', 'Canto gregoriano aos domingos', 'Barroco brasileiro', 'Morro de São Bento'],
+    avaliacoes: []
+  },
+  {
+    slug: 'pedra-do-sal',
+    nome: 'Pedra do Sal',
+    iniciais: 'PS',
+    plano: 'Destaque',
+    destaque: true,
+    categorias: ['Rodas de Samba', 'Casas de Samba e Choro'],
+    bairro: 'Saúde',
+    rua: 'Rua Argemiro Bulcão, s/n',
+    cep: '20220-340',
+    lat: -22.8977, lng: -43.1852,
+    telefone: '(21) 2253-0000',
+    site: 'https://riotur.rio',
+    resumo: 'Marco histórico da Pequena África e berço do samba carioca no bairro da Saúde, famoso pelas rodas de samba ao ar livre às segundas e sextas-feiras.',
+    descricao: [
+      'Tombada como patrimônio histórico e cultural, a Pedra do Sal foi ponto de encontro de estivadores, sambistas pioneiros como Pixinguinha, Donga e João da Baiana e comunidades quilombolas.',
+      'Hoje reúne moradores e turistas em rodas de samba tradicionais ao ar livre, cercadas por bares e quiosques.'
+    ],
+    horarios: [
+      { dia: 'SEG', horas: ['18:00 - 23:59'] },
+      { dia: 'SEX', horas: ['18:00 - 23:59'] },
+      { dia: 'SAB', horas: ['16:00 - 23:00'] }
+    ],
+    caracteristicas: ['Pequena África', 'Roda de samba ao ar livre', 'Patrimônio histórico', 'Acesso gratuito'],
+    avaliacoes: [
+      { autor: 'Gustavo Rocha', data: '11 de novembro, 2026', estrelas: 5, titulo: 'Segunda-feira obrigatória no Rio', texto: 'História viva do samba carioca com uma atmosfera única ao ar livre.' }
+    ]
+  },
+  {
+    slug: 'fundicao-progresso',
+    nome: 'Fundição Progresso',
+    iniciais: 'FP',
+    plano: 'Destaque',
+    destaque: false,
+    categorias: ['Casas de Show', 'Centros Culturais'],
+    bairro: 'Lapa',
+    rua: 'Rua dos Arcos, 24',
+    cep: '20230-060',
+    lat: -22.9122, lng: -43.1794,
+    telefone: '(21) 3212-0800',
+    site: 'https://www.fundicaoprogresso.com.br',
+    resumo: 'Centro cultural e grande casa de shows instalada em uma antiga fábrica de cofres e fogões do século XIX em frente aos Arcos da Lapa.',
+    descricao: [
+      'A Fundição Progresso combina grandes shows de música brasileira e internacional com escolas de circo, teatro, dança, percussão e o tradicional terraço cultural da Lapa.',
+      'Recebe festivais, bailes de carnaval, oficinas e feiras criativas durante o ano inteiro.'
+    ],
+    horarios: [
+      { dia: 'QUI', horas: ['19:00 - 23:59'] },
+      { dia: 'SEX', horas: ['21:00 - 23:59'] },
+      { dia: 'SAB', horas: ['21:00 - 23:59'] }
+    ],
+    caracteristicas: ['Arcos da Lapa', 'Grandes shows e festivais', 'Oficinas de arte e circo', 'Prédio histórico'],
+    avaliacoes: []
+  },
+  {
+    slug: 'escadaria-selaron',
+    nome: 'Escadaria Selarón',
+    iniciais: 'ES',
+    plano: 'Avançado',
+    destaque: false,
+    categorias: ['Mirantes e Praças', 'Galerias de Arte'],
+    bairro: 'Santa Teresa',
+    rua: 'Rua Manuel Carneiro, s/n',
+    cep: '20241-120',
+    lat: -22.9153, lng: -43.1792,
+    telefone: '(21) 2542-8080',
+    site: 'https://riotur.rio',
+    resumo: 'Obra de arte pública com 215 degraus revestidos por mais de 2.000 azulejos de dezenas de países, criada pelo artista Jorge Selarón ligando a Lapa a Santa Teresa.',
+    descricao: [
+      'Iniciada em 1990 pelo artista plástico chileno radicado no Rio Jorge Selarón, a escadaria tornou-se um dos cartões-postais mais coloridos e fotografados da cidade.',
+      'O acesso é público e gratuito 24 horas, conectando a Lapa às ladeiras históricas de Santa Teresa.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['Aberto 24h'] },
+      { dia: 'SEG', horas: ['Aberto 24h'] },
+      { dia: 'TER', horas: ['Aberto 24h'] },
+      { dia: 'QUA', horas: ['Aberto 24h'] },
+      { dia: 'QUI', horas: ['Aberto 24h'] },
+      { dia: 'SEX', horas: ['Aberto 24h'] },
+      { dia: 'SAB', horas: ['Aberto 24h'] }
+    ],
+    caracteristicas: ['Arte pública ao ar livre', 'Acesso gratuito 24h', 'Liga Lapa e Santa Teresa', 'Cartão-postal'],
+    avaliacoes: []
+  },
+  {
+    slug: 'mam-rio',
+    nome: 'Museu de Arte Moderna (MAM Rio)',
+    iniciais: 'MM',
+    plano: 'Destaque',
+    destaque: false,
+    categorias: ['Museus', 'Cinemas de Rua', 'Galerias de Arte'],
+    bairro: 'Flamengo',
+    rua: 'Avenida Infante Dom Henrique, 85',
+    cep: '20021-140',
+    lat: -22.9139, lng: -43.1719,
+    telefone: '(21) 3883-5600',
+    site: 'https://mam.rio',
+    resumo: 'Ícone da arquitetura modernista projetado por Affonso Eduardo Reidy no Parque do Flamengo, com Cinemateca, exposições e jardins de Burle Marx.',
+    descricao: [
+      'Com vista aberta para a Baía de Guanabara e o Pão de Açúcar, o MAM Rio abriga uma das mais relevantes coleções de arte moderna e contemporânea da América Latina.',
+      'Sua Cinemateca exibe mostras históricas, cinema experimental e festivais com ingressos acessíveis.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['10:00 - 18:00'] },
+      { dia: 'QUA', horas: ['10:00 - 18:00'] },
+      { dia: 'QUI', horas: ['10:00 - 18:00'] },
+      { dia: 'SEX', horas: ['10:00 - 18:00'] },
+      { dia: 'SAB', horas: ['10:00 - 18:00'] }
+    ],
+    caracteristicas: ['Arquitetura de Reidy', 'Cinemateca do MAM', 'Jardins de Burle Marx', 'Parque do Flamengo'],
+    avaliacoes: []
+  },
+  {
+    slug: 'parque-do-flamengo',
+    nome: 'Parque do Flamengo (Aterro do Flamengo)',
+    iniciais: 'PF',
+    plano: 'Avançado',
+    destaque: false,
+    categorias: ['Jardins e Parques', 'Mirantes e Praças'],
+    bairro: 'Flamengo',
+    rua: 'Avenida Infante Dom Henrique, s/n',
+    cep: '22210-000',
+    lat: -22.9296, lng: -43.1718,
+    telefone: '(21) 2558-0000',
+    site: 'https://www.rio.rj.gov.br',
+    resumo: 'Maior área de lazer à beira-mar da cidade, com paisagismo de Roberto Burle Marx, ciclovias, quadras, praias e pistas fechadas para pedestres aos domingos.',
+    descricao: [
+      'Projetado por Lota de Macedo Soares, Affonso Eduardo Reidy e Roberto Burle Marx, o Parque Brigadeiro Eduardo Gomes estende-se do Aeroporto Santos Dumont até o início de Botafogo.',
+      'Aos domingos e feriados, as pistas são fechadas para carros e tomadas por ciclistas, corredores, músicos e piqueniques.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['Aberto 24h'] },
+      { dia: 'SEG', horas: ['Aberto 24h'] },
+      { dia: 'TER', horas: ['Aberto 24h'] },
+      { dia: 'QUA', horas: ['Aberto 24h'] },
+      { dia: 'QUI', horas: ['Aberto 24h'] },
+      { dia: 'SEX', horas: ['Aberto 24h'] },
+      { dia: 'SAB', horas: ['Aberto 24h'] }
+    ],
+    caracteristicas: ['Paisagismo de Burle Marx', 'Ciclovia e áreas de lazer', 'Vista do Pão de Açúcar', 'Acesso gratuito'],
+    avaliacoes: []
+  },
+  {
+    slug: 'feira-da-gloria',
+    nome: 'Feira da Glória',
+    iniciais: 'FG',
+    plano: 'Destaque',
+    destaque: false,
+    categorias: ['Feiras ao Ar Livre', 'Cozinha Brasileira'],
+    bairro: 'Glória',
+    rua: 'Avenida Augusto Severo, s/n',
+    cep: '20021-040',
+    lat: -22.9196, lng: -43.1763,
+    telefone: '(21) 2221-0000',
+    site: 'https://riotur.rio',
+    resumo: 'Tradicional feira livre de domingo na Glória que virou polo gastronômico e cultural ao ar livre, com barracas de pastel, caldo de cana, frutos do mar e música.',
+    descricao: [
+      'Realizada todos os domingos em frente ao Metrô Glória, a Feira da Glória reúne produtores de frutas, queijos e flores lado a lado com barracas disputadas de comida baiana, acarajé, ostras, tapioca e chope.',
+      'Virou um dos programas de domingo mais animados do Rio, com rodas de samba espontâneas no entorno.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['07:00 - 15:00'] }
+    ],
+    caracteristicas: ['Todos os domingos', 'Gastronomia de rua', 'Metrô Glória', 'Entrada gratuita'],
+    avaliacoes: []
+  },
+  {
+    slug: 'bar-urca',
+    nome: 'Bar Urca',
+    iniciais: 'BU',
+    plano: 'Destaque',
+    destaque: true,
+    categorias: ['Botecos Tradicionais', 'Frutos do Mar'],
+    bairro: 'Urca',
+    rua: 'Rua Cândido Gaffrée, 205',
+    cep: '22291-080',
+    lat: -22.9478, lng: -43.1636,
+    telefone: '(21) 2295-8744',
+    site: 'https://barurca.com.br',
+    resumo: 'Fundado em 1939 na beira da Baía de Guanabara, famoso pelos pastéis de camarão, empadas e pela mureta onde moradores se reúnem para ver o pôr do sol.',
+    descricao: [
+      'Ícone da boemia carioca desde 1939, o Bar Urca combina o balcão térreo de petiscos para saborear na famosa mureta da Urca com o restaurante de frutos do mar no segundo andar.',
+      'A vista para o Cristo Redentor e a Baía de Guanabara ao entardecer é um dos clássicos do Rio.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['09:30 - 20:00'] },
+      { dia: 'SEG', horas: ['07:00 - 22:00'] },
+      { dia: 'TER', horas: ['07:00 - 22:00'] },
+      { dia: 'QUA', horas: ['07:00 - 22:00'] },
+      { dia: 'QUI', horas: ['07:00 - 22:00'] },
+      { dia: 'SEX', horas: ['07:00 - 23:00'] },
+      { dia: 'SAB', horas: ['09:30 - 23:00'] }
+    ],
+    caracteristicas: ['Mureta da Urca', 'Pastel de camarão', 'Pôr do sol na Baía', 'Tradicional desde 1939'],
+    avaliacoes: [
+      { autor: 'Renata Vieira', data: '14 de novembro, 2026', estrelas: 5, titulo: 'Clássico absoluto do pôr do sol', texto: 'Empada de camarão quente na mureta olhando a Baía de Guanabara não tem igual.' }
+    ]
+  },
+  {
+    slug: 'bondinho-pao-de-acucar',
+    nome: 'Parque Bondinho Pão de Açúcar',
+    iniciais: 'BP',
+    plano: 'Destaque',
+    destaque: false,
+    categorias: ['Mirantes e Praças', 'Tours Gastronômicos'],
+    bairro: 'Urca',
+    rua: 'Avenida Pasteur, 520',
+    cep: '22290-240',
+    lat: -22.9554, lng: -43.1669,
+    telefone: '(21) 2546-8433',
+    site: 'https://bondinho.com.br',
+    resumo: 'Teleférico histórico inaugurado em 1912 ligando a Praia Vermelha ao Morro da Urca e ao Pão de Açúcar, com mirantes 360°, cafés, restaurantes e shows.',
+    descricao: [
+      'Primeiro teleférico do Brasil e terceiro do mundo, o Parque Bondinho oferece vistas panorâmicas de Copacabana, Enseada de Botafogo, Baía de Guanabara e Cristo Redentor.',
+      'O Morro da Urca também conta com anfiteatro, espaço gastronômico, museu do bondinho e acesso por trilha gratuita a partir da Pista Cláudio Coutinho.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['08:30 - 20:00'] },
+      { dia: 'SEG', horas: ['08:30 - 20:00'] },
+      { dia: 'TER', horas: ['08:30 - 20:00'] },
+      { dia: 'QUA', horas: ['08:30 - 20:00'] },
+      { dia: 'QUI', horas: ['08:30 - 20:00'] },
+      { dia: 'SEX', horas: ['08:30 - 20:00'] },
+      { dia: 'SAB', horas: ['08:30 - 20:00'] }
+    ],
+    caracteristicas: ['Teleférico de 1912', 'Vista 360° do Rio', 'Restaurantes e cafés', 'Praia Vermelha'],
+    avaliacoes: []
+  },
+  {
+    slug: 'casa-franca-brasil',
+    nome: 'Casa França-Brasil',
+    iniciais: 'CF',
+    plano: 'Avançado',
+    destaque: false,
+    categorias: ['Centros Culturais', 'Galerias de Arte'],
+    bairro: 'Centro',
+    rua: 'Rua Visconde de Itaboraí, 78',
+    cep: '20010-060',
+    lat: -22.9006, lng: -43.1760,
+    telefone: '(21) 2332-5120',
+    site: 'https://cultura.rj.gov.br',
+    resumo: 'Edifício neoclássico projetado por Grandjean de Montigny em 1820 ao lado do CCBB, dedicado a exposições de arte contemporânea, debates e cultura.',
+    descricao: [
+      'Antiga Praça do Comércio e Alfândega do Rio, a Casa França-Brasil é um marco da Missão Artística Francesa e funciona como centro cultural estadual com entrada gratuita.',
+      'Fica a poucos passos do CCBB Rio e do Centro Cultural Correios, formando um trio cultural imperdível.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['10:00 - 17:00'] },
+      { dia: 'TER', horas: ['10:00 - 17:00'] },
+      { dia: 'QUA', horas: ['10:00 - 17:00'] },
+      { dia: 'QUI', horas: ['10:00 - 17:00'] },
+      { dia: 'SEX', horas: ['10:00 - 17:00'] },
+      { dia: 'SAB', horas: ['10:00 - 17:00'] }
+    ],
+    caracteristicas: ['Entrada gratuita', 'Projeto de Grandjean de Montigny', 'Arte contemporânea', 'Ao lado do CCBB'],
+    avaliacoes: []
+  },
+  {
+    slug: 'feira-de-sao-cristovao',
+    nome: 'Feira de São Cristóvão (Centro Luiz Gonzaga)',
+    iniciais: 'FS',
+    plano: 'Destaque',
+    destaque: false,
+    categorias: ['Cozinha Brasileira', 'Feiras ao Ar Livre', 'Casas de Show'],
+    bairro: 'São Cristóvão',
+    rua: 'Campo de São Cristóvão, s/n',
+    cep: '20921-440',
+    lat: -22.8975, lng: -43.2194,
+    telefone: '(21) 2580-5335',
+    site: 'https://feiradesaocristovao.org.br',
+    resumo: 'Maior reduto da cultura nordestina no Rio de Janeiro, com centenas de barracas de carne de sol, baião de dois, artesanato, literatura de cordel e forró ao vivo.',
+    descricao: [
+      'Instalado no Pavilhão de São Cristóvão, o Centro Luiz Gonzaga de Tradições Nordestinas celebra a gastronomia, o artesanato e a música do Nordeste com palcos de forró, xote, repentistas e karaokês.',
+      'Nos fins de semana funciona sem interrupção de sexta à noite até domingo, reunindo famílias e amantes da culinária regional.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['10:00 - 20:00'] },
+      { dia: 'TER', horas: ['10:00 - 18:00'] },
+      { dia: 'QUA', horas: ['10:00 - 18:00'] },
+      { dia: 'QUI', horas: ['10:00 - 18:00'] },
+      { dia: 'SEX', horas: ['10:00 - 23:59'] },
+      { dia: 'SAB', horas: ['10:00 - 23:59'] }
+    ],
+    caracteristicas: ['Gastronomia nordestina', 'Forró ao vivo', 'Artesanato e cordel', 'Mais de 700 barracas'],
+    avaliacoes: []
+  },
+  {
+    slug: 'quinta-da-boa-vista',
+    nome: 'Parque da Quinta da Boa Vista',
+    iniciais: 'QB',
+    plano: 'Avançado',
+    destaque: false,
+    categorias: ['Jardins e Parques', 'Mirantes e Praças'],
+    bairro: 'São Cristóvão',
+    rua: 'Avenida Pedro II, s/n',
+    cep: '20940-040',
+    lat: -22.9056, lng: -43.2249,
+    telefone: '(21) 2589-0000',
+    site: 'https://www.rio.rj.gov.br',
+    resumo: 'Amplo parque histórico imperial em São Cristóvão com lagos, pedalinhos, jardins de Auguste Glaziou, o Paço de São Cristóvão e acesso direto pelo metrô.',
+    descricao: [
+      'Antiga área dos jardins da residência oficial da família imperial brasileira, a Quinta da Boa Vista oferece gramados extensos, lagos com pontes, áreas de piquenique e o BioParque do Rio em seu interior.',
+      'Tem acesso facilitado pela estação São Cristóvão do metrô e dos trens.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['06:00 - 18:00'] },
+      { dia: 'SEG', horas: ['06:00 - 18:00'] },
+      { dia: 'TER', horas: ['06:00 - 18:00'] },
+      { dia: 'QUA', horas: ['06:00 - 18:00'] },
+      { dia: 'QUI', horas: ['06:00 - 18:00'] },
+      { dia: 'SEX', horas: ['06:00 - 18:00'] },
+      { dia: 'SAB', horas: ['06:00 - 18:00'] }
+    ],
+    caracteristicas: ['Entrada gratuita', 'Metrô São Cristóvão', 'Lagos e jardins históricos', 'Ideal para piqueniques'],
+    avaliacoes: []
+  },
+  {
+    slug: 'floresta-da-tijuca',
+    nome: 'Parque Nacional da Tijuca (Setor Floresta)',
+    iniciais: 'FT',
+    plano: 'Destaque',
+    destaque: false,
+    categorias: ['Jardins e Parques', 'Mirantes e Praças'],
+    bairro: 'Alto da Boa Vista',
+    rua: 'Estrada da Cascatinha, 850',
+    cep: '20531-590',
+    lat: -22.9565, lng: -43.2781,
+    telefone: '(21) 2492-2252',
+    site: 'https://parquenacionaldatijuca.rio',
+    resumo: 'Uma das maiores florestas urbanas replantadas do mundo, com a Cascatinha Taunay, Capela Mayrink, trilhas sinalizadas, mirantes e áreas de piquenique.',
+    descricao: [
+      'O Setor Floresta do Parque Nacional da Tijuca preserva a Mata Atlântica reflorestada no século XIX, oferecendo trilhas para o Pico da Tijuca, grutas, cachoeiras e o Centro de Visitantes.',
+      'A entrada é gratuita e o acesso pela Praça Afonso Viseu (Alto da Boa Vista) recebe caminhantes, ciclistas e famílias.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['08:00 - 17:00'] },
+      { dia: 'SEG', horas: ['08:00 - 17:00'] },
+      { dia: 'TER', horas: ['08:00 - 17:00'] },
+      { dia: 'QUA', horas: ['08:00 - 17:00'] },
+      { dia: 'QUI', horas: ['08:00 - 17:00'] },
+      { dia: 'SEX', horas: ['08:00 - 17:00'] },
+      { dia: 'SAB', horas: ['08:00 - 17:00'] }
+    ],
+    caracteristicas: ['Entrada gratuita', 'Cascatinha Taunay', 'Trilhas de Mata Atlântica', 'Alto da Boa Vista'],
+    avaliacoes: []
+  },
+  {
+    slug: 'lagoa-rodrigo-de-freitas',
+    nome: 'Lagoa Rodrigo de Freitas',
+    iniciais: 'LR',
+    plano: 'Avançado',
+    destaque: false,
+    categorias: ['Jardins e Parques', 'Mirantes e Praças'],
+    bairro: 'Lagoa',
+    rua: 'Avenida Borges de Medeiros, s/n',
+    cep: '22430-041',
+    lat: -22.9718, lng: -43.2117,
+    telefone: '(21) 2542-8080',
+    site: 'https://riotur.rio',
+    resumo: 'Cartão-postal da Zona Sul cercado por 7,5 km de ciclovia, parques públicos, quiosques gastronômicos, pedalinhos e vista direta para o Cristo Redentor.',
+    descricao: [
+      'Com entorno plano e arborizado, a Lagoa Rodrigo de Freitas reúne o Parque dos Patins, o Parque da Catacumba, quadras esportivas e dezenas de quiosques de gastronomia variada e música ao vivo.',
+      'É um dos pontos preferidos dos cariocas para caminhadas ao amanhecer, ciclismo e fim de tarde.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['Aberto 24h'] },
+      { dia: 'SEG', horas: ['Aberto 24h'] },
+      { dia: 'TER', horas: ['Aberto 24h'] },
+      { dia: 'QUA', horas: ['Aberto 24h'] },
+      { dia: 'QUI', horas: ['Aberto 24h'] },
+      { dia: 'SEX', horas: ['Aberto 24h'] },
+      { dia: 'SAB', horas: ['Aberto 24h'] }
+    ],
+    caracteristicas: ['7,5 km de ciclovia', 'Quiosques gastronômicos', 'Parque da Catacumba', 'Acesso gratuito'],
+    avaliacoes: []
+  },
+  {
+    slug: 'planetario-do-rio',
+    nome: 'Planetário do Rio (Fundação Planetário)',
+    iniciais: 'PR',
+    plano: 'Avançado',
+    destaque: false,
+    categorias: ['Museus', 'Oficinas Criativas'],
+    bairro: 'Gávea',
+    rua: 'Rua Vice-Governador Rubens Berardo, 100',
+    cep: '22451-070',
+    lat: -22.9781, lng: -43.2305,
+    telefone: '(21) 2088-0536',
+    site: 'https://planeta.rio',
+    resumo: 'Maior planetário da América Latina, na Gávea, com duas cúpulas de projeção astronômica, Museu do Universo interativo e observação do céu com telescópios.',
+    descricao: [
+      'Referência em divulgação científica desde 1970, a Fundação Planetário oferece sessões de cúpula para crianças e adultos, exposições interativas no Museu do Universo e sessões gratuitas de observação noturna.',
+      'Fica próximo à PUC-Rio e ao Baixo Gávea.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['10:00 - 17:00'] },
+      { dia: 'TER', horas: ['10:00 - 17:00'] },
+      { dia: 'QUA', horas: ['10:00 - 17:00'] },
+      { dia: 'QUI', horas: ['10:00 - 17:00'] },
+      { dia: 'SEX', horas: ['10:00 - 17:00'] },
+      { dia: 'SAB', horas: ['10:00 - 17:00'] }
+    ],
+    caracteristicas: ['Cúpulas de astronomia', 'Museu do Universo', 'Observação com telescópios', 'Programação infantil'],
+    avaliacoes: []
+  },
+  {
+    slug: 'cobal-do-humaita',
+    nome: 'Cobal do Humaitá',
+    iniciais: 'CH',
+    plano: 'Avançado',
+    destaque: false,
+    categorias: ['Botecos Tradicionais', 'Feiras ao Ar Livre', 'Cozinha Brasileira'],
+    bairro: 'Humaitá',
+    rua: 'Rua Voluntários da Pátria, 446',
+    cep: '22270-010',
+    lat: -22.9558, lng: -43.1973,
+    telefone: '(21) 2539-0000',
+    site: 'https://riotur.rio',
+    resumo: 'Tradicional mercado de hortifrúti e polo gastronômico a céu aberto no Humaitá, reunindo restaurantes, pizzarias, bares, floriculturas e mesas sob as árvores.',
+    descricao: [
+      'A Cobal do Humaitá combina o movimento diurno do mercado de frutas, legumes e flores com uma animada praça gastronômica à noite, repleta de bares, restaurantes italianos, japoneses e botecos.',
+      'É um dos pontos de encontro mais democráticos entre Botafogo e o Jardim Botânico.'
+    ],
+    horarios: [
+      { dia: 'DOM', horas: ['08:00 - 23:00'] },
+      { dia: 'SEG', horas: ['08:00 - 23:00'] },
+      { dia: 'TER', horas: ['08:00 - 23:00'] },
+      { dia: 'QUA', horas: ['08:00 - 23:00'] },
+      { dia: 'QUI', horas: ['08:00 - 23:59'] },
+      { dia: 'SEX', horas: ['08:00 - 23:59'] },
+      { dia: 'SAB', horas: ['08:00 - 23:59'] }
+    ],
+    caracteristicas: ['Polo gastronômico', 'Mercado e floriculturas', 'Mesas ao ar livre', 'Humaitá'],
+    avaliacoes: []
   }
 ];
 

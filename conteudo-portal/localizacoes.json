@@ -101,6 +101,106 @@
       "lat": -22.9765,
       "lng": -43.2317,
       "precisao": "rua"
+    },
+    "museu-nacional-belas-artes": {
+      "lat": -22.9089,
+      "lng": -43.1759,
+      "precisao": "rua"
+    },
+    "biblioteca-nacional": {
+      "lat": -22.9098,
+      "lng": -43.1755,
+      "precisao": "rua"
+    },
+    "museu-historico-nacional": {
+      "lat": -22.9056,
+      "lng": -43.1695,
+      "precisao": "rua"
+    },
+    "paco-imperial": {
+      "lat": -22.9036,
+      "lng": -43.1743,
+      "precisao": "rua"
+    },
+    "mosteiro-de-sao-bento": {
+      "lat": -22.8968,
+      "lng": -43.1779,
+      "precisao": "rua"
+    },
+    "pedra-do-sal": {
+      "lat": -22.8977,
+      "lng": -43.1852,
+      "precisao": "rua"
+    },
+    "fundicao-progresso": {
+      "lat": -22.9122,
+      "lng": -43.1794,
+      "precisao": "rua"
+    },
+    "escadaria-selaron": {
+      "lat": -22.9153,
+      "lng": -43.1792,
+      "precisao": "rua"
+    },
+    "mam-rio": {
+      "lat": -22.9139,
+      "lng": -43.1719,
+      "precisao": "rua"
+    },
+    "parque-do-flamengo": {
+      "lat": -22.9296,
+      "lng": -43.1718,
+      "precisao": "rua"
+    },
+    "feira-da-gloria": {
+      "lat": -22.9196,
+      "lng": -43.1763,
+      "precisao": "rua"
+    },
+    "bar-urca": {
+      "lat": -22.9478,
+      "lng": -43.1636,
+      "precisao": "rua"
+    },
+    "bondinho-pao-de-acucar": {
+      "lat": -22.9554,
+      "lng": -43.1669,
+      "precisao": "rua"
+    },
+    "casa-franca-brasil": {
+      "lat": -22.9006,
+      "lng": -43.176,
+      "precisao": "rua"
+    },
+    "feira-de-sao-cristovao": {
+      "lat": -22.8975,
+      "lng": -43.2194,
+      "precisao": "rua"
+    },
+    "quinta-da-boa-vista": {
+      "lat": -22.9056,
+      "lng": -43.2249,
+      "precisao": "rua"
+    },
+    "floresta-da-tijuca": {
+      "lat": -22.9565,
+      "lng": -43.2781,
+      "precisao": "rua"
+    },
+    "lagoa-rodrigo-de-freitas": {
+      "lat": -22.9718,
+      "lng": -43.2117,
+      "precisao": "rua"
+    },
+    "planetario-do-rio": {
+      "lat": -22.9781,
+      "lng": -43.2305,
+      "precisao": "rua"
+    },
+    "cobal-do-humaita": {
+      "lat": -22.9558,
+      "lng": -43.1973,
+      "precisao": "rua"
     }
   },
   "semLocal": []

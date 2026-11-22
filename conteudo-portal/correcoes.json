@@ -73,6 +73,66 @@
     },
     "ims-rio": {
       "plano": "plano-destaque"
+    },
+    "museu-nacional-belas-artes": {
+      "plano": "plano-destaque"
+    },
+    "biblioteca-nacional": {
+      "plano": "plano-destaque"
+    },
+    "museu-historico-nacional": {
+      "plano": "plano-avancado"
+    },
+    "paco-imperial": {
+      "plano": "plano-avancado"
+    },
+    "mosteiro-de-sao-bento": {
+      "plano": "plano-avancado"
+    },
+    "pedra-do-sal": {
+      "plano": "plano-destaque"
+    },
+    "fundicao-progresso": {
+      "plano": "plano-destaque"
+    },
+    "escadaria-selaron": {
+      "plano": "plano-avancado"
+    },
+    "mam-rio": {
+      "plano": "plano-destaque"
+    },
+    "parque-do-flamengo": {
+      "plano": "plano-avancado"
+    },
+    "feira-da-gloria": {
+      "plano": "plano-destaque"
+    },
+    "bar-urca": {
+      "plano": "plano-destaque"
+    },
+    "bondinho-pao-de-acucar": {
+      "plano": "plano-destaque"
+    },
+    "casa-franca-brasil": {
+      "plano": "plano-avancado"
+    },
+    "feira-de-sao-cristovao": {
+      "plano": "plano-destaque"
+    },
+    "quinta-da-boa-vista": {
+      "plano": "plano-avancado"
+    },
+    "floresta-da-tijuca": {
+      "plano": "plano-destaque"
+    },
+    "lagoa-rodrigo-de-freitas": {
+      "plano": "plano-avancado"
+    },
+    "planetario-do-rio": {
+      "plano": "plano-avancado"
+    },
+    "cobal-do-humaita": {
+      "plano": "plano-avancado"
     }
   }
 }
