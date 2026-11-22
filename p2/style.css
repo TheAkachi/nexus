@@ -2579,6 +2579,7 @@ header.site-header.reference-header{top:0;background:rgba(11,13,15,.94);backdrop
 html[data-theme="light"] header.site-header.reference-header{background:rgba(255,255,255,.96);border-bottom:1px solid #DCE3ED}
 .toggle.accept{gap:10px;align-items:flex-start}
 .toggle.accept input{margin-top:3px;flex:0 0 auto}
+.card-picture img,.profile-image img,.offer-card>img,.news-card>img,.event-card>img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 .brand-logo img,.brand img{height:38px;width:auto;display:block}
 .demo-access{margin-top:24px;padding-top:20px;border-top:1px solid rgba(148,163,184,.28)}
 .demo-access .eyebrow{margin-bottom:6px}
