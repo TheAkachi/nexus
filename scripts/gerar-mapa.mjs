@@ -10,7 +10,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const UA = 'Nexus-Guia-Mapa/1.0 (https://github.com/pedroxsst/nexus)';
+const UA = 'Nexus-Guia-Mapa/1.0 (https://github.com/TheAkachi/nexus)';
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const MUNICIPIOS = { 3304557: 'Rio de Janeiro' };
 // Quadro inicial: todos os locais com MARGEM_KM de folga, na proporção largura/altura PROPORCAO (a mesma de --map-r no CSS).
